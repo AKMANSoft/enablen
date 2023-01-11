@@ -1,0 +1,138 @@
+
+
+
+
+.home_section {
+    padding-top: 175px;
+    padding-bottom: 70px;
+}
+
+
+
+
+
+.process_section .section_left>.heading {
+    max-width: 400px;
+}
+
+
+.process_section .section_left>p.desc {
+    max-width: 422px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tech_stack_section {
+    background: #81C216;
+}
+
+
+.tech_stack_section .section_left>.heading {
+    /* margin-bottom: 20px; */
+    max-width: 570px;
+}
+
+
+.tech_stack_section .section_left>p.desc {
+    width: 100%;
+    max-width: 610px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.freebie_section {
+    background: #3333330d;
+    padding-top: 135px;
+    padding-bottom: 110px;
+}
+
+
+
+.freebie_section .section_left>.heading {
+    max-width: 359px;
+}
+
+
+.freebie_section .section_left>p {
+    max-width: 590px;
+    line-height: 26px;
+}
+
+
+.freebie_section .section_right {
+    padding-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.whether_section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.whether_section .section_left {
+    width: 50%;
+}
+
+
+
+
+.whether_section .section_right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.reviews_section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+

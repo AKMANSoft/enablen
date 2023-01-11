@@ -1,0 +1,35 @@
+.checked_list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+
+.checked_list .check_item {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    height: min-content;
+}
+
+.checked_list .check_item>p {
+    width: 100%;
+    margin-top: 2px;
+    height: min-content;
+}
+
+
+.checked_list .check_item>i {
+    color: #333333;
+    font-size: 22px;
+    height: fit-content;
+    width: 24px;
+    height: 24px;
+}
+
+
+.checked_list.green .check_item > i {
+    color: var(--green-color);
+}

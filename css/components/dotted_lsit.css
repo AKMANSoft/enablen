@@ -1,0 +1,35 @@
+.dotted_list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+
+
+.dotted_list .dotted_item {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    height: min-content;
+}
+
+.dotted_list .dotted_item>p {
+    width: 100%;
+    height: min-content;
+}
+
+
+.dotted_list .dotted_item>i {
+    margin-top: 4px;
+    color: #333333;
+    font-size: 12px;
+    height: fit-content;
+    width: 12px;
+    height: 12px;
+}
+
+
+.dotted_list.green .dotted_item > i {
+    color: var(--green-color);
+}

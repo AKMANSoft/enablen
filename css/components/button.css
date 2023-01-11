@@ -1,0 +1,63 @@
+
+/* Global Button Design Start  */
+.btn {
+    text-decoration: none;
+    border: none;
+    padding: 14px 28px;
+    color: #fff;
+    border-radius: 6px 30px 6px 6px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    width: 201px;
+    height: 56px;
+}
+
+
+.btn.filled {
+    background: var(--green-color);
+}
+
+
+.btn.filled:active,
+.btn.filled:hover {
+    background: var(--green-dark);
+    border-radius: 6px;
+}
+
+
+.btn.outlined {
+    background: transparent;
+    color: var(--green-color);
+    border: 1px solid var(--green-color);
+
+}
+
+
+.btn.outlined.white {
+    background: transparent;
+    /* background: #33333380; */
+    border: 1px solid #FFFFFF;
+    color: #fff;
+}
+
+
+.btn.outlined:active,
+.btn.outlined:hover {
+    background-color: #fff;
+    color: black;
+}
+
+
+.btn.filled:disabled {
+    background-color: var(--green-50);
+    border: 6px;
+}
+
+.btn.outlined:disabled {
+    border-color: #ffffff1a;
+    border: 6px;
+}
+

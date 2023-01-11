@@ -7,21 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home - Enablen</title>
     <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/components/typography_and_layout.css" />
     <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/components/button.css" />
+    <link rel="stylesheet" href="./css/components/checked_list.css" />
+    <link rel="stylesheet" href="./css/components/header.css" />
+    <link rel="stylesheet" href="./css/components/projects_section.css" />
+    <link rel="stylesheet" href="./css/components/reviews_section.css" />
+    <link rel="stylesheet" href="./css/components/footer.css" />
 </head>
 
 
 <body>
     <header>
         <div class="inner">
-            <img src="./images/logo.svg" width="150" height="60" alt="" class="logo" />
+            <img src="./images/logo_dark.svg" width="150" height="60" alt="" class="logo" />
             <div class="header_menu">
-                <a href="#" class="menu_item">Solutions <i class="pl-5 bi bi-caret-down-fill"></i></a>
+                <a href="#" class="menu_item">Solutions <i class="pl-10 bi bi-caret-down-fill"></i></a>
                 <a href="#" class="menu_item">Our Impact</a>
                 <a href="#" class="menu_item">About us</a>
                 <a href="#" class="menu_item">Articles</a>
             </div>
             <a href="#" class="btn filled">Book a call</a>
+            <button class="menu_btn"><i class="bi bi-list"></i></button>
         </div>
     </header>
 
@@ -90,8 +98,10 @@
         <div class="tab_content_view">
             <div class="section_left">
                 <h4 class="heading">Need help to secure funding?</h4>
+                <div class="spacer-20"></div>
                 <p class="desc">We are here to help. Our end-to-end grant writing solutions are backed by a proven track record, with over <strong>$6.5 million</strong> secured for our clients since <strong>January 2021</strong>, and counting. Contact us today to learn more about our grant writing services.</p>
-                <div class="checked_items">
+                <div class="spacer-50"></div>
+                <div class="checked_list green">
                     <div class="check_item">
                         <i class="bi bi-check-circle-fill"></i>
                         <p>Understand and fully comply with guidelines</p>
@@ -109,6 +119,7 @@
                         <p>End-to-end submission management</p>
                     </div>
                 </div>
+                <div class="spacer-50"></div>
                 <a href="#" class="btn outlined">Learn More</a>
             </div>
             <div class="section_right">
@@ -149,6 +160,41 @@
         </div>
         <a href="#" class="btn outlined">View All</a>
     </section>
+    <section class="reviews_section pad-ver-90">
+        <h2 class="heading">What Our Clients Say About Us</h2>
+        <div class="reviews">
+            <div class="review_item">
+                <p class="review_text">Enablen's engineering contributions have allowed us to significantly scale and simplify our training and workforce development initiatives through our fully customised LMS solution. The technology responds to our needs, as opposed to implementing something off-the-shelf that we would be forced to mould our operations into. It is great to have Enablen in our corner.</p>
+                <div class="review_user">
+                    <img src="./images/user_image.png" class="user_image" width="60" height="60" alt="">
+                    <div class="user_info">
+                        <p class="username text-black">Debra Burden</p>
+                        <p class="desc">Chief Executive Officer, selectability Ltd</p>
+                    </div>
+                </div>
+            </div>
+            <div class="review_item">
+                <p class="review_text">Enablen's engineering contributions have allowed us to significantly scale and simplify our training and workforce development initiatives through our fully customised LMS solution. The technology responds to our needs, as opposed to implementing something off-the-shelf that we would be forced to mould our operations into. It is great to have Enablen in our corner.</p>
+                <div class="review_user">
+                    <img src="./images/user_image.png" class="user_image" width="60" height="60" alt="">
+                    <div class="user_info">
+                        <p class="username text-black">Debra Burden</p>
+                        <p class="desc">Chief Executive Officer, selectability Ltd</p>
+                    </div>
+                </div>
+            </div>
+            <div class="review_item">
+                <p class="review_text">Enablen's engineering contributions have allowed us to significantly scale and simplify our training and workforce development initiatives through our fully customised LMS solution. The technology responds to our needs, as opposed to implementing something off-the-shelf that we would be forced to mould our operations into. It is great to have Enablen in our corner.</p>
+                <div class="review_user">
+                    <img src="./images/user_image.png" class="user_image" width="60" height="60" alt="">
+                    <div class="user_info">
+                        <p class="username text-black">Debra Burden</p>
+                        <p class="desc">Chief Executive Officer, selectability Ltd</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="articles_and_news_section pad-ver-90">
         <h2 class="heading">Articles and News</h2>
         <div class="content">
@@ -158,9 +204,9 @@
                     <div class="article_info">
                         <p class="strong">27 Jan 2021</p>
                         <h4 class="text-black mt-10">Sed ut perspiciatis unde omnis iste tis unde om nis iste errorsit voluptatem accus...</h4>
-                        <div class="article_tags">
-                            <p class="tag_item mt-15">Grant Writing</p>
-                            <p class="tag_item mt-15">Health Industry</p>
+                        <div class="tags mt-15">
+                            <p class="tag_item">Grant Writing</p>
+                            <p class="tag_item">Health Industry</p>
                         </div>
                     </div>
                 </div>
@@ -168,12 +214,113 @@
             <div class="section_right">
                 <div class="news_list">
                     <div class="news_item">
-                        <img src="./images/articles_and_news_2.png"  alt="">
+                        <img src="./images/articles_and_news_2.png" width="200" height="139"  alt="">
+                        <div class="news_item_info">
+                            <p class="strong text-black-70">27 Jan 2021</p>
+                            <h4 class="heading">Sed ut perspiatie tis undis istes und..</h4>
+                            <div class="tags mt-20">
+                                <p class="tag_item">Grant Writing</p>
+                                <p class="tag_item">Health Industry</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news_item">
+                        <img src="./images/articles_and_news_3.png" width="200" height="139"  alt="">
+                        <div class="news_item_info">
+                            <p class="strong text-black-70">27 Jan 2021</p>
+                            <h4 class="heading">Sed ut perspiatie tis undis istes und..</h4>
+                            <div class="tags mt-20">
+                                <p class="tag_item">Grant Writing</p>
+                                <p class="tag_item">Health Industry</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news_item">
+                        <img src="./images/articles_and_news_4.png" width="200" height="139"  alt="">
+                        <div class="news_item_info">
+                            <p class="strong text-black-70">27 Jan 2021</p>
+                            <h4 class="heading">Sed ut perspiatie tis undis istes und..</h4>
+                            <div class="tags mt-20">
+                                <p class="tag_item">Grant Writing</p>
+                                <p class="tag_item">Health Industry</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <a href="#" class="btn outlined">View Articles</a>
     </section>
+    <footer>
+        <div class="upper_section">
+            <div class="section_left">
+                <h3 class="heading text-white">Supporting our charities, NFPs & small businesses</h3>
+                <div class="spacer-20"></div>
+                <p class="desc text-white-80">Our number one goal is to help our clients succeed in community-building and environmental preservation. It all starts here with us working together to give back to the world with every project we work on.</p>
+            </div>
+            <div class="section_right">
+                <a href="" class="btn filled">Book A Call</a>
+            </div>
+        </div>
+        <div class="middle_section">
+            <div class="section_left">
+                <img src="./images/logo_light.svg" width="226" height="89" alt="" class="logo">
+                <div class="contact_info">
+                    <div class="contact_item">
+                        <i class="bi bi-telephone"></i>
+                        <p class="sm">(07) 4766 3626</p>
+                    </div>
+                    <div class="contact_item">
+                        <i class="bi bi-envelope"></i>
+                        <p class="sm">admin@enablen.com.au</p>
+                    </div>
+                    <div class="contact_item">
+                        <i class="bi bi-geo-alt"></i>
+                        <p class="sm">255 Charters Towers Rd, Mysterton QLD 4812</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section_right">
+                <div class="links_section">
+                    <p class="strong text-black">LINKS</p>
+                    <div class="links">
+                        <p class="sm">Home</p>
+                        <p class="sm">Articles</p>
+                        <p class="sm">About us</p>
+                    </div>
+                </div>
+                <div class="links_section">
+                    <p class="strong text-black">OUR SOLUTIONS</p>
+                    <div class="links">
+                        <p class="sm">Grant Writing</p>
+                        <p class="sm">Website Development</p>
+                        <p class="sm">E-learning</p>
+                    </div>
+                </div>
+                <div class="links_section">
+                    <p class="strong text-black">RESOURCES</p>
+                    <div class="links">
+                        <p class="sm">Our Impact</p>
+                        <p class="sm">Privacy Policy</p>
+                        <p class="sm">Terms of use</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <span class="divider mt-60"></span>
+        <div class="bottom_section">
+            <p class="xsm">Copyright © 2022 Enablen Pty Ltd. All Rights Reserved</p>
+            <div class="social_icons">
+                <img src="./images/facebook.png" width="30" height="30" alt="" class="social_icon">
+                <img src="./images/linkedin.png" width="30" height="30" alt="" class="social_icon">
+                <img src="./images/instagram.png" width="30" height="30" alt="" class="social_icon">
+            </div>
+            <div class="other_info">
+                <p class="xsm">QAssure No. 23444</p>
+                <p class="xsm">ABN 72 647 388 636</p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

@@ -1,0 +1,52 @@
+
+.stepped_lsit {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.stepped_lsit .stepped_item {
+    width: 100%;
+    padding-left: 50px;
+    position: relative;
+    padding-bottom: 30px;
+    border-left: 2px dashed #81C216;
+}
+
+
+.stepped_lsit .stepped_item:last-child {
+    border: none;
+    padding-bottom: 0;
+}
+
+
+
+.stepped_lsit .stepped_item .num {
+    position: absolute;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    left: -22px;
+    background: #81C216;
+    border-radius: 100%;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.stepped_lsit .stepped_item .details>.heading {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 10px;
+    color: #333333;
+
+}
