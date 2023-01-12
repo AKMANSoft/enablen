@@ -35,6 +35,11 @@ header .inner .header_menu .menu_items {
 }
 
 
+header .inner .header_menu .menu_items > .btn {
+    display: none;
+}
+
+
 header .inner .header_menu .menu_close_btn_container {
     width: 100%;
     height: 60px;
@@ -177,6 +182,7 @@ header.light .inner .menu_btn>i {
     header .inner .header_menu .menu_items > .btn {
         margin-top: 20px;
         width: 100%;
+        display: block;
     }
 
     header .inner .header_menu .menu_items .menu_item {
