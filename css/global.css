@@ -10,6 +10,8 @@
 
 
 
+
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -19,7 +21,6 @@
     --max-hor-padding: 120px;
     --green-color: #81c216;
     --green-dark: #6EA611;
-    ;
     --green-10: #80c2161a;
     --green-50: #80c21680;
     --black: rgba(51, 51, 51, 1);
@@ -28,6 +29,42 @@
     --black-5: rgba(51, 51, 51, 0.05);
     --black-80: rgba(51, 51, 51, 0.8);
     --black-70: rgba(51, 51, 51, 0.7);
+}
+
+
+
+@media screen and (max-width:1400px) {
+    :root{
+        --max-hor-padding: 50px;
+    }
+    img.auto-fit{
+        max-width: 90%;
+        object-fit: contain;
+        object-position: center;
+    }
+    img.auto-fit-100{
+        max-width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    img.height-auto {
+        height: auto;
+    }
+    img.height-100{
+        height: 100%;
+    }
+}
+
+@media screen and (min-width:1450px) {
+    :root{
+        --max-hor-padding: calc(((100vw - 1440px) / 2) + 120px);
+    }
+}
+
+@media screen and (max-width:980px) {
+    :root{
+        --max-hor-padding: 20px
+    }
 }
 
 

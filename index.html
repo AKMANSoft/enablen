@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home - Enablen</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/global.css" />
     <link rel="stylesheet" href="./css/components/typography_and_layout.css" />
     <link rel="stylesheet" href="./css/index.css" />
@@ -23,13 +24,30 @@
         <div class="inner">
             <img src="./images/logo_dark.svg" width="150" height="60" alt="" class="logo" />
             <div class="header_menu">
-                <a href="#" class="menu_item">Solutions <i class="pl-10 bi bi-caret-down-fill"></i></a>
-                <a href="#" class="menu_item">Our Impact</a>
-                <a href="#" class="menu_item">About us</a>
-                <a href="#" class="menu_item">Articles</a>
+                <div class="menu_close_btn_container">
+                    <i class="close_menu_btn bi bi-x"></i>
+                </div>
+                <ul class="menu_items">
+                    <li class="menu_item">
+                        <a href="#" class="menu_item">Solutions</a>
+                        <i class="bi bi-caret-down-fill"></i>
+                    </li>
+                    <li class="menu_item">
+                        <a href="#" class="menu_item">Our Impact</a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="#" class="menu_item">About us</a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="#" class="menu_item">Articles</a>
+                    </li>
+                    <a href="#" class="btn filled">Book a call</a>
+                </ul>
             </div>
-            <a href="#" class="btn filled">Book a call</a>
+            <div class="header_btns">
+                <a href="#" class="btn filled">Book a call</a>
             <button class="menu_btn"><i class="bi bi-list"></i></button>
+            </div>
         </div>
     </header>
 
@@ -38,11 +56,12 @@
         <h1 class="text-center text-white">
             profit-for-purpose business consultants
         </h1>
+        <div class="spacer-20"></div>
         <p class="desc">
             Building futures by supporting Australian charities and small businesses
             with funding solutions and technology consultancy
         </p>
-        <a href="#" class="btn outlined white">Book a call</a>
+        <a href="#" class="btn outlined white bg-50">Book a call</a>
         <div class="progress-bar-container">
             <div class="progress-bar">
                 <span class="progress"></span>
@@ -90,10 +109,12 @@
             <h2 class="heading">Our Solutions</h2>
             <p>Our goal is to enable you with any funding, technological, or creative solutions you require so you can focus on what's important: getting your products and services out there!</p>
         </div>
-        <div class="tabs">
-            <p class="tab_item active">Website Development</p>
-            <p class="tab_item">E-Learning</p>
-            <p class="tab_item">Grant Writing</p>
+        <div class="tabs_container">
+            <div class="tabs">
+                <p class="tab_item active">Website Development</p>
+                <p class="tab_item">E-Learning</p>
+                <p class="tab_item">Grant Writing</p>
+            </div>
         </div>
         <div class="tab_content_view">
             <div class="section_left">
@@ -194,13 +215,20 @@
                 </div>
             </div>
         </div>
+        <div class="spacer-30"></div>
+        <div class="slider_indicators">
+            <div class="indicator active"></div>
+            <div class="indicator"></div>
+            <div class="indicator"></div>
+            <div class="indicator"></div>
+        </div>
     </section>
     <section class="articles_and_news_section pad-ver-90">
         <h2 class="heading">Articles and News</h2>
         <div class="content">
             <div class="section_left">
                 <div class="article">
-                    <img src="./images/articles_and_news_section_1.png" width="590" height="278" alt="">
+                    <img src="./images/articles_and_news_section_1.png" class="auto-fit-100" width="590" height="278" alt="">
                     <div class="article_info">
                         <p class="strong">27 Jan 2021</p>
                         <h4 class="text-black mt-10">Sed ut perspiciatis unde omnis iste tis unde om nis iste errorsit voluptatem accus...</h4>
@@ -214,7 +242,7 @@
             <div class="section_right">
                 <div class="news_list">
                     <div class="news_item">
-                        <img src="./images/articles_and_news_2.png" width="200" height="139"  alt="">
+                        <img src="./images/articles_and_news_2.png" width="200" alt="">
                         <div class="news_item_info">
                             <p class="strong text-black-70">27 Jan 2021</p>
                             <h4 class="heading">Sed ut perspiatie tis undis istes und..</h4>
@@ -225,7 +253,7 @@
                         </div>
                     </div>
                     <div class="news_item">
-                        <img src="./images/articles_and_news_3.png" width="200" height="139"  alt="">
+                        <img src="./images/articles_and_news_3.png" width="200" alt="">
                         <div class="news_item_info">
                             <p class="strong text-black-70">27 Jan 2021</p>
                             <h4 class="heading">Sed ut perspiatie tis undis istes und..</h4>
@@ -236,7 +264,7 @@
                         </div>
                     </div>
                     <div class="news_item">
-                        <img src="./images/articles_and_news_4.png" width="200" height="139"  alt="">
+                        <img src="./images/articles_and_news_4.png" width="200" alt="">
                         <div class="news_item_info">
                             <p class="strong text-black-70">27 Jan 2021</p>
                             <h4 class="heading">Sed ut perspiatie tis undis istes und..</h4>
@@ -282,7 +310,7 @@
             </div>
             <div class="section_right">
                 <div class="links_section">
-                    <p class="strong text-black">LINKS</p>
+                    <p class="heading strong text-black">LINKS <i class="bi bi-caret-down-fill"></i></p>
                     <div class="links">
                         <p class="sm">Home</p>
                         <p class="sm">Articles</p>
@@ -290,7 +318,7 @@
                     </div>
                 </div>
                 <div class="links_section">
-                    <p class="strong text-black">OUR SOLUTIONS</p>
+                    <p class="heading strong text-black">OUR SOLUTIONS <i class="bi bi-caret-down-fill"></i></p>
                     <div class="links">
                         <p class="sm">Grant Writing</p>
                         <p class="sm">Website Development</p>
@@ -298,7 +326,7 @@
                     </div>
                 </div>
                 <div class="links_section">
-                    <p class="strong text-black">RESOURCES</p>
+                    <p class="heading strong text-black">RESOURCES <i class="bi bi-caret-down-fill"></i></p>
                     <div class="links">
                         <p class="sm">Our Impact</p>
                         <p class="sm">Privacy Policy</p>

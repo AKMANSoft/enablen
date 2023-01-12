@@ -1,8 +1,9 @@
 
 .stepped_lsit {
-    max-width: 500px;
+    max-width: 475px;
     display: flex;
     flex-direction: column;
+    padding-left: 20px;
 }
 
 

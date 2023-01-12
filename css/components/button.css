@@ -43,7 +43,13 @@
     color: #fff;
 }
 
+.btn.outlined.white.bg-50{
+    background-color: rgba(51,51,51,.5);
+}
 
+
+.btn.outlined.white.bg-50:hover,
+.btn.outlined.white.bg-50:active,
 .btn.outlined:active,
 .btn.outlined:hover {
     background-color: #fff;
@@ -61,3 +67,13 @@
     border: 6px;
 }
 
+
+
+@media screen and (max-width: 980px) {
+    .btn {
+        line-height: 26px;
+        font-size: 14px;
+        padding: 15px 0;
+        border-radius: 6px 30px 6px 6px;
+    }
+}

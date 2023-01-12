@@ -58,14 +58,11 @@
 
 
 
-@media screen and (max-width: 767px) {
-    .questions_section .heading {
-        font-size: 24px;
-        line-height: 32px;
+@media screen and (max-width: 980px) {
+    .questions_section {
+        padding: 50px var(--max-hor-padding);
     }
-
-    .questions_section .questions .question_item .question_text {
-        font-size: 14px;
-        line-height: 26px;
+    .questions_section .questions .question_item {
+        width: 100%;
     }
 }

@@ -62,6 +62,46 @@
 }
 
 
+
+
+
+
+.reviews_section .slider_indicators {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+
+.reviews_section .slider_indicators .indicator {
+    width: 15px;
+    height: 3px;
+    border-radius: 10px;
+    background-color: var(--black-10);
+}
+
+
+.reviews_section .slider_indicators .indicator.active {
+    width: 20px;
+    background-color: var(--green-color);
+}
+
+
+
+
+
+@media screen and (max-width:980px) {
+    .reviews_section .reviews .review_item{
+        padding: 35px 30px 20px 20px;
+        gap: 30px;
+    }
+}
+
+
+
 /* Reviews Section End */
 
 

@@ -6,9 +6,32 @@
 }
 
 
+
+.home_section .section_left > .btn {
+    margin-top: 60px;
+}
+
+
+
+
+
+@media screen and (max-width:980px) {
+    .home_section {
+        padding-top: 130px;
+        padding-bottom: 50px;
+    }
+    .home_section .section_left > .btn {
+        margin-top: 30px;
+    }
+}
+
+
+
 /* Process Section Style  */
 
-
+.process_section {
+    padding: 90px var(--max-hor-padding);
+}
 
 .process_section .section_left>.heading {
     max-width: 400px;
@@ -20,15 +43,27 @@
 }
 
 
+.process_section {
+    background: url(../images/boxes.png) no-repeat;
+    background-position-x: 80px;
+    background-position-y: calc(100% - 90px);
+}
 
 
 
 
 
 
-@media screen and (max-width: 767px) {
+
+
+
+@media screen and (max-width: 980px) {
     .process_section {
-        gap: 50px;
+        gap: 30px;
+        padding-top: 0;
+        padding-bottom: 370px;
+        background-position-x: -65px;
+        background-position-y: calc(100% - 50px);
     }
 
     .process_section .section_right,
@@ -45,12 +80,6 @@
     .process_section .section_left p {
         display: block;
         width: 100%;
-        max-width: none;
-    }
-
-    .process_section .section_right img {
-        width: 100%;
-        object-fit: contain;
         max-width: none;
     }
 }
@@ -75,6 +104,7 @@
 
 .benifits_section {
     background: #81C216;
+    padding: 90px var(--max-hor-padding);
 }
 
 
@@ -90,6 +120,9 @@
 }
 
 
+.benifits_section .section_left > .btn {
+    margin-top: 60px;
+}
 
 
 
@@ -97,9 +130,11 @@
 
 
 
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 980px) {
     .benifits_section {
-        gap: 50px;
+        gap: 30px;
+        padding: 50px var(--max-hor-padding);
     }
 
     .benifits_section .section_right,
@@ -107,31 +142,14 @@
         width: 100%;
     }
 
-    .benifits_section .section_left h1 {
-        font-size: 24px;
-        line-height: 32px;
-    }
-
-    .benifits_section .section_left p {
-        font-size: 14px;
-        line-height: 22px;
-    }
-
-    .benifits_section .section_left button {
-        font-size: 14px;
-        line-height: 26px;
+    .benifits_section .section_left > .btn {
+        margin-top: 40px;
     }
 
     .benifits_section .section_left h1,
     .benifits_section .section_left p {
         display: block;
         width: 100%;
-        max-width: none;
-    }
-
-    .benifits_section .section_right img {
-        width: 100%;
-        object-fit: contain;
         max-width: none;
     }
 }
@@ -194,9 +212,10 @@
 
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 980px) {
     .freebie_section {
         gap: 50px;
+        padding: 50px var(--max-hor-padding);
     }
 
     .freebie_section .section_right,
@@ -221,11 +240,6 @@
         max-width: none;
     }
 
-    .freebie_section .section_right img {
-        width: 100%;
-        object-fit: contain;
-        max-width: none;
-    }
 }
 
 

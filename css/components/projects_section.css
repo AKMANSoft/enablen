@@ -29,6 +29,7 @@
     border-radius: 10px 50px 10px 10px;
     padding-bottom: 15px;
     height: min-content;
+    max-width: 80%;
 }
 
 
