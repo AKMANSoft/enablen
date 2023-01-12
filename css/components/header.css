@@ -47,6 +47,7 @@ header .inner .header_menu .menu_close_btn_container {
 
 header .inner .header_menu .menu_close_btn_container > .close_menu_btn {
     font-size: 36px;
+    color: var(--black-80);
 }
 
 
@@ -75,7 +76,7 @@ header .inner .header_menu .menu_items .menu_item > i {
 
 
 header.light .inner .header_menu .menu_items .menu_item {
-    color: var(--black);
+    color: var(--black-80);
 }
 
 
@@ -146,6 +147,7 @@ header.light .inner .menu_btn>i {
     header .inner .header_menu {
         display: none;
     }
+
 
     header .inner .header_menu.active {
         display: flex;
