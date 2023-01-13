@@ -120,6 +120,14 @@ footer .middle_section .section_right .links_section .links {
 
 
 
+footer .middle_section .section_right .links_section .heading > i {
+    display: none;
+}
+
+
+
+
+
 footer .bottom_section {
     width: 100%;
     padding: 35px 0;
@@ -199,6 +207,7 @@ footer .bottom_section .other_info {
         width: 100%;
     }
     footer .middle_section .section_right .links_section .heading > i {
+        display: block;
         float: right;
     }
 

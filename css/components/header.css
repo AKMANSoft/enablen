@@ -61,11 +61,12 @@ header .inner .header_menu .menu_items .menu_item {
     list-style: none;
     display: inline-flex;
     gap: 10px;
+    color: #fff;
+    align-items: center;
 }
 
 
 header .inner .header_menu .menu_items .menu_item > a {
-    color: #fff;
     text-decoration: none;
     font-size: 16px;
     font-weight: 400;
@@ -188,6 +189,7 @@ header.light .inner .menu_btn>i {
     header .inner .header_menu .menu_items .menu_item {
         width: 100%;
         justify-content: space-between;
+        color: var(--black-80);
     }
 
     header .inner .header_menu .menu_items .menu_item > a {

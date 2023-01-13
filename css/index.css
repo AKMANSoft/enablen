@@ -232,28 +232,14 @@
 /* Our Impact Section Start  */
 
 .impact_section {
-    width: 100%;
-    height: 100%;
     padding: 120px var(--max-hor-padding);
-    display: flex;
     align-items: center;
-}
-
-.impact_section .section_left {
-    width: 50%;
-}
-
-
-.impact_section .section_left>img {
-    border-radius: 10px 100px 10px 10px;
 }
 
 
 
 
 .impact_section .section_right {
-    width: 50%;
-    display: flex;
     flex-direction: column;
     gap: 20px;
 }
@@ -281,14 +267,13 @@
     .impact_section {
         padding: 50px var(--max-hor-padding);
         gap: 30px;
-        flex-direction: column;
     }
 
-    .impact_section .section_left,
+    /* .impact_section .section_left,
     .impact_section .section_right {
         width: 100%;
-    }
-    .impact_section .section_left {
+    } */
+    /* .impact_section .section_left {
         border-radius: 10px 50px 10px 10px;
         overflow: hidden;
     }
@@ -299,7 +284,7 @@
         object-fit: cover;
         object-position: center;
         max-height: 550px;
-    }
+    } */
     .impact_section .section_right>p {
         max-width: 100%;
     }
@@ -396,20 +381,17 @@
 
 
 
-.solutions_section .tab_content_view {
+/* .solutions_section .tab_content_view {
     width: 100%;
     display: flex;
-}
+} */
 
 
 
 .solutions_section .tab_content_view .section_left {
-    width: 50%;
-    height: 100%;
-    display: flex;
     flex-direction: column;
 }
-
+/* 
 
 .solutions_section .tab_content_view .section_left>.heading {
     font-size: 24px;
@@ -417,10 +399,10 @@
     line-height: 29px;
     letter-spacing: -0.02em;
     text-align: left;
-}
+} */
 
 
-
+/* 
 
 .solutions_section .tab_content_view .section_left .checked_items {
     padding: 28px 0;
@@ -435,19 +417,19 @@
     flex-direction: row;
     gap: 10px;
     align-items: center;
-}
+} */
 
-
+/* 
 .solutions_section .tab_content_view .section_left .checked_items .check_item i {
     font-size: 24px;
     color: var(--green-color);
-}
+} */
 
 
 
 
 
-
+/* 
 .solutions_section .tab_content_view .section_right {
     width: 50%;
     height: 100%;
@@ -456,13 +438,13 @@
     justify-content: flex-end;
     border-radius: 10px 100px 10px 10px;
     overflow: hidden;
-}
+} */
 
-
+/* 
 
 .solutions_section .tab_content_view .section_right > img {
     max-width: 100%;
-}
+} */
 
 
 
@@ -544,9 +526,119 @@
 
 
 
+
 /* Articles And News Section Start  */
 
 
+
+
+
+
+
+
+.articles_and_news_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 55px;
+    padding-bottom: 50px;
+    background: var(--black-5);
+}
+
+
+.articles_and_news_section .content {
+    width: 100%;
+    display: grid;
+    grid-auto-columns: 50% 50%;
+    grid-template-areas: 
+    "article-1 article-2"
+    "article-1 article-3"
+    "article-1 article-4";
+    gap: 20px;
+}
+
+
+.articles_and_news_section .content .article:first-child{
+    grid-area: article-1;
+    flex-direction: column;
+}
+
+.articles_and_news_section .content .article:first-child > img {
+    width: 100%;
+    height: 280px;
+}
+
+
+
+
+.articles_and_news_section .content .article {
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px 50px 10px 10px;
+    overflow: hidden;
+}
+
+
+.articles_and_news_section .content .article>img {
+    min-width: 140px;
+    width: 33%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.articles_and_news_section .content .article .article_info {
+    padding: 22px;
+}
+
+
+
+.articles_and_news_section .tags {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+}
+
+
+
+
+
+.articles_and_news_section .tags .tag_item {
+    height: min-content;
+    width: auto;
+    position: relative;
+}
+
+.articles_and_news_section .tags .tag_item::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: var(--green-color);
+    top: 50%;
+    right: -18px;
+    transform: translateY(-50%);
+    border-radius: 100%;
+}
+
+.articles_and_news_section .tags .tag_item:last-child:after {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 
 .articles_and_news_section {
     display: flex;
@@ -676,7 +768,7 @@
     letter-spacing: 0em;
     text-align: left;
     color: var(--black);
-}
+} */
 
 
 

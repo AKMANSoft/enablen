@@ -9,7 +9,7 @@
     flex-direction: column;
     align-items: center;
     gap: 55px;
-    padding-bottom: 20px;
+    padding: 90px var(--max-hor-padding);
 }
 
 
@@ -39,6 +39,14 @@
     height: min-content;
     gap: 10px;
     padding-top: 15px;
+}
+
+
+
+@media screen and (max-width:980px) {
+    .projects_section {
+        padding: 50px var(--max-hor-padding);
+    }
 }
 
 
