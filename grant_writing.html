@@ -25,14 +25,21 @@
     <header class="light">
         <div class="inner">
             <img src="./images/logo_light.svg" width="150" height="60" alt="" class="logo" />
-            <div class="header_menu">
+            <div id="header_menu" class="header_menu">
                 <div class="menu_close_btn_container">
-                    <i class="close_menu_btn bi bi-x"></i>
+                    <i id="header_menu_close_btn" class="close_menu_btn bi bi-x"></i>
                 </div>
                 <ul class="menu_items">
                     <li class="menu_item">
                         <a href="#" class="menu_item">Solutions</a>
                         <i class="bi bi-caret-down-fill"></i>
+                        <div class="sub_menu_container">
+                            <ul class="sub_menu">
+                                <a href="/grant_writing.html" class="sub_menu_item">Grant Writing</a>
+                                <a href="/web_developement.html" class="sub_menu_item">Web Development</a>
+                                <a href="/eLearning.html" class="sub_menu_item">E Learning Service</a>
+                            </ul>
+                        </div>
                     </li>
                     <li class="menu_item">
                         <a href="#" class="menu_item">Our Impact</a>
@@ -48,7 +55,7 @@
             </div>
             <div class="header_btns">
                 <a href="#" class="btn filled">Book a call</a>
-            <button class="menu_btn"><i class="bi bi-list"></i></button>
+                <button id="header_menu_expand_btn" class="menu_btn"><i class="bi bi-list"></i></button>
             </div>
         </div>
     </header>

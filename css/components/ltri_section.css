@@ -40,7 +40,8 @@
 }
 
 
-.ltri_section .section_right > img {
+.ltri_section.left_image .section_left > img,
+.ltri_section.right_image .section_right > img {
     max-width: 100%;
     object-fit: contain;
     object-position: center;
@@ -86,6 +87,6 @@
         width: 100%;
         height: max-content;
         object-fit: cover;
-        max-height: 550px;
+        max-height: 500px;
     }
 }

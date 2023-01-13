@@ -1,0 +1,108 @@
+.index_home_sldier {
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.embla__container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+
+
+.embla__slide {
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    position: relative;
+}
+
+
+.embla__slide::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 10;
+}
+
+
+
+.embla__slide__img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.embla__slide__number {
+    width: 4.6rem;
+    height: 4.6rem;
+    z-index: 1;
+    position: absolute;
+    top: 0.6rem;
+    right: 0.6rem;
+    border-radius: 50%;
+    background-color: rgba(var(--background-site-rgb-value), 0.85);
+    line-height: 4.6rem;
+    font-weight: 900;
+    text-align: center;
+    pointer-events: none;
+}
+
+.embla__slide__number>span {
+    color: var(--brand-primary);
+    background-image: linear-gradient(45deg,
+            var(--brand-primary),
+            var(--brand-secondary));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.6rem;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.embla__progress {
+    z-index: 1;
+    background-color: var(--background-site);
+    position: absolute;
+    height: 0.3rem;
+    border-radius: 0.2rem;
+    left: 0;
+    right: 0;
+    bottom: 2.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    pointer-events: none;
+    width: 21rem;
+    max-width: 90%;
+    overflow: hidden;
+}
+
+.embla__progress__bar {
+    background-image: linear-gradient(45deg,
+            var(--brand-primary),
+            var(--brand-secondary));
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+}

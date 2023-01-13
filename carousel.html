@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/utils/embla.css">
+</head>
+
+<body>
+    <div id="index_home_sldier" class="index_home_slider">
+        <div class="embla__container">
+            <div class="embla__slide">
+                <div class="embla__slide__number"><span>1</span></div>
+                <img class="embla__slide__img" src="./images/home.png" alt="Your alt text" />
+            </div>
+            <div class="embla__slide">
+                <div class="embla__slide__number"><span>1</span></div>
+                <img class="embla__slide__img" src="./images/home.png" alt="Your alt text" />
+            </div>
+            <div class="embla__slide">
+                <div class="embla__slide__number"><span>1</span></div>
+                <img class="embla__slide__img" src="./images/home.png" alt="Your alt text" />
+            </div>
+        </div>
+        <div class="embla__progress">
+            <div class="embla__progress__bar" style="transform:translateX(0%)"></div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js"></script>
+    <script src="https://unpkg.com/embla-carousel-autoplay/embla-carousel-autoplay.umd.js"></script>
+    <script>
+        var emblaNode = document.getElementById('index_home_sldier')
+        var options = { loop: true }
+        var plugins = [EmblaCarouselAutoplay()]
+
+        var embla = EmblaCarousel(emblaNode, options, plugins)
+    </script>
+</body>
+
+</html>
