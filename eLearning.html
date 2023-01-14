@@ -28,23 +28,46 @@
         <header class="light">
             <div class="inner">
                 <img src="./images/logo_light.svg" width="150" height="60" alt="" class="logo" />
-                <div class="header_menu">
-                    <a href="#" class="menu_item">Solutions <i class="pl-10 bi bi-caret-down-fill"></i></a>
-                    <a href="#" class="menu_item">Our Impact</a>
-                    <a href="#" class="menu_item">About us</a>
-                    <a href="#" class="menu_item">Articles</a>
+                <div id="header_menu" class="header_menu">
+                    <div class="menu_close_btn_container">
+                        <i id="header_menu_close_btn" class="close_menu_btn bi bi-x"></i>
+                    </div>
+                    <ul class="menu_items">
+                        <li class="menu_item">
+                            <a href="#" class="menu_item">Solutions</a>
+                            <i class="bi bi-caret-down-fill"></i>
+                            <div class="sub_menu_container">
+                                <ul class="sub_menu">
+                                    <a href="/grant_writing.html" class="sub_menu_item">Grant Writing</a>
+                                    <a href="/web_developement.html" class="sub_menu_item">Web Development</a>
+                                    <a href="/eLearning.html" class="sub_menu_item">E Learning Service</a>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#" class="menu_item">Our Impact</a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#" class="menu_item">About us</a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#" class="menu_item">Articles</a>
+                        </li>
+                        <a href="#" class="btn filled">Book a call</a>
+                    </ul>
                 </div>
-                <a href="#" class="btn filled">Book a call</a>
-                <button class="menu_btn"><i class="bi bi-list"></i></button>
+                <div class="header_btns">
+                    <a href="#" class="btn filled">Book a call</a>
+                    <button id="header_menu_expand_btn" class="menu_btn"><i class="bi bi-list"></i></button>
+                </div>
             </div>
         </header>
     
-        <section class="ltri_section home_section">
+        <section class="ltri_section right_image home_section">
             <div class="section_left">
-                <h1 class="heading">E-Learning Service</h1>
+                <h1>E-Learning Service</h1>
                 <div class="spacer-10"></div>
                 <p class="lg desc">Everything you need to get your online training up and running! We offer end-to-end eLearning services including courseware development, Moodle LMS customisation, and more.</p>
-                <div class="spacer-60"></div>
                 <button type="button" class="btn outlined">Book A Call</button>
             </div>
             <div class="section_right">
@@ -52,10 +75,11 @@
             </div>
         </section>
 
+
         <section class="Service-range">
             <p class="mainHeading"> Service range</p>
             <div>
-            <P class="mainSubHeading">Access a full range of high-quality eLearning services and dedicated support to<br> ensure your training is made available online to your audience 24/7.</P>
+            <P class="mainSubHeading">Access a full range of high-quality eLearning services and dedicated support to ensure your training is made available online to your audience 24/7.</P>
             </div>
             <div class="grid-container">
                 <div class="grid-item">
@@ -119,42 +143,43 @@
             </div>
         </section>
     
-
-
-
-        <section class="whether_section pad-ver-90">
-            <div class="section_left">
-                <img src="images/our_imapct.png" width="484" height="460" alt="">
-            </div>
-            <div class="section_right">
-                <h3 class="heading">Whether you need to improve your online presence or revamp things to better reach your audience.</h3>
-                <div class="spacer-20"></div>
-                <p class="desc">There are clear benefits of working with us:</p>
-                <div class="spacer-30"></div>
-                <div class="dotted_list green">
-                    <div class="dotted_item">
-                        <i class="bi bi-circle-fill"></i>
-                        <p>Focus on your business while we focus on your web development project.</p>
-                    </div>
-                    <div class="dotted_item">
-                        <i class="bi bi-circle-fill"></i>
-                        <p>Gain instant access to web development expertise.</p>
-                    </div>
-                    <div class="dotted_item">
-                        <i class="bi bi-circle-fill"></i>
-                        <p>We work fast. Launch your web project quicker.</p>
-                    </div>
-                    <div class="dotted_item">
-                        <i class="bi bi-circle-fill"></i>
-                        <p>Cross-compatibility across devices and screens.</p>
-                    </div>
-                    <div class="dotted_item">
-                        <i class="bi bi-circle-fill"></i>
-                        <p>Avail 15-day post-project support at no additional cost.</p>
-                    </div>
+     
+     
+    <section class="ltri_section left_image whether_section">
+        <div class="section_left">
+            <img src="images/our_imapct.png" width="484" height="460" alt="">
+        </div>
+        <div class="section_right">
+            <h3 class="heading">Whether you need to improve your online presence or revamp things to better reach your
+                audience.</h3>
+            <div class="spacer-20"></div>
+            <p class="desc">There are clear benefits of working with us:</p>
+            <div class="spacer-30"></div>
+            <div class="dotted_list green">
+                <div class="dotted_item">
+                    <i class="bi bi-circle-fill"></i>
+                    <p>Focus on your business while we focus on your web development project.</p>
+                </div>
+                <div class="dotted_item">
+                    <i class="bi bi-circle-fill"></i>
+                    <p>Gain instant access to web development expertise.</p>
+                </div>
+                <div class="dotted_item">
+                    <i class="bi bi-circle-fill"></i>
+                    <p>We work fast. Launch your web project quicker.</p>
+                </div>
+                <div class="dotted_item">
+                    <i class="bi bi-circle-fill"></i>
+                    <p>BCross-compatibility across devices and screens.</p>
+                </div>
+                <div class="dotted_item">
+                    <i class="bi bi-circle-fill"></i>
+                    <p>Avail 15-day post-project support at no additional cost.</p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
+
 
         <section class="ltri_section freebie_section">
             <div class="section_left">
