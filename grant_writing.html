@@ -24,15 +24,16 @@
 <body>
     <header class="light">
         <div class="inner">
-            <img src="./images/logo_light.svg" width="150" height="60" alt="" class="logo" />
+            <a href="/">
+                <img src="./images/logo_light.svg" width="150" height="60" alt="" class="logo" />
+            </a>
             <div id="header_menu" class="header_menu">
                 <div class="menu_close_btn_container">
                     <i id="header_menu_close_btn" class="close_menu_btn bi bi-x"></i>
                 </div>
                 <ul class="menu_items">
                     <li class="menu_item">
-                        <a href="#" class="menu_item">Solutions</a>
-                        <i class="bi bi-caret-down-fill"></i>
+                        <a href="#">Solutions <i class="bi bi-caret-down-fill"></i></a>
                         <div class="sub_menu_container">
                             <ul class="sub_menu">
                                 <a href="/grant_writing.html" class="sub_menu_item">Grant Writing</a>
@@ -42,13 +43,13 @@
                         </div>
                     </li>
                     <li class="menu_item">
-                        <a href="#" class="menu_item">Our Impact</a>
+                        <a href="/our_impact.html">Our Impact</a>
                     </li>
                     <li class="menu_item">
-                        <a href="#" class="menu_item">About us</a>
+                        <a href="/about_us.html">About us</a>
                     </li>
                     <li class="menu_item">
-                        <a href="#" class="menu_item">Articles</a>
+                        <a href="/articles">Articles</a>
                     </li>
                     <a href="#" class="btn filled">Book a call</a>
                 </ul>
@@ -60,27 +61,27 @@
         </div>
     </header>
 
-    <section class="ltri_section right_image home_section">
-        <div class="section_left">
+    <section class="ltri_section home_section">
+        <div class="content_section">
             <h1>Grant writing services</h1>
             <div class="spacer-10"></div>
             <p class="lg desc">Our proven end-to-end grant writing service has delivered successful funding outcomes to our clients and helped bring many good ideas to life.</p>
             <button type="button" class="btn outlined">Book A Call</button>
         </div>
-        <div class="section_right">
-            <img src="./images/home_image.png" width="484" height="460" alt="" class=" home_image">
+        <div class="image_section">
+            <img src="./images/home_image.png" width="484" height="460" alt="">
         </div>
     </section>
 
 
     <section class="ltri_section align_start process_section">
-        <div class="section_left">
+        <div class="content_section">
             <h2 class="heading">Seamless Process and Plan</h2>
             <div class="spacer-30"></div>
             <p class="desc">Our proven end-to-end grant writing service has delivered successful funding outcomes to our clients and helped bring many good ideas to life.</p>
             <!-- <img src="./images/boxes.png" class="boxes_image" style="margin-left: -40px" width="280" height="297" alt=""> -->
         </div>
-        <div class="section_right">
+        <div class="content_section">
             <div class="stepped_lsit">
                 <div class="stepped_item">
                     <span class="num">1</span>
@@ -132,8 +133,8 @@
 
 
 
-    <section class="ltri_section right_image benifits_section ">
-        <div class="section_left">
+    <section class="ltri_section benifits_section ">
+        <div class="content_section">
             <h2 class="heading text-white">Benefits of using our grant writing service</h2>
             <div class="spacer-20"></div>
             <p class="desc text-white">You’re not just looking for a professional grant writing service. You’re looking for one that you can
@@ -161,15 +162,15 @@
             </div>
             <a href="#" class="btn outlined white mt-15">Book a call</a>
         </div>
-        <div class="section_right">
+        <div class="image_section">
             <img src="images/benefits.png" width="490" height="515" alt="">
         </div>
     </section>
 
 
 
-    <section class="ltri_section right_image freebie_section">
-        <div class="section_left">
+    <section class="ltri_section freebie_section">
+        <div class="content_section">
             <h2 class="heading">Enablen Freebie</h2>
             <div class="spacer-20"></div>
             <p class="desc">
@@ -184,47 +185,52 @@
             <div class="spacer-60"></div>
             <button type="button" class="btn outlined">Download</button>
         </div>
-        <div class="section_right">
-            <img src="images/book.png" width="372" height="440" />
+        <div class="image_section">
+            <img src="images/book.png" class="contain" width="372" height="440" />
         </div>
     </section>
 
 
 
-    <section class="projects_section pad-ver-90">
+    <section class="projects_section">
         <h2 class="heading">Projects Delivered</h2>
-        <div class="projects">
-            <div class="project_item">
-                <img src="./images/product.png" width="346" height="280" alt="">
-                <div class="project_info">
-                    <h4 class="name text-black">Lorem ipsum dolor sconsec it</h4>
-                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elitor sit ameor sit ame...</p>
-                    <span class="divider mt-5"></span>
-                    <p class="desc">Category : <strong>Grant Writing</strong></p>
+        <div class="projects_container">
+            <div class="projects">
+                <div class="project_item">
+                    <img src="./images/product.png" width="346" height="280" alt="">
+                    <div class="project_info">
+                        <h4 class="name text-black">Lorem ipsum dolor sconsec it</h4>
+                        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elitor sit ameor sit ame...
+                        </p>
+                        <span class="divider mt-5"></span>
+                        <p class="desc">Category : <strong>Grant Writing</strong></p>
+                    </div>
                 </div>
-            </div>
-            <div class="project_item">
-                <img src="./images/product.png" width="346" height="280" alt="">
-                <div class="project_info">
-                    <h4 class="name text-black">Lorem ipsum dolor sconsec it</h4>
-                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elitor sit ameor sit ame...</p>
-                    <span class="divider mt-5"></span>
-                    <p class="desc">Category : <strong>Web Development</strong></p>
+                <div class="project_item">
+                    <img src="./images/product.png" width="346" height="280" alt="">
+                    <div class="project_info">
+                        <h4 class="name text-black">Lorem ipsum dolor sconsec it</h4>
+                        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elitor sit ameor sit ame...
+                        </p>
+                        <span class="divider mt-5"></span>
+                        <p class="desc">Category : <strong>Web Development</strong></p>
+                    </div>
                 </div>
-            </div>
-            <div class="project_item">
-                <img src="./images/product.png" width="346" height="280" alt="">
-                <div class="project_info">
-                    <h4 class="name text-black">Lorem ipsum dolor sconsec it</h4>
-                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elitor sit ameor sit ame...</p>
-                    <span class="divider mt-5"></span>
-                    <p class="desc">Category : <strong>E Learning Service</strong></p>
+                <div class="project_item">
+                    <img src="./images/product.png" width="346" height="280" alt="">
+                    <div class="project_info">
+                        <h4 class="name text-black">Lorem ipsum dolor sconsec it</h4>
+                        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elitor sit ameor sit ame...
+                        </p>
+                        <span class="divider mt-5"></span>
+                        <p class="desc">Category : <strong>E Learning Service</strong></p>
+                    </div>
                 </div>
             </div>
         </div>
         <a href="#" class="btn outlined">View All</a>
     </section>
-    <section class="reviews_section pad-ver-90">
+    <section class="reviews_section">
         <h2 class="heading">What Our Clients Say About Us</h2>
         <div class="reviews">
             <div class="review_item">
@@ -315,7 +321,9 @@
         </div>
         <div class="middle_section">
             <div class="section_left">
-                <img src="./images/logo_light.svg" width="226" height="89" alt="" class="logo">
+                <a href="/">
+                    <img src="./images/logo_light.svg" width="226" height="89" alt="" class="logo">
+                </a>
                 <div class="contact_info">
                     <div class="contact_item">
                         <i class="bi bi-telephone"></i>
@@ -335,25 +343,25 @@
                 <div class="links_section">
                     <p class="heading strong text-black">LINKS <i class="bi bi-caret-down-fill"></i></p>
                     <div class="links">
-                        <p class="sm">Home</p>
-                        <p class="sm">Articles</p>
-                        <p class="sm">About us</p>
+                        <a href="/">Home</a>
+                        <a href="/articles.html" >Articles</a>
+                        <a href="/about_us.html">About us</a>
                     </div>
                 </div>
                 <div class="links_section">
                     <p class="heading strong text-black">OUR SOLUTIONS <i class="bi bi-caret-down-fill"></i></p>
                     <div class="links">
-                        <p class="sm">Grant Writing</p>
-                        <p class="sm">Website Development</p>
-                        <p class="sm">E-learning</p>
+                        <a href="/grant_writing.html">Grant Writing</a>
+                        <a href="/web_developement.html">Website Development</a>
+                        <a href="/eLearning.html">E-learning</a>
                     </div>
                 </div>
                 <div class="links_section">
                     <p class="heading strong text-black">RESOURCES <i class="bi bi-caret-down-fill"></i></p>
                     <div class="links">
-                        <p class="sm">Our Impact</p>
-                        <p class="sm">Privacy Policy</p>
-                        <p class="sm">Terms of use</p>
+                        <a href="/our_impact.html">Our Impact</a>
+                        <a href="/privacy_policy.html">Privacy Policy</a>
+                        <a href="/terms_of_use.html">Terms of use</a>
                     </div>
                 </div>
             </div>
@@ -372,7 +380,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="scripts/components/header.js"></script>
 </body>
 
 </html>

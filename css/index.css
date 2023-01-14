@@ -183,7 +183,11 @@
 }
 
 .orgs_support_section .orgs_container {
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
     overflow-x: hidden;
+    position: relative;
 }
 
 
@@ -191,12 +195,15 @@
     display: inline-flex;
     align-items: center;
     gap: 100px;
+    height: 100%;
     overflow-x: hidden;
-    animation-name: scroller;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    white-space: nowrap;
+    animation: scroller 15s linear infinite;
 }
+
 
 
 .orgs_support_section .organisations img.org_item {
@@ -215,7 +222,7 @@
     }
 
     100% {
-        transform: translateX(-100%);
+        transform: translateX(-50%);
     }
 }
 
@@ -328,23 +335,21 @@
 
 
 
-.impact_section .section_right {
-    flex-direction: column;
+.impact_section .content_section {
     gap: 20px;
 }
 
 
-.impact_section .section_right>h1.heading {}
 
 
 
-.impact_section .section_right>p {
+.impact_section .content_section>p {
     max-width: 586px;
 }
 
 
 
-.impact_section .section_right>.btn {
+.impact_section .content_section>.btn {
     margin-top: 40px;
 }
 
@@ -358,7 +363,7 @@
         gap: 30px;
     }
 
-    .impact_section .section_right>p {
+    .impact_section .content_section>p {
         max-width: 100%;
     }
 }
@@ -414,7 +419,7 @@
 
 
 .solutions_section .tabs_container {
-    width: 100vw;
+    width: 100%;
     overflow-x: scroll;
     border-radius: 10px;
     display: flex;
@@ -486,7 +491,7 @@
 
 
 .solutions_tabview_slider .embla__slide {
-    flex: 0 0 var(--slide-size);
+    flex: 0 0 100%;
     min-width: 100%;
     position: relative;
 }

@@ -1,6 +1,7 @@
 
 /* Global Button Design Start  */
 .btn {
+    display: block;
     text-decoration: none;
     border: none;
     padding: 14px 28px;

@@ -1,7 +1,143 @@
-
 /* Home Section Style  */
 
 
+.ltri_section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+
+.ltri_section.justify_center {
+    justify-content: center;
+}
+
+
+.ltri_section.align_center {
+    align-items: center;
+}
+
+
+
+.ltri_section .content_section{
+    width: 50%;
+}
+
+.ltri_section .image_section,
+.ltri_section .content_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.ltri_section .content_section.align_start {
+    align-items: flex-start;
+}
+
+
+.ltri_section .image_section.align_center {
+    width: 50%;
+}
+
+
+
+
+
+.ltri_section .image_section {
+    border-radius: 10px 100px 10px 10px;
+    overflow: hidden;
+    align-items: center;
+    max-width: 50%;
+}
+
+
+
+.ltri_section .image_section>img {
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+    object-position: center;
+    border-radius: 10px 100px 10px 10px;
+    overflow: hidden;
+}
+
+
+.ltri_section .image_section img.contain {
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+
+.ltri_section.max-1000 {
+    justify-content: center;
+    gap: 40px;
+}
+
+.ltri_section.max-1000 .content_section {
+    max-width: 550px;
+}
+.ltri_section.max-1000 .image_section {
+    max-width: 450px;
+}
+
+
+
+
+@media screen and (max-width: 980px) {
+    .ltri_section {
+        gap: 50px;
+        flex-direction: column;
+    }
+
+    .ltri_section.max-1000 .image_section,
+    .ltri_section.max-1000 .content_section,
+    .ltri_section .image_section,
+    .ltri_section .content_section {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .ltri_section .content_section h1,
+    .ltri_section .content_section p {
+        display: block;
+        width: 100%;
+    }
+
+
+
+    .ltri_section .image_section img{
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        max-height: 500px;
+        border-radius: 10px 60px 10px 10px;
+    }
+
+    .ltri_section.left_image .image_section img.contain {
+        object-fit: contain;
+        border-radius: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 .ltri_section {
     width: 100%;
     height: auto;
@@ -12,17 +148,20 @@
 }
 
 
-.ltri_section.align_start{
+.ltri_section.align_start {
     align-items: flex-start;
 }
 
 .ltri_section .section_left {
     display: flex;
-    flex-direction: column;
     width: 50%;
 }
 
 
+
+.ltri_section.justify_center {
+    justify-content: center;
+}
 
 
 .ltri_section.left_image .section_left,
@@ -32,22 +171,35 @@
 }
 
 
+.ltri_section.left_image .section_right,
+.ltri_section.right_image .section_left {
+    flex-direction: column;
+}
+
+
+
 
 .ltri_section .section_right {
     display: flex;
-    justify-content: flex-end;
     width: 50%;
 }
 
 
-.ltri_section.left_image .section_left > img,
-.ltri_section.right_image .section_right > img {
+.ltri_section.left_image .section_left>img,
+.ltri_section.right_image .section_right>img {
     max-width: 100%;
-    object-fit: contain;
+    object-fit: cover;
     object-position: center;
+    border-radius: 10px 100px 10px 10px;
+    overflow: hidden;
 }
 
 
+.ltri_section.left_image .section_left img.contain,
+.ltri_section.right_image .section_right img.contain {
+    object-fit: contain;
+    border-radius: 10px;
+}
 
 
 
@@ -69,24 +221,22 @@
         display: block;
         width: 100%;
     }
-    
-    .ltri_section .section_right {
-        justify-content: flex-start;
-    }
 
-    
 
     .ltri_section.left_image .section_left,
-    .ltri_section.right_image .section_right {
-        border-radius: 6px 60px 6px 6px;
-        object-fit: cover;
-        object-position: center;
-    }
+    .ltri_section.right_image .section_right {}
+
     .ltri_section.left_image .section_left img,
     .ltri_section.right_image .section_right img {
         width: 100%;
-        height: max-content;
         object-fit: cover;
         max-height: 500px;
+        border-radius: 10px 60px 10px 10px;
     }
-}
+
+    .ltri_section.left_image .section_left img.contain,
+    .ltri_section.right_image .section_right img.contain {
+        object-fit: contain;
+        border-radius: 10px;
+    }
+} */

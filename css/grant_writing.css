@@ -7,7 +7,7 @@
 
 
 
-.home_section .section_left > .btn {
+.home_section .content_section > .btn {
     margin-top: 60px;
 }
 
@@ -20,7 +20,7 @@
         padding-top: 130px;
         padding-bottom: 50px;
     }
-    .home_section .section_left > .btn {
+    .home_section .content_section > .btn {
         margin-top: 30px;
     }
 }
@@ -33,12 +33,12 @@
     padding: 90px var(--max-hor-padding);
 }
 
-.process_section .section_left>.heading {
+.process_section .content_section:first-child>.heading {
     max-width: 400px;
 }
 
 
-.process_section .section_left>p.desc {
+.process_section .content_section:first-child>p.desc {
     max-width: 422px;
 }
 
@@ -66,18 +66,14 @@
         background-position-y: calc(100% - 50px);
     }
 
-    .process_section .section_right,
-    .process_section .section_left {
-        width: 100%;
-    }
 
-    .process_section .section_left h1 {
+    .process_section .content_section:first-child h1 {
         font-size: 30px;
         line-height: 38px;
     }
 
-    .process_section .section_left h1,
-    .process_section .section_left p {
+    .process_section .content_section:first-child h1,
+    .process_section .content_section:first-child p {
         display: block;
         width: 100%;
         max-width: none;
@@ -108,19 +104,19 @@
 }
 
 
-.benifits_section .section_left>.heading {
+.benifits_section .content_section>.heading {
     /* margin-bottom: 20px; */
     max-width: 570px;
 }
 
 
-.benifits_section .section_left>p.desc {
+.benifits_section .content_section>p.desc {
     width: 100%;
     max-width: 610px;
 }
 
 
-.benifits_section .section_left > .btn {
+.benifits_section .content_section > .btn {
     margin-top: 60px;
 }
 
@@ -137,17 +133,12 @@
         padding: 50px var(--max-hor-padding);
     }
 
-    .benifits_section .section_right,
-    .benifits_section .section_left {
-        width: 100%;
-    }
-
-    .benifits_section .section_left > .btn {
+    .benifits_section .content_section > .btn {
         margin-top: 40px;
     }
 
-    .benifits_section .section_left h1,
-    .benifits_section .section_left p {
+    .benifits_section .content_section h1,
+    .benifits_section .content_section p {
         display: block;
         width: 100%;
         max-width: none;
@@ -185,18 +176,18 @@
 
 
 
-.freebie_section .section_left>.heading {
+.freebie_section .content_section>.heading {
     max-width: 359px;
 }
 
 
-.freebie_section .section_left>p {
+.freebie_section .content_section>p {
     max-width: 590px;
     line-height: 26px;
 }
 
 
-.freebie_section .section_right {
+.freebie_section .image_section {
     padding-right: 30px;
 }
 
@@ -216,28 +207,6 @@
     .freebie_section {
         gap: 50px;
         padding: 50px var(--max-hor-padding);
-    }
-
-    .freebie_section .section_right,
-    .freebie_section .section_left {
-        width: 100%;
-    }
-
-    .freebie_section .section_left h1 {
-        font-size: 24px;
-        line-height: 32px;
-    }
-
-    .freebie_section .section_left p {
-        font-size: 14px;
-        line-height: 22px;
-    }
-
-    .freebie_section .section_left h1,
-    .freebie_section .section_left p {
-        display: block;
-        width: 100%;
-        max-width: none;
     }
 
 }
