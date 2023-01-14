@@ -5,6 +5,9 @@
 }
 
 
+.dotted_list.gap-10 {
+    gap: 10px;
+}
 
 
 .dotted_list .dotted_item {

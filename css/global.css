@@ -19,6 +19,7 @@
 
 :root {
     --max-hor-padding: 120px;
+    --large-hor-padding: 220px;
     --green-color: #81c216;
     --green-dark: #6EA611;
     --green-10: #80c2161a;
@@ -37,34 +38,29 @@
 @media screen and (max-width:1400px) {
     :root{
         --max-hor-padding: 50px;
-    }
-    img.auto-fit{
-        max-width: 90%;
-        object-fit: contain;
-        object-position: center;
-    }
-    img.auto-fit-100{
-        max-width: 100%;
-        object-fit: cover;
-        object-position: center;
-    }
-    img.height-auto {
-        height: auto;
-    }
-    img.height-100{
-        height: 100%;
+        --large-hor-padding: 50px;
     }
 }
 
 @media screen and (min-width:1450px) {
     :root{
         --max-hor-padding: calc(((100vw - 1440px) / 2) + 120px);
+        --large-hor-padding: calc(((100vw - 1440px) / 2) + 220px);
     }
 }
 
 @media screen and (max-width:980px) {
     :root{
-        --max-hor-padding: 20px
+        --max-hor-padding: 20px;
+        --large-hor-padding: 20px;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+    :root{
+        --max-hor-padding: 16px;
+        --large-hor-padding: 16px;
     }
 }
 
