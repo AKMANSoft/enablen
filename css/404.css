@@ -51,3 +51,49 @@
     background: var(--green-dark);
     border-radius: 6px;
 }
+
+@media screen and (max-width: 980px) {
+    
+    .section404{
+     padding-top: 130px;
+     padding-left: 16px;
+     padding-right: 16px;
+    }
+    .img404{
+
+        display: block;
+        width: 342px;
+        height: 128.25px;
+        margin-bottom: 20px; 
+      }
+      .page{
+  
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        margin-bottom: 15px;
+    
+    }
+    .page1{
+   
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+        
+    }
+    .btn404{
+        
+        background: #81C216;
+        border-radius: 6px 30px 6px 6px;
+        color: white;
+        border-style: none;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        width: 100%;
+    }
+}
