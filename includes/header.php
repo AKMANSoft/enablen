@@ -24,7 +24,7 @@
                     <a href="/our_impact.php">Our Impact</a>
                 </li>
                 <li class="menu_item">
-                    <a href="/about_us.php">About us</a>
+                    <a href="/aboutUs.php">About us</a>
                 </li>
                 <li class="menu_item">
                     <a href="/articles.php">Articles</a>

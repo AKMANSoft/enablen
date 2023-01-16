@@ -37,7 +37,7 @@
                 <div class="links">
                     <a href="/">Home</a>
                     <a href="/articles.php">Articles</a>
-                    <a href="/about_us.php">About us</a>
+                    <a href="/aboutUs.php">About us</a>
                 </div>
             </div>
             <div class="links_section">
