@@ -111,129 +111,121 @@
         </div>
         <div class="tabs_container">
             <div class="tabs">
-                <p id="solutions_tab_item" class="tab_item active">Website Development</p>
-                <p id="solutions_tab_item" class="tab_item">E-Learning</p>
-                <p id="solutions_tab_item" class="tab_item">Grant Writing</p>
+                <p id="solutions_tab_item" data-tabview-ref="web_development" class="tab_item active">Website Development</p>
+                <p id="solutions_tab_item" data-tabview-ref="elearning" class="tab_item">E-Learning</p>
+                <p id="solutions_tab_item" data-tabview-ref="grant_writing" class="tab_item">Grant Writing</p>
             </div>
         </div>
-        <div id="solutions_tabview_slider" class="solutions_tabview_slider">
-            <div class="embla__container">
-                <div class="embla__slide">
-                    <div class="ltri_section right_image tab_content_view">
-                        <div class="content_section">
-                            <h4 class="heading">Need help to secure funding?</h4>
-                            <div class="spacer-20"></div>
-                            <p class="desc">We are here to help. Our end-to-end grant writing solutions are backed by a
-                                proven track
-                                record, with over <strong>$6.5 million</strong> secured for our clients since
-                                <strong>January
-                                    2021</strong>, and counting. Contact us today to learn more about our grant writing
-                                services.
-                            </p>
-                            <div class="spacer-50"></div>
-                            <div class="checked_list green">
-                                <div class="check_item">
-                                    <i class="bi bi-check-circle-fill"></i>
-                                    <p>Understand and fully comply with guidelines</p>
-                                </div>
-                                <div class="check_item">
-                                    <i class="bi bi-check-circle-fill"></i>
-                                    <p>Develop a compelling approach</p>
-                                </div>
-                                <div class="check_item">
-                                    <i class="bi bi-check-circle-fill"></i>
-                                    <p>Draft high-quality responses and documentation</p>
-                                </div>
-                                <div class="check_item">
-                                    <i class="bi bi-check-circle-fill"></i>
-                                    <p>End-to-end submission management</p>
-                                </div>
-                            </div>
-                            <div class="spacer-50"></div>
-                            <a href="#" class="btn outlined">Learn More</a>
+        <div id="solutions_tabview_container" class="solutions_tabview_container">
+            <div id="web_development" class="ltri_section tab_content_view active">
+                <div class="content_section">
+                    <h4 class="heading">Need help to secure funding?</h4>
+                    <div class="spacer-20"></div>
+                    <p class="desc">We are here to help. Our end-to-end grant writing solutions are backed by a
+                        proven track
+                        record, with over <strong>$6.5 million</strong> secured for our clients since
+                        <strong>January
+                            2021</strong>, and counting. Contact us today to learn more about our grant writing
+                        services.
+                    </p>
+                    <div class="spacer-50"></div>
+                    <div class="checked_list green">
+                        <div class="check_item">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <p>Understand and fully comply with guidelines</p>
                         </div>
-                        <div class="image_section">
-                            <img src="./images/articles_and_news_4.png" width="488" height="430" alt="">
+                        <div class="check_item">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <p>Develop a compelling approach</p>
+                        </div>
+                        <div class="check_item">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <p>Draft high-quality responses and documentation</p>
+                        </div>
+                        <div class="check_item">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <p>End-to-end submission management</p>
                         </div>
                     </div>
+                    <div class="spacer-50"></div>
+                    <a href="#" class="btn outlined">Learn More</a>
                 </div>
-                <div class="embla__slide">
-                    <div class="ltri_section right_image tab_content_view">
-                        <div class="content_section">
-                            <h4 class="heading">Need help to secure funding?</h4>
-                            <div class="spacer-20"></div>
-                            <p class="desc">We are here to help. Our end-to-end grant writing solutions are backed by a
-                                proven track
-                                record, with over <strong>$6.5 million</strong> secured for our clients since
-                                <strong>January
-                                    2021</strong>, and counting. Contact us today to learn more about our grant writing
-                                services.
-                            </p>
-                            <div class="spacer-50"></div>
-                            <div class="checked_list green">
-                                <div class="check_item">
-                                    <i class="bi bi-check-circle-fill"></i>
-                                    <p>Understand and fully comply with guidelines</p>
-                                </div>
-                                <div class="check_item">
-                                    <i class="bi bi-check-circle-fill"></i>
-                                    <p>Develop a compelling approach</p>
-                                </div>
-                                <div class="check_item">
-                                    <i class="bi bi-check-circle-fill"></i>
-                                    <p>Draft high-quality responses and documentation</p>
-                                </div>
-                                <div class="check_item">
-                                    <i class="bi bi-check-circle-fill"></i>
-                                    <p>End-to-end submission management</p>
-                                </div>
-                            </div>
-                            <div class="spacer-50"></div>
-                            <a href="#" class="btn outlined">Learn More</a>
-                        </div>
-                        <div class="image_section">
-                            <img src="./images/home_image.png" width="488" height="430" alt="">
-                        </div>
-                    </div>
+                <div class="image_section">
+                    <img src="./images/articles_and_news_4.png" width="488" height="430" alt="">
                 </div>
-                <div class="embla__slide">
-                    <div class="ltri_section right_image tab_content_view">
-                        <div class="content_section">
-                            <h4 class="heading">Need help to secure funding?</h4>
-                            <div class="spacer-20"></div>
-                            <p class="desc">We are here to help. Our end-to-end grant writing solutions are backed by a
-                                proven track
-                                record, with over <strong>$6.5 million</strong> secured for our clients since
-                                <strong>January
-                                    2021</strong>, and counting. Contact us today to learn more about our grant writing
-                                services.
-                            </p>
-                            <div class="spacer-50"></div>
-                            <div class="checked_list green">
-                                <div class="check_item">
-                                    <i class="bi bi-check-circle-fill"></i>
-                                    <p>Understand and fully comply with guidelines</p>
-                                </div>
-                                <div class="check_item">
-                                    <i class="bi bi-check-circle-fill"></i>
-                                    <p>Develop a compelling approach</p>
-                                </div>
-                                <div class="check_item">
-                                    <i class="bi bi-check-circle-fill"></i>
-                                    <p>Draft high-quality responses and documentation</p>
-                                </div>
-                                <div class="check_item">
-                                    <i class="bi bi-check-circle-fill"></i>
-                                    <p>End-to-end submission management</p>
-                                </div>
-                            </div>
-                            <div class="spacer-50"></div>
-                            <a href="#" class="btn outlined">Learn More</a>
+            </div>
+            <div id="elearning" class="ltri_section tab_content_view">
+                <div class="content_section">
+                    <h4 class="heading">Need help to secure funding?</h4>
+                    <div class="spacer-20"></div>
+                    <p class="desc">We are here to help. Our end-to-end grant writing solutions are backed by a
+                        proven track
+                        record, with over <strong>$6.5 million</strong> secured for our clients since
+                        <strong>January
+                            2021</strong>, and counting. Contact us today to learn more about our grant writing
+                        services.
+                    </p>
+                    <div class="spacer-50"></div>
+                    <div class="checked_list green">
+                        <div class="check_item">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <p>Understand and fully comply with guidelines</p>
                         </div>
-                        <div class="image_section">
-                            <img src="./images/solutions.png" width="488" height="430" alt="">
+                        <div class="check_item">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <p>Develop a compelling approach</p>
+                        </div>
+                        <div class="check_item">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <p>Draft high-quality responses and documentation</p>
+                        </div>
+                        <div class="check_item">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <p>End-to-end submission management</p>
                         </div>
                     </div>
+                    <div class="spacer-50"></div>
+                    <a href="#" class="btn outlined">Learn More</a>
+                </div>
+                <div class="image_section">
+                    <img src="./images/solutions.png" width="488" height="430" alt="">
+                </div>
+            </div>
+            <div id="grant_writing" class="ltri_section tab_content_view">
+                <div class="content_section">
+                    <h4 class="heading">Need help to secure funding?</h4>
+                    <div class="spacer-20"></div>
+                    <p class="desc">We are here to help. Our end-to-end grant writing solutions are backed by a
+                        proven track
+                        record, with over <strong>$6.5 million</strong> secured for our clients since
+                        <strong>January
+                            2021</strong>, and counting. Contact us today to learn more about our grant writing
+                        services.
+                    </p>
+                    <div class="spacer-50"></div>
+                    <div class="checked_list green">
+                        <div class="check_item">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <p>Understand and fully comply with guidelines</p>
+                        </div>
+                        <div class="check_item">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <p>Develop a compelling approach</p>
+                        </div>
+                        <div class="check_item">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <p>Draft high-quality responses and documentation</p>
+                        </div>
+                        <div class="check_item">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <p>End-to-end submission management</p>
+                        </div>
+                    </div>
+                    <div class="spacer-50"></div>
+                    <a href="#" class="btn outlined">Learn More</a>
+                </div>
+                <div class="image_section">
+                    <img src="./images/articles_and_news_4.png" width="488" height="430" alt="">
                 </div>
             </div>
         </div>
@@ -242,7 +234,7 @@
     <?php include("./includes/projects_section.php") ?>
     <?php include("./includes/reviews_section.php") ?>
 
-    <section class="articles_and_news_section pad-ver-90">
+    <section class="articles_and_news_section">
         <h2 class="heading">Articles and News</h2>
         <div class="articles">
             <div class="article ">
@@ -295,14 +287,14 @@
     </section>
 
     <?php
-    $upper_section_heading = "Supporting our charities, NFPs & small businesses";
+    $upper_section_heading = "Supporting our charities, NFPs <br> & small businesses";
     $upper_section_description = "Our number one goal is to help our clients succeed in community-building and environmental preservation. It all starts here with us working together to give back to the world with every project we work on.";
     include("./includes/footer.php");
     ?>
 
 
 
-    <script src="scripts/index.js"></script>
+    <script src="./scripts/index.js"></script>
 </body>
 
 </html>

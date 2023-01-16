@@ -4,7 +4,6 @@
     <div class="upper_section">
         <div class="section_left">
             <h3 class="heading text-white"><?php echo $upper_section_heading ?></h3>
-            <div class="spacer-20"></div>
             <p class="desc text-white-80"><?php echo $upper_section_description ?></p>
         </div>
         <div class="section_right">
@@ -53,7 +52,7 @@
                 <div class="links">
                     <a href="/our_impact.php">Our Impact</a>
                     <a href="/privacy_policy.php">Privacy Policy</a>
-                    <a href="/terms_of_use.php">Terms of use</a>
+                    <a href="/terms_and_conditions.php">Terms of use</a>
                 </div>
             </div>
         </div>

@@ -8,6 +8,9 @@
 }
 
 
+
+
+
 .reviews_section .reviews {
     margin-top: 35px;
     width: 100%;
@@ -117,6 +120,10 @@
     .reviews_section .reviews .review_item{
         padding: 35px 30px 20px 20px;
         gap: 30px;
+    }
+
+    .reviews_section > .heading {
+        max-width: 250px;
     }
 }
 

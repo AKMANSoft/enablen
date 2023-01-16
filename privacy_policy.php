@@ -13,53 +13,16 @@
     <link rel="stylesheet" href="./css/components/checked_list.css" />
     <link rel="stylesheet" href="./css/components/dotted_lsit.css" />
     <link rel="stylesheet" href="./css/components/stepped_list.css" />
-    <link rel="stylesheet" href="./css/components/header.css" />
     <link rel="stylesheet" href="./css/components/questions_section.css">
     <link rel="stylesheet" href="./css/components/projects_section.css" />
     <link rel="stylesheet" href="./css/components/reviews_section.css" />
-    <link rel="stylesheet" href="./css/components/footer.css" />
     <link rel="stylesheet" href="./css/privacyPolicy.css">
 
 </head>
 <body>
     
-    <header class="light">
-        <div class="inner">
-            <img src="./images/logo_light.svg" width="150" height="60" alt="" class="logo" />
-            <div id="header_menu" class="header_menu">
-                <div class="menu_close_btn_container">
-                    <i id="header_menu_close_btn" class="close_menu_btn bi bi-x"></i>
-                </div>
-                <ul class="menu_items">
-                    <li class="menu_item">
-                        <a href="#" class="menu_item">Solutions</a>
-                        <i class="bi bi-caret-down-fill"></i>
-                        <div class="sub_menu_container">
-                            <ul class="sub_menu">
-                                <a href="/grant_writing.php" class="sub_menu_item">Grant Writing</a>
-                                <a href="/web_developement.php" class="sub_menu_item">Web Development</a>
-                                <a href="/eLearning.php" class="sub_menu_item">E Learning Service</a>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="menu_item">
-                        <a href="#" class="menu_item">Our Impact</a>
-                    </li>
-                    <li class="menu_item">
-                        <a href="#" class="menu_item">About us</a>
-                    </li>
-                    <li class="menu_item">
-                        <a href="#" class="menu_item">Articles</a>
-                    </li>
-                    <a href="#" class="btn filled">Book a call</a>
-                </ul>
-            </div>
-            <div class="header_btns">
-                <a href="#" class="btn filled">Book a call</a>
-                <button id="header_menu_expand_btn" class="menu_btn"><i class="bi bi-list"></i></button>
-            </div>
-        </div>
-    </header>
+<?php $light = true;
+    include("./includes/header.php"); ?>
 
     <section class="privacy-section">
         <p class="mainHeading">Privacy Policy</p>
@@ -117,80 +80,14 @@
         <p class="submainHeading8">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequaturm exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur</p>
 
     </section>
-    
 
-    <footer>
-        <div class="upper_section">
-            <div class="section_left">
-                <h3 class="heading text-white">Supporting our charities, NFPs & small businesses</h3>
-                <div class="spacer-20"></div>
-                <p class="desc text-white-80">Our number one goal is to help our clients succeed in community-building
-                    and environmental preservation. It all starts here with us working together to give back to the
-                    world with every project we work on.</p>
-            </div>
-            <div class="section_right">
-                <a href="" class="btn filled">Book A Call</a>
-            </div>
-        </div>
-        <div class="middle_section">
-            <div class="section_left">
-                <img src="./images/logo_light.svg" width="226" height="89" alt="" class="logo">
-                <div class="contact_info">
-                    <div class="contact_item">
-                        <i class="bi bi-telephone"></i>
-                        <p class="sm">(07) 4766 3626</p>
-                    </div>
-                    <div class="contact_item">
-                        <i class="bi bi-envelope"></i>
-                        <p class="sm">admin@enablen.com.au</p>
-                    </div>
-                    <div class="contact_item">
-                        <i class="bi bi-geo-alt"></i>
-                        <p class="sm">255 Charters Towers Rd, Mysterton QLD 4812</p>
-                    </div>
-                </div>
-            </div>
-            <div class="section_right">
-                <div class="links_section">
-                    <p class="heading strong text-black">LINKS <i class="bi bi-caret-down-fill"></i></p>
-                    <div class="links">
-                        <p class="sm">Home</p>
-                        <p class="sm">Articles</p>
-                        <p class="sm">About us</p>
-                    </div>
-                </div>
-                <div class="links_section">
-                    <p class="heading strong text-black">OUR SOLUTIONS <i class="bi bi-caret-down-fill"></i></p>
-                    <div class="links">
-                        <p class="sm">Grant Writing</p>
-                        <p class="sm">Website Development</p>
-                        <p class="sm">E-learning</p>
-                    </div>
-                </div>
-                <div class="links_section">
-                    <p class="heading strong text-black">RESOURCES <i class="bi bi-caret-down-fill"></i></p>
-                    <div class="links">
-                        <p class="sm">Our Impact</p>
-                        <p class="sm">Privacy Policy</p>
-                        <p class="sm">Terms of use</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <span class="divider mt-60"></span>
-        <div class="bottom_section">
-            <p class="xsm">Copyright © 2022 Enablen Pty Ltd. All Rights Reserved</p>
-            <div class="social_icons">
-                <img src="./images/facebook.png" width="30" height="30" alt="" class="social_icon">
-                <img src="./images/linkedin.png" width="30" height="30" alt="" class="social_icon">
-                <img src="./images/instagram.png" width="30" height="30" alt="" class="social_icon">
-            </div>
-            <div class="other_info">
-                <p class="xsm">QAssure No. 23444</p>
-                <p class="xsm">ABN 72 647 388 636</p>
-            </div>
-        </div>
-    </footer>
+
+    <?php
+    $upper_section_heading = "Supporting our charities, NFPs & small businesses";
+    $upper_section_description = "Our number one goal is to help our clients succeed in community-building and environmental preservation. It all starts here with us working together to give back to the world with every project we work on.";
+    include("./includes/footer.php");
+    ?>
+    
 
 </body>
 </html>

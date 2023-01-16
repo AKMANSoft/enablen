@@ -9,7 +9,6 @@ class CustomSVG extends HTMLElement {
           var _text = text;
           _text = _text.replace("[width]", this.getAttribute("width"));
           _text =_text.replace("[height]", this.getAttribute("height"));
-          console.log(_text)
           this.innerHTML = _text;
         });
     }

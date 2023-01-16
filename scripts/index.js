@@ -61,23 +61,30 @@ function setupHomeCarousel() {
 
 
 
-function setSolutionsTabviewCarousel() {
-    var solutionsTabviewSliderNode = document.getElementById('solutions_tabview_slider')
-    var options = { loop: false, draggable: false }
-    var solutionsTabviewCarousel = EmblaCarousel(solutionsTabviewSliderNode, options)
+function setSolutionsTabview() {
+    var solutionsTabviewContainer = document.getElementById('solutions_tabview_container');
 
     for (let i = 0; i < tabsList.length; i++) {
-        tabsList[i].addEventListener("click", () => {
+        tabsList[i].addEventListener("click", (e) => {
             for (let j = 0; j < tabsList.length; j++) {
                 tabsList[j].classList.remove("active");
             }
             tabsList[i].classList.add("active");
-            solutionsTabviewCarousel.scrollTo(i, true)
+            const tabViewRef = e.target.getAttribute("data-tabview-ref")
+            for (let j = 0; j < solutionsTabviewContainer.children.length; j++) {
+                const _tabView = solutionsTabviewContainer.children[j]
+                if (_tabView.id == tabViewRef) {
+                    _tabView.classList.add("active");
+                }
+                else {
+                    _tabView.classList.remove("active")
+                }
+            }
         })
     }
 }
 
-setSolutionsTabviewCarousel();
+setSolutionsTabview();
 setupHomeCarousel();
 
 

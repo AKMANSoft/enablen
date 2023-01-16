@@ -471,6 +471,16 @@
 
 
 
+.solutions_section .tab_content_view {
+    min-width: 100%;
+    display: none;
+}
+
+
+.solutions_section .tab_content_view.active {
+    display: flex;
+}
+
 
 
 
@@ -481,26 +491,13 @@
 
 
 
-.solutions_tabview_slider {
+.solutions_section .solutions_tabview_container {
     width: 100%;
     overflow: hidden;
-}
-
-
-
-.solutions_tabview_slider .embla__container {
     display: flex;
-    flex-direction: row;
-    height: 100%;
 }
 
 
-
-.solutions_tabview_slider .embla__slide {
-    flex: 0 0 100%;
-    min-width: 100%;
-    position: relative;
-}
 
 
 
@@ -582,6 +579,7 @@
     flex-direction: column;
     align-items: center;
     gap: 55px;
+    padding-top: 90px;
     padding-bottom: 50px;
     background: var(--black-5);
 }
@@ -673,6 +671,11 @@
 
 
 @media screen and (max-width:980px) {
+    .articles_and_news_section {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
     .articles_and_news_section .articles {
         grid-auto-columns: 100%;
         grid-template-areas:
