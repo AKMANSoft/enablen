@@ -2,7 +2,7 @@
 <header class="<?php echo $light ? "light" : "" ?>">
     <div class="inner">
         <a href="/" class="logo_container">
-            <custom-svg src="./images/logo.svg" style="width: 150px; height: 60px;" alt="" class="logo"></custom-svg>
+            <custom-svg src="./images/logo.svg" width="150"  height="60" alt="" class="logo"></custom-svg>
         </a>
 
         <div id="header_menu" class="header_menu">

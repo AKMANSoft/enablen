@@ -14,7 +14,7 @@
     <div class="middle_section">
         <div class="section_left">
             <a href="/" class="logo_container">
-            <custom-svg src="./images/logo.svg" style="width: 226px; height: 89px;" alt="" class="logo"></custom-svg>
+            <custom-svg src="./images/logo.svg" width="226"  height="90" alt="" class="logo"></custom-svg>
             </a>
             <div class="contact_info">
                 <div class="contact_item">

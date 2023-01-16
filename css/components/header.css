@@ -302,7 +302,7 @@ header.light .inner .menu_btn>i {
 
 
 
-    header .inner .logo {
+    header .inner .logo > svg {
         height: 48px;
         width: auto;
     }

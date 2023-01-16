@@ -126,7 +126,7 @@ footer .middle_section .section_right .links_section .links > a{
     color: var(--black-80);
     font-size: 14px;
     font-weight: 400;
-    width: max-content;
+    width: auto;
 }
 
 
@@ -206,7 +206,7 @@ footer .bottom_section .other_info {
     footer .middle_section .section_right {
         width: 100%;
     }
-    footer .middle_section .section_left img.logo{
+    footer .middle_section .section_left .logo > svg{
         width: 100%;
     }
 
