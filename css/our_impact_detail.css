@@ -38,7 +38,8 @@
 .home_section > .links > a{
     font-size: 14px;
     line-height: 22px;
-    text-decoration: none;
+    text-decoration-line: none;
+    -moz-text-decoration-line: none;
     outline: none;
 }
 

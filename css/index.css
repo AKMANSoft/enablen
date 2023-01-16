@@ -232,13 +232,18 @@
 @media screen and (max-width:980px) {
     .orgs_support_section {
         flex-direction: column;
+        min-height: 130px;
         height: auto;
-        gap: 30px;
-        padding: 40px 10px;
+        gap: 20px;
+        padding: 40px 0;
     }
 
     .orgs_support_section .organisations {
         gap: 40px;
+    }
+
+    .orgs_support_section .orgs_container {
+        height: 80px;
     }
 }
 

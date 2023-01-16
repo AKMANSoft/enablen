@@ -15,52 +15,13 @@
     <link rel="stylesheet" href="./css/components/checked_list.css" />
     <link rel="stylesheet" href="./css/components/dotted_lsit.css" />
     <link rel="stylesheet" href="./css/components/stepped_list.css" />
-    <link rel="stylesheet" href="./css/components/header.css" />
-    <link rel="stylesheet" href="./css/components/questions_section.css">
-    <link rel="stylesheet" href="./css/components/projects_section.css" />
-    <link rel="stylesheet" href="./css/components/reviews_section.css" />
-    <link rel="stylesheet" href="./css/components/footer.css" />
+    <script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js"></script>
+    <script src="https://unpkg.com/embla-carousel-autoplay/embla-carousel-autoplay.umd.js"></script>
 </head>
 
 <body>
-    <header class="light">
-        <div class="inner">
-            <a href="/">
-                <img src="./images/logo_light.svg" width="150" height="60" alt="" class="logo" />
-            </a>
-            <div id="header_menu" class="header_menu">
-                <div class="menu_close_btn_container">
-                    <i id="header_menu_close_btn" class="close_menu_btn bi bi-x"></i>
-                </div>
-                <ul class="menu_items">
-                    <li class="menu_item">
-                        <a href="#">Solutions <i class="bi bi-caret-down-fill"></i></a>
-                        <div class="sub_menu_container">
-                            <ul class="sub_menu">
-                                <a href="/grant_writing.html" class="sub_menu_item">Grant Writing</a>
-                                <a href="/web_developement.html" class="sub_menu_item">Web Development</a>
-                                <a href="/eLearning.html" class="sub_menu_item">E Learning Service</a>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="menu_item">
-                        <a href="/our_impact.html">Our Impact</a>
-                    </li>
-                    <li class="menu_item">
-                        <a href="/about_us.html">About us</a>
-                    </li>
-                    <li class="menu_item">
-                        <a href="/articles">Articles</a>
-                    </li>
-                    <a href="#" class="btn filled">Book a call</a>
-                </ul>
-            </div>
-            <div class="header_btns">
-                <a href="#" class="btn filled">Book a call</a>
-                <button id="header_menu_expand_btn" class="menu_btn"><i class="bi bi-list"></i></button>
-            </div>
-        </div>
-    </header>
+    <?php $light = true;
+    include("./includes/header.php"); ?>
 
     <section class="ltri_section home_section">
         <div class="content_section">
@@ -240,62 +201,12 @@
 
 
 
-    <section class="reviews_section">
-        <h2 class="heading">What Our Clients Say About Us</h2>
-        <div class="reviews">
-            <div class="review_item">
-                <p class="review_text">Enablen's engineering contributions have allowed us to significantly scale and
-                    simplify our training and workforce development initiatives through our fully customised LMS
-                    solution. The technology responds to our needs, as opposed to implementing something off-the-shelf
-                    that we would be forced to mould our operations into. It is great to have Enablen in our corner.</p>
-                <div class="review_user">
-                    <img src="./images/user_image.png" class="user_image" width="60" height="60" alt="">
-                    <div class="user_info">
-                        <p class="username text-black">Debra Burden</p>
-                        <p class="desc">Chief Executive Officer, selectability Ltd</p>
-                    </div>
-                </div>
-            </div>
-            <div class="review_item">
-                <p class="review_text">Enablen's engineering contributions have allowed us to significantly scale and
-                    simplify our training and workforce development initiatives through our fully customised LMS
-                    solution. The technology responds to our needs, as opposed to implementing something off-the-shelf
-                    that we would be forced to mould our operations into. It is great to have Enablen in our corner.</p>
-                <div class="review_user">
-                    <img src="./images/user_image.png" class="user_image" width="60" height="60" alt="">
-                    <div class="user_info">
-                        <p class="username text-black">Debra Burden</p>
-                        <p class="desc">Chief Executive Officer, selectability Ltd</p>
-                    </div>
-                </div>
-            </div>
-            <div class="review_item">
-                <p class="review_text">Enablen's engineering contributions have allowed us to significantly scale and
-                    simplify our training and workforce development initiatives through our fully customised LMS
-                    solution. The technology responds to our needs, as opposed to implementing something off-the-shelf
-                    that we would be forced to mould our operations into. It is great to have Enablen in our corner.</p>
-                <div class="review_user">
-                    <img src="./images/user_image.png" class="user_image" width="60" height="60" alt="">
-                    <div class="user_info">
-                        <p class="username text-black">Debra Burden</p>
-                        <p class="desc">Chief Executive Officer, selectability Ltd</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="spacer-30"></div>
-        <div class="slider_indicators">
-            <div class="indicator active"></div>
-            <div class="indicator"></div>
-            <div class="indicator"></div>
-            <div class="indicator"></div>
-        </div>
-    </section>
+    <?php include("./includes/reviews_section.php") ?>
 
 
 
 
-    <section class="questions_section">
+    <!-- <section class="questions_section">
         <h2 class="heading">Answers to popular questions</h2>
         <div class="questions">
             <div class="question_item">
@@ -333,82 +244,17 @@
                 <i class="question_expand_icon bi bi-arrow-down-circle"></i>
             </div>
         </div>
-    </section>
+    </section> -->
+
+    <?php include("./includes/questions_section.php") ?>
+
+    <?php
+    $upper_section_heading = "Quality websites, without the hassle!";
+    $upper_section_description = "Lorem ipsum dolor imit Get in touch!";
+    include("./includes/footer.php");
+    ?>
 
 
-    <footer>
-        <div class="upper_section">
-            <div class="section_left">
-                <h3 class="heading text-white">Quality websites, without the hassle!</h3>
-                <div class="sapcer-10"></div>
-                <p class="desc lg text-white-80">Lorem ipsum dolor imit Get in touch!</p>
-            </div>
-            <div class="section_right">
-                <a href="" class="btn filled">CTA</a>
-            </div>
-        </div>
-        <div class="middle_section">
-            <div class="section_left">
-                <a href="/">
-                    <img src="./images/logo_light.svg" width="226" height="89" alt="" class="logo">
-                </a>
-                <div class="contact_info">
-                    <div class="contact_item">
-                        <i class="bi bi-telephone"></i>
-                        <p class="sm">(07) 4766 3626</p>
-                    </div>
-                    <div class="contact_item">
-                        <i class="bi bi-envelope"></i>
-                        <p class="sm">admin@enablen.com.au</p>
-                    </div>
-                    <div class="contact_item">
-                        <i class="bi bi-geo-alt"></i>
-                        <p class="sm">255 Charters Towers Rd, Mysterton QLD 4812</p>
-                    </div>
-                </div>
-            </div>
-            <div class="section_right">
-                <div class="links_section">
-                    <p class="heading strong text-black">LINKS <i class="bi bi-caret-down-fill"></i></p>
-                    <div class="links">
-                        <a href="/">Home</a>
-                        <a href="/articles.html" >Articles</a>
-                        <a href="/about_us.html">About us</a>
-                    </div>
-                </div>
-                <div class="links_section">
-                    <p class="heading strong text-black">OUR SOLUTIONS <i class="bi bi-caret-down-fill"></i></p>
-                    <div class="links">
-                        <a href="/grant_writing.html">Grant Writing</a>
-                        <a href="/web_developement.html">Website Development</a>
-                        <a href="/eLearning.html">E-learning</a>
-                    </div>
-                </div>
-                <div class="links_section">
-                    <p class="heading strong text-black">RESOURCES <i class="bi bi-caret-down-fill"></i></p>
-                    <div class="links">
-                        <a href="/our_impact.html">Our Impact</a>
-                        <a href="/privacy_policy.html">Privacy Policy</a>
-                        <a href="/terms_of_use.html">Terms of use</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <span class="divider mt-60"></span>
-        <div class="bottom_section">
-            <p class="xsm">Copyright © 2022 Enablen Pty Ltd. All Rights Reserved</p>
-            <div class="social_icons">
-                <img src="./images/facebook.png" width="30" height="30" alt="" class="social_icon">
-                <img src="./images/linkedin.png" width="30" height="30" alt="" class="social_icon">
-                <img src="./images/instagram.png" width="30" height="30" alt="" class="social_icon">
-            </div>
-            <div class="other_info">
-                <p class="xsm">QAssure No. 23444</p>
-                <p class="xsm">ABN 72 647 388 636</p>
-            </div>
-        </div>
-    </footer>
-    <script src="scripts/components/header.js"></script>
 </body>
 
 </html>

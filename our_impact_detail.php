@@ -11,61 +11,21 @@
     <link rel="stylesheet" href="./css/components/typography_and_layout.css" />
     <link rel="stylesheet" href="./css/components/button.css" />
     <link rel="stylesheet" href="./css/components/dotted_lsit.css" />
-    <link rel="stylesheet" href="./css/components/header.css" />
     <link rel="stylesheet" href="./css/components/ltri_section.css" />
-    <link rel="stylesheet" href="./css/components/projects_section.css" />
-    <link rel="stylesheet" href="./css/components/reviews_section.css" />
-    <link rel="stylesheet" href="./css/components/footer.css" />
     <link rel="stylesheet" href="./css/our_impact_detail.css" />
 </head>
 
 
 <body>
-    <header class="light">
-        <div class="inner">
-            <a href="/">
-                <img src="./images/logo_light.svg" width="150" height="60" alt="" class="logo" />
-            </a>
-            <div id="header_menu" class="header_menu">
-                <div class="menu_close_btn_container">
-                    <i id="header_menu_close_btn" class="close_menu_btn bi bi-x"></i>
-                </div>
-                <ul class="menu_items">
-                    <li class="menu_item">
-                        <a href="#">Solutions <i class="bi bi-caret-down-fill"></i></a>
-                        <div class="sub_menu_container">
-                            <ul class="sub_menu">
-                                <a href="/grant_writing.html" class="sub_menu_item">Grant Writing</a>
-                                <a href="/web_developement.html" class="sub_menu_item">Web Development</a>
-                                <a href="/eLearning.html" class="sub_menu_item">E Learning Service</a>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="menu_item">
-                        <a href="/our_impact.html">Our Impact</a>
-                    </li>
-                    <li class="menu_item">
-                        <a href="/about_us.html">About us</a>
-                    </li>
-                    <li class="menu_item">
-                        <a href="/articles.html">Articles</a>
-                    </li>
-                    <a href="#" class="btn filled">Book a call</a>
-                </ul>
-            </div>
-            <div class="header_btns">
-                <a href="#" class="btn filled">Book a call</a>
-                <button id="header_menu_expand_btn" class="menu_btn"><i class="bi bi-list"></i></button>
-            </div>
-        </div>
-    </header>
+    <?php $light = true;
+    include("./includes/header.php"); ?>
 
 
     <section class="home_section">
         <div class="links">
-            <a href="/our_impact.html" class="text-black-80">Our Impact</a>
+            <a href="/our_impact.php" class="text-black-80">Our Impact</a>
             <i class="text-green text-bold bi bi-chevron-right"></i>
-            <a href="/our_impact_detail.html" class="text-black text-500">Mental Health</a>
+            <a href="/our_impact_detail.php" class="text-black text-500">Mental Health</a>
         </div>
         <div class="spacer-10"></div>
         <h1 class="heading">Mental Health</h1>
@@ -165,45 +125,9 @@
         </div>
     </section>
 
-    <section class="projects_section">
-        <h2 class="heading">Projects Delivered</h2>
-        <div class="projects_container">
-            <div class="projects">
-                <div class="project_item">
-                    <img src="./images/product.png" width="346" height="280" alt="">
-                    <div class="project_info">
-                        <h4 class="name text-black">Lorem ipsum dolor sconsec it</h4>
-                        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elitor sit ameor sit ame...
-                        </p>
-                        <span class="divider mt-5"></span>
-                        <p class="desc">Category : <strong>Grant Writing</strong></p>
-                    </div>
-                </div>
-                <div class="project_item">
-                    <img src="./images/product.png" width="346" height="280" alt="">
-                    <div class="project_info">
-                        <h4 class="name text-black">Lorem ipsum dolor sconsec it</h4>
-                        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elitor sit ameor sit ame...
-                        </p>
-                        <span class="divider mt-5"></span>
-                        <p class="desc">Category : <strong>Web Development</strong></p>
-                    </div>
-                </div>
-                <div class="project_item">
-                    <img src="./images/product.png" width="346" height="280" alt="">
-                    <div class="project_info">
-                        <h4 class="name text-black">Lorem ipsum dolor sconsec it</h4>
-                        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elitor sit ameor sit ame...
-                        </p>
-                        <span class="divider mt-5"></span>
-                        <p class="desc">Category : <strong>E Learning Service</strong></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <a href="#" class="btn outlined">View All</a>
-    </section>
-    
+    <?php include("./includes/projects_section.php") ?>
+
+
     <section class="articles_and_news_section">
         <h2 class="heading">Articles and News</h2>
         <div class="articles">
@@ -256,81 +180,12 @@
         <a href="#" class="btn outlined">View Blogs</a>
     </section>
 
-    <footer>
-        <div class="upper_section">
-            <div class="section_left">
-                <h3 class="heading text-white">Active in the mental health space?</h3>
-                <div class="spacer-20"></div>
-                <p class="desc text-white-80">We’ll back your initiative. Get in touch!</p>
-            </div>
-            <div class="section_right">
-                <a href="" class="btn filled">CTA</a>
-            </div>
-        </div>
-        <div class="middle_section">
-            <div class="section_left">
-                <a href="/">
-                    <img src="./images/logo_light.svg" width="226" height="89" alt="" class="logo">
-                </a>
-                <div class="contact_info">
-                    <div class="contact_item">
-                        <i class="bi bi-telephone"></i>
-                        <p class="sm">(07) 4766 3626</p>
-                    </div>
-                    <div class="contact_item">
-                        <i class="bi bi-envelope"></i>
-                        <p class="sm">admin@enablen.com.au</p>
-                    </div>
-                    <div class="contact_item">
-                        <i class="bi bi-geo-alt"></i>
-                        <p class="sm">255 Charters Towers Rd, Mysterton QLD 4812</p>
-                    </div>
-                </div>
-            </div>
-            <div class="section_right">
-                <div class="links_section">
-                    <p class="heading strong text-black">LINKS <i class="bi bi-caret-down-fill"></i></p>
-                    <div class="links">
-                        <a href="/">Home</a>
-                        <a href="/articles.html" >Articles</a>
-                        <a href="/about_us.html">About us</a>
-                    </div>
-                </div>
-                <div class="links_section">
-                    <p class="heading strong text-black">OUR SOLUTIONS <i class="bi bi-caret-down-fill"></i></p>
-                    <div class="links">
-                        <a href="/grant_writing.html">Grant Writing</a>
-                        <a href="/web_developement.html">Website Development</a>
-                        <a href="/eLearning.html">E-learning</a>
-                    </div>
-                </div>
-                <div class="links_section">
-                    <p class="heading strong text-black">RESOURCES <i class="bi bi-caret-down-fill"></i></p>
-                    <div class="links">
-                        <a href="/our_impact.html">Our Impact</a>
-                        <a href="/privacy_policy.html">Privacy Policy</a>
-                        <a href="/terms_of_use.html">Terms of use</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <span class="divider mt-60"></span>
-        <div class="bottom_section">
-            <p class="xsm">Copyright © 2022 Enablen Pty Ltd. All Rights Reserved</p>
-            <div class="social_icons">
-                <img src="./images/facebook.png" width="30" height="30" alt="" class="social_icon">
-                <img src="./images/linkedin.png" width="30" height="30" alt="" class="social_icon">
-                <img src="./images/instagram.png" width="30" height="30" alt="" class="social_icon">
-            </div>
-            <div class="other_info">
-                <p class="xsm">QAssure No. 23444</p>
-                <p class="xsm">ABN 72 647 388 636</p>
-            </div>
-        </div>
-    </footer>
 
-
-    <script src="scripts/components/header.js"></script>
+    <?php
+    $upper_section_heading = "Active in the mental health space?";
+    $upper_section_description = "We’ll back your initiative. Get in touch!";
+    include("./includes/footer.php");
+    ?>
 </body>
 
 </html>

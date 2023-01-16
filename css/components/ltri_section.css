@@ -17,8 +17,8 @@
 }
 
 
-.ltri_section.align_center {
-    align-items: center;
+.ltri_section.align_start {
+    align-items: flex-start;
 }
 
 
