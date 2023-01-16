@@ -162,6 +162,7 @@
     justify-content: center;
     column-gap: 20px;
     row-gap: 60px;
+    align-items: center;
 }
 
 
@@ -271,6 +272,7 @@
     height: 100%;
     object-fit: cover;
     object-position: center;
+    height: 377px;
 }
 
 
