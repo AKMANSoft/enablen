@@ -1,0 +1,114 @@
+.aboutUs-section{
+    display: flex;
+    flex-direction: column;
+    padding-top: 232px;
+    margin-bottom: 120px;
+
+}
+.aboutUs-heading{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #333333;
+    margin-bottom: 24px;
+
+}
+.aboutUs-subheading{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+.aboutUs-subheading p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.aboutUs-subheading1{
+   margin-right: 21px;
+}
+
+.aboutus-img{
+    height: 675px;
+    width: 100%;
+}
+
+.aboutus-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 117px;
+    background: rgba(129, 194, 22, 0.1);
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.aboutus-footer-h1{
+  
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #4F4F4F;
+    margin-left: 34px;
+
+}
+.aboutus-footerflex1{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+}
+.aboutus-footerflex2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60px;
+    
+}
+.aboutus-footerflex3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60px;
+    
+}
+.aboutus-footerflex4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 36px;
+    
+}
+.aboutus-footer-h2{
+   
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #333333;
+
+}
+.aboutus-footer-h3{
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 7px;
+
+}
