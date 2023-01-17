@@ -462,7 +462,7 @@
     transition: border-color .5s ease;
 }
 
-.solutions_section .tabs .tab_item:is(:hover,.active) {
+.solutions_section .tabs .tab_item:is(.active) {
     font-size: 20px;
     font-weight: 500;
     line-height: 28px;
