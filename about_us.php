@@ -115,7 +115,7 @@ include("./includes/base_layout.php") ?>
 
         </div>
 
-        <div class="our-values-bottom1">
+        <div class="our-values-bottom2">
             <div class="bottom-div">
                 <div>
                     <img src="images/integrity.png" width="50" height="50" alt="" class="our-value-img">
