@@ -5,6 +5,7 @@
     flex-direction: column;
     padding-top: 232px;
     padding-bottom: 120px;
+    width: 100%;
 
 }
 .aboutUs-heading{
@@ -21,6 +22,7 @@
     display: flex;
     flex-direction: row;
     margin-bottom: 40px;
+    gap: 21px;
 }
 .aboutUs-subheading p{
     font-size: 16px;
@@ -30,8 +32,9 @@
     text-align: left;
 }
 .aboutUs-subheading1{
-   margin-right: 21px;
+    max-width: 591px;
 }
+
 
 .aboutus-img{
     height: 675px;
@@ -78,6 +81,10 @@
     margin-right: 60px;
     
 }
+.aboutus-footer1{
+  display: flex;
+  flex-direction: row;
+}
 .aboutus-footerflex3{
     display: flex;
     flex-direction: column;
@@ -116,15 +123,91 @@
 }
 
 @media screen and (max-width:980px) {
-    .aboutUs_section {
-        padding: 50px var(--max-hor-padding);
+
+    .aboutUs-section {
+        padding-top: 147px;
+
     }
+
     .aboutUs-heading{
+      
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .aboutUs-subheading{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .aboutUs-subheading p{
+      
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    }
+    .aboutus-img{
+        height: 193px;
+        width: 100%;
+    }
+
+    .aboutus-footer{
+        flex-direction: column;
+        overflow: hidden;
+        height:auto;
+        padding-bottom: 38px;
+    
+
+    }
+    .aboutus-footer1{
+        width: 100%;
+        justify-content:space-between;
+        
         
     }
+    .aboutus-footer-h1{
+        
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: -0.02em;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
 
+    .aboutus-footer-h2{
+      
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: -0.02em;
+        text-align: center;
+        
+        
+    }
+    .aboutus-footer-h3{
+     
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        text-align: center;
 
-   
+    }
+    .aboutus-footerflex2{
+        margin-left: 40px;
+        align-items: center;
+    }
+    .aboutus-footerflex4{
+        margin-right: 40px;
+    }
+
 }
 
 
@@ -271,5 +354,40 @@
     text-align: left;
     max-width: 390px;
     color: rgba(51, 51, 51, 0.8);
+
+}
+
+@media screen and (max-width:980px) {
+
+.our-values{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.our-values p{
+    max-width: 100%;
+    text-align: left;
+}
+
+.our-values-subheading{
+    margin-left: 0px;
+}
+
+.our-values-top{
+    flex-direction: column;
+    margin-bottom: 30px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+
+}
+
+.our-values-bottom, .our-values-bottom1, .our-values-bottom2{
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
 
 }

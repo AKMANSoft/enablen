@@ -42,6 +42,7 @@
                     <p class="aboutus-footer-h1">Our Track Record</p>
                 </div>
 
+               <div class="aboutus-footer1">
                 <div class="aboutus-footerflex2">
                     <p class="aboutus-footer-h2">~80%</p>
                     <p class="aboutus-footer-h3"> Operational fficiency</p>
@@ -54,7 +55,7 @@
                     <p class="aboutus-footer-h2"> 1</p>
                     <p class="aboutus-footer-h3">State Awards</p>
                 </div>
-
+               </div>
 
             </div>
 
@@ -137,7 +138,7 @@
           
         </div>
 
-        <div class="our-values-bottom1">
+        <div class="our-values-bottom2">
             <div class="bottom-div">
                 <div>
                 <img src="images/integrity.png" width="50" height="50" alt="" class="our-value-img">
