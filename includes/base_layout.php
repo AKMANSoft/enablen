@@ -10,5 +10,5 @@
     <link rel="stylesheet" href="../css/components/ltri_section.css">
     <link rel="stylesheet" href="../css/components/typography_and_layout.css" />
     <link rel="stylesheet" href="../css/components/button.css" />
-    <script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js" ></script>
+    <script src="../scripts/embla/embla-carousel.js"></script>
 </head>

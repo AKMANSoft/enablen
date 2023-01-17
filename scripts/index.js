@@ -6,19 +6,19 @@ const tabsList = document.querySelectorAll("#solutions_tab_item");
 
 
 function setupHomeCarousel() {
-    const setupProgressBar = (emblaApi, progressNode) => {
-        const applyProgress = () => {
-            const progress = Math.max(0, Math.min(1, emblaApi.scrollProgress()))
-            progressNode.style.width = `${progress * 100}%`
-        }
-        const removeProgress = () => {
-            progressNode.style.width = '0%'
-        }
-        return {
-            applyProgress,
-            removeProgress,
-        }
-    }
+    // const setupProgressBar = (emblaApi, progressNode) => {
+    //     const applyProgress = () => {
+    //         const progress = Math.max(0, Math.min(1, emblaApi.scrollProgress()))
+    //         progressNode.style.width = `${progress * 100}%`
+    //     }
+    //     const removeProgress = () => {
+    //         progressNode.style.width = '0%'
+    //     }
+    //     return {
+    //         applyProgress,
+    //         removeProgress,
+    //     }
+    // }
 
     const OPTIONS = { loop: true }
     const homeSliderNode = document.getElementById('home_sldier');
@@ -28,10 +28,10 @@ function setupHomeCarousel() {
     const homeSliderCurSlideNum = document.getElementById("home_slider_cur_slide_num");
 
     const homeSliderCarousel = EmblaCarousel(homeSliderNode, OPTIONS)
-    const { applyProgress, removeProgress } = setupProgressBar(
-        homeSliderCarousel,
-        progressNode,
-    )
+    // const { applyProgress, removeProgress } = setupProgressBar(
+    //     homeSliderCarousel,
+    //     progressNode,
+    // )
 
     homeSliderNextBtn.onclick = homeSliderCarousel.scrollNext
     homeSliderPrevBtn.onclick = homeSliderCarousel.scrollPrev
@@ -43,6 +43,14 @@ function setupHomeCarousel() {
 
     }
 
+
+    const applyProgress = ()=> {
+        const maxSlides = homeSliderCarousel.slideNodes().length;
+        const currentSlide = homeSliderCarousel.selectedScrollSnap()+1;
+        const progress = (currentSlide / maxSlides) * 100;
+        progressNode.style.width = `${progress}%`;
+    }
+
     homeSliderCarousel
         .on('init', () => {
             applyProgress();
@@ -50,7 +58,7 @@ function setupHomeCarousel() {
         })
         .on('reInit', applyProgress)
         .on('scroll', applyProgress)
-        .on('destroy', removeProgress)
+        .on('destroy', applyProgress)
         .on("select", applyCurrentSlideNum)
 }
 
