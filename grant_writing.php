@@ -22,7 +22,6 @@
     <?php $light = true;
     include("./includes/header.php"); ?>
 
-
     <section class="ltri_section home_section">
         <div class="content_section">
             <h1>Grant writing services</h1>
