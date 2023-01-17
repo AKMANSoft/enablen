@@ -6,6 +6,9 @@ include("./includes/base_layout.php") ?>
 <body>
     <?php $light = false;
     include("./includes/header.php"); ?>
+
+    <?php include("./includes/cookies_ask_component.php") ?>
+
     <section class="home_section">
         <div id="home_sldier" class="home_sldier">
             <div class="embla__container">

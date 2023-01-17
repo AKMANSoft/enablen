@@ -1,6 +1,7 @@
 
 
 .home_section {
+    padding: 0 var(--max-hor-padding);
     padding-top: 175px;
     padding-bottom: 70px;
 }

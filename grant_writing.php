@@ -1,27 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php $page_title = "Grant Writing";
+include("./includes/base_layout.php") ?>
+<link rel="stylesheet" href="./css/grant_writing.css">
+<link rel="stylesheet" href="./css/components/checked_list.css" />
+<link rel="stylesheet" href="./css/components/stepped_list.css" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grant Writing - Enablen</title>
-    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="./css/components/ltri_section.css">
-    <link rel="stylesheet" href="./css/grant_writing.css">
-    <link rel="stylesheet" href="./css/global.css">
-    <link rel="stylesheet" href="./css/components/typography_and_layout.css" />
-    <link rel="stylesheet" href="./css/components/button.css" />
-    <link rel="stylesheet" href="./css/components/checked_list.css" />
-    <link rel="stylesheet" href="./css/components/stepped_list.css" />
-    <script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js"></script>
-    <script src="https://unpkg.com/embla-carousel-autoplay/embla-carousel-autoplay.umd.js"></script>
-</head>
+
 
 <body>
     <?php $light = true;
     include("./includes/header.php"); ?>
-
 
     <section class="ltri_section home_section">
         <div class="content_section">

@@ -1,18 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php $page_title = "Search Result - Blogs";
+include("./includes/base_layout.php") ?>
+<link rel="stylesheet" href="./css/search_result.css">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search Result - Enablen</title>
-    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="./css/components/ltri_section.css">
-    <link rel="stylesheet" href="./css/global.css">
-    <link rel="stylesheet" href="./css/components/typography_and_layout.css" />
-    <link rel="stylesheet" href="./css/components/button.css" />
-    <link rel="stylesheet" href="./css/search_result.css">
-</head>
+
 
 <body>
     <?php $light = true;

@@ -4,6 +4,7 @@
 
 
 .reviews_section {
+    padding: 0 var(--max-hor-padding);
     padding-bottom: 60px;
 }
 
