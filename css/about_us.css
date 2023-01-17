@@ -115,6 +115,22 @@
 
 }
 
+@media screen and (max-width:980px) {
+    .aboutUs_section {
+        padding: 50px var(--max-hor-padding);
+    }
+    .aboutUs-heading{
+        
+    }
+
+
+   
+}
+
+
+
+
+
 
 
 /* Our Impact Section Start  */
