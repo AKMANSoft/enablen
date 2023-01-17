@@ -9,11 +9,19 @@ const filterCategoriesScrollPrevBtn = document.getElementById("categories_prev_s
 
 
 filterCategoriesScrollNextBtn.addEventListener("click", ()=> {
-    blogsFilterCategoriesScollContainer.scrollBy(100,0)
+    blogsFilterCategoriesScollContainer.scrollBy({
+        left: 200,
+        top: 0,
+        behavior: "smooth",
+    })
 })
 
 filterCategoriesScrollPrevBtn.addEventListener("click", ()=> {
-    blogsFilterCategoriesScollContainer.scrollBy(-100,0)
+    blogsFilterCategoriesScollContainer.scrollBy({
+        left: -200,
+        top: 0,
+        behavior: "smooth",
+    })
 })
 
 

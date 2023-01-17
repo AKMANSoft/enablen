@@ -328,7 +328,7 @@ header.light .inner .menu_btn>i {
 
 
     header .inner .header_menu .menu_items .menu_item .sub_menu_container {
-        position: inherit;
+        position: relative;
         width: 100%;
         scale: 1;
         display: none;
