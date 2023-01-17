@@ -203,56 +203,15 @@
 
     <?php include("./includes/reviews_section.php") ?>
 
-
-
-
-    <!-- <section class="questions_section">
-        <h2 class="heading">Answers to popular questions</h2>
-        <div class="questions">
-            <div class="question_item">
-                <p class="question_text">I am not technical. Can you still help develop my website?</p>
-                <i class="question_expand_icon bi bi-arrow-down-circle"></i>
-            </div>
-            <div class="question_item">
-                <p class="question_text">Can you develop a fully customised website that isn’t based off a WordPress
-                    theme or similar?</p>
-                <i class="question_expand_icon bi bi-arrow-down-circle"></i>
-            </div>
-            <div class="question_item">
-                <p class="question_text">How long does it take to complete a website project?</p>
-                <i class="question_expand_icon bi bi-arrow-down-circle"></i>
-            </div>
-            <div class="question_item">
-                <p class="question_text">How much does a website cost?</p>
-                <i class="question_expand_icon bi bi-arrow-down-circle"></i>
-            </div>
-            <div class="question_item">
-                <p class="question_text">Do I need to factor in other costs in addition to Enablen’s web development
-                    fees?</p>
-                <i class="question_expand_icon bi bi-arrow-down-circle"></i>
-            </div>
-            <div class="question_item">
-                <p class="question_text">Can Enablen provide ongoing website maintenance services?</p>
-                <i class="question_expand_icon bi bi-arrow-down-circle"></i>
-            </div>
-            <div class="question_item">
-                <p class="question_text">Will I be able to change things on my website after it is launched?</p>
-                <i class="question_expand_icon bi bi-arrow-down-circle"></i>
-            </div>
-            <div class="question_item">
-                <p class="question_text">Can you write blog articles for my website?</p>
-                <i class="question_expand_icon bi bi-arrow-down-circle"></i>
-            </div>
-        </div>
-    </section> -->
-
     <?php include("./includes/questions_section.php") ?>
 
     <?php
-    $upper_section_heading = "Quality websites, without the hassle!";
-    $upper_section_description = "Lorem ipsum dolor imit Get in touch!";
-    include("./includes/footer.php");
+    $upper_section_heading = "Supporting our charities, NFPs <br> & small businesses";
+    $upper_section_description = "Our number one goal is to help our clients succeed in community-building and environmental preservation. It all starts here with us working together to give back to the world with every project we work on.";
+    include("./includes/cta_section.php");
     ?>
+
+    <?php include("./includes/footer.php"); ?>
 
 
 </body>

@@ -69,10 +69,12 @@
 
 
     <?php
-    $upper_section_heading = "Subscribe to our newsletter";
-    $upper_section_description = "for regular updates on our impact areas and developments.";
-    include("./includes/footer.php");
+    $upper_section_heading = "Supporting our charities, NFPs <br> & small businesses";
+    $upper_section_description = "Our number one goal is to help our clients succeed in community-building and environmental preservation. It all starts here with us working together to give back to the world with every project we work on.";
+    include("./includes/cta_section.php");
     ?>
+
+    <?php include("./includes/footer.php"); ?>
 
 </body>
 

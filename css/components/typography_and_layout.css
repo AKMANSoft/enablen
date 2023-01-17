@@ -161,7 +161,12 @@
     line-height: 24px;
 }
 
+a.p {
+    text-decoration: none;
+    outline: none;
+}
 
+.p,
 p {
     font-size: 16px;
     font-weight: 400;
@@ -169,27 +174,32 @@ p {
     letter-spacing: 0em;
     text-align: left;
 }
-
+.p.lg,
 p.lg {
     font-size: 20px;
     line-height: 28px;
 }
 
+.p.xlg,
 p.xlg {
     font-size: 24px;
     line-height: 28px;
 }
 
+.p.sm,
 p.sm {
     font-size: 14px;
     line-height: 22px;
 }
 
+.p.xsm,
 p.xsm {
     font-size: 12px;
     line-height: 20px;
 }
 
+.p>strong,
+.p.strong,
 p.strong,
 p>strong {
     font-weight: 500;
@@ -199,6 +209,7 @@ p>strong {
 h4,
 h5,
 h6,
+.p,
 p {
     color: var(--black-80);
 }

@@ -70,10 +70,12 @@
     </section>
 
     <?php
-    $upper_section_heading = "Supporting our charities, NFPs & small businesses";
+    $upper_section_heading = "Supporting our charities, NFPs <br> & small businesses";
     $upper_section_description = "Our number one goal is to help our clients succeed in community-building and environmental preservation. It all starts here with us working together to give back to the world with every project we work on.";
-    include("./includes/footer.php");
+    include("./includes/cta_section.php");
     ?>
+
+    <?php include("./includes/footer.php"); ?>
 
 </body>
 </html>

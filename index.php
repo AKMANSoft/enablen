@@ -111,9 +111,9 @@
         </div>
         <div class="tabs_container">
             <div class="tabs">
-                <p id="solutions_tab_item" data-tabview-ref="web_development" class="tab_item active">Website Development</p>
-                <p id="solutions_tab_item" data-tabview-ref="elearning" class="tab_item">E-Learning</p>
-                <p id="solutions_tab_item" data-tabview-ref="grant_writing" class="tab_item">Grant Writing</p>
+                <button type="button" id="solutions_tab_item" data-tabview-ref="web_development" class="tab_item active">Website Development</button>
+                <button type="button" id="solutions_tab_item" data-tabview-ref="elearning" class="tab_item">E-Learning</button>
+                <button type="button" id="solutions_tab_item" data-tabview-ref="grant_writing" class="tab_item">Grant Writing</button>
             </div>
         </div>
         <div id="solutions_tabview_container" class="solutions_tabview_container">
@@ -289,10 +289,10 @@
     <?php
     $upper_section_heading = "Supporting our charities, NFPs <br> & small businesses";
     $upper_section_description = "Our number one goal is to help our clients succeed in community-building and environmental preservation. It all starts here with us working together to give back to the world with every project we work on.";
-    include("./includes/footer.php");
+    include("./includes/cta_section.php");
     ?>
 
-
+    <?php include("./includes/footer.php"); ?>
 
     <script src="./scripts/index.js"></script>
 </body>
