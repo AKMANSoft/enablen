@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
-    <link rel="stylesheet" href="./css/components/ltri_section.css">
+<?php $page_title = "About Us";
+include("./includes/base_layout.php") ?>
+<link rel="stylesheet" href="./css/components/ltri_section.css">
     <link rel="stylesheet" href="./css/web_developemnet.css">
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/components/typography_and_layout.css" />
@@ -20,8 +14,6 @@
     <link rel="stylesheet" href="./css/components/reviews_section.css" />
     <link rel="stylesheet" href="./css/components/footer.css" />
     <link rel="stylesheet" href="./css/aboutUs.css">
-
-</head>
 
 <body>
 
