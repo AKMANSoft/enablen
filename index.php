@@ -8,6 +8,8 @@ include("./includes/base_layout.php") ?>
     include("./includes/header.php"); ?>
 
     <?php include("./includes/cookies_ask_component.php") ?>
+    <?php include("./includes/overlay_article_component.php") ?>
+
 
     <section class="home_section">
         <div id="home_sldier" class="home_sldier">
@@ -225,12 +227,12 @@ include("./includes/base_layout.php") ?>
     <section class="articles_and_news_section">
         <h2 class="heading">Articles and News</h2>
         <div class="articles">
-            <div class="article ">
+            <div class="article featured">
                 <img src="./images/articles_and_news_section_1.png" width="590" height="278" alt="">
                 <div class="article_info">
                     <p class="strong">27 Jan 2021</p>
-                    <h4 class="text-black mt-10">Sed ut perspiciatis unde omnis iste tis unde om nis iste errorsit
-                        voluptatem accus...</h4>
+                    <a href="./article_detail.php" class="h4 mt-10">Sed ut perspiciatis unde omnis iste tis unde om nis iste errorsit
+                        voluptatem accus...</a>
                     <div class="tags mt-15">
                         <p class="tag_item">Grant Writing</p>
                         <p class="tag_item">Health Industry</p>
@@ -241,7 +243,7 @@ include("./includes/base_layout.php") ?>
                 <img src="./images/articles_and_news_2.png" width="590" height="278" alt="">
                 <div class="article_info">
                     <p class="strong">27 Jan 2021</p>
-                    <h4 class="text-black mt-10">Sed ut perspiciatis </h4>
+                    <a href="./article_detail.php" class="h4 mt-10">Sed ut perspiciatis </a>
                     <div class="tags mt-15">
                         <p class="tag_item">Grant Writing</p>
                         <p class="tag_item">Health Industry</p>
@@ -252,7 +254,7 @@ include("./includes/base_layout.php") ?>
                 <img src="./images/articles_and_news_3.png" width="590" height="278" alt="">
                 <div class="article_info">
                     <p class="strong">27 Jan 2021</p>
-                    <h4 class="text-black mt-10">Sed ut perspiciatis unde</h4>
+                    <a href="./article_detail.php" class="h4 mt-10">Sed ut perspiciatis unde</a>
                     <div class="tags mt-15">
                         <p class="tag_item">Grant Writing</p>
                         <p class="tag_item">Health Industry</p>
@@ -263,7 +265,7 @@ include("./includes/base_layout.php") ?>
                 <img src="./images/articles_and_news_4.png" width="590" height="278" alt="">
                 <div class="article_info">
                     <p class="strong">27 Jan 2021</p>
-                    <h4 class="text-black mt-10">Sed ut perspiciatis unde</h4>
+                    <a href="./article_detail.php" class="h4 mt-10">Sed ut perspiciatis unde</a>
                     <div class="tags mt-15">
                         <p class="tag_item">Grant Writing</p>
                         <p class="tag_item">Health Industry</p>
@@ -271,7 +273,7 @@ include("./includes/base_layout.php") ?>
                 </div>
             </div>
         </div>
-        <a href="#" class="btn outlined">View Articles</a>
+        <a href="/blogs.php" class="btn outlined">View Articles</a>
     </section>
 
     <?php

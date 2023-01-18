@@ -258,7 +258,8 @@
     flex-direction: column;
     gap: 40px;
     align-items: center;
-    padding: 90px var(--max-hor-padding);
+    padding: 0 var(--max-hor-padding);
+    padding-top: 90px;
 }
 
 .related_articles_section .articles {
@@ -361,7 +362,7 @@
 @media screen and (max-width:980px) {
     .related_articles_section {
         gap: 30px;
-        padding: 50px var(--max-hor-padding);
+        padding-top: 50px;
     }
 }
 
