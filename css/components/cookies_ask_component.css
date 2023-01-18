@@ -76,11 +76,12 @@
 @media screen and (max-width:760px) {
     .cookies_ask_component {
         flex-direction: column;
-        height: auto;
+        height: min-content;
         gap: 23px;
         padding: 30px 20px;
         top: 50%;
         transform: translate(-50%,-50%);
+        justify-content: flex-start;
     }
 
     .cookies_ask_component .content {
