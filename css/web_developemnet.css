@@ -215,7 +215,8 @@
 
 
 .whether_section {
-    padding: 90px var(--max-hor-padding);
+    padding: 0 var(--max-hor-padding);
+    padding-top: 90px;
     align-items: center;
 }
 
@@ -226,7 +227,7 @@
 @media screen and (max-width: 980px) {
     .whether_section {
         gap: 30px;
-        padding: 50px var(--max-hor-padding);
+        padding-top: 50px;
     }
 }
 

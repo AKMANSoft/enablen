@@ -8,7 +8,6 @@ include("./includes/base_layout.php") ?>
     include("./includes/header.php"); ?>
 
     <?php include("./includes/cookies_ask_component.php") ?>
-    <?php include("./includes/overlay_article_component.php") ?>
 
 
     <section class="home_section">

@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="../css/components/projects_section.css">
+<?php include("./includes/project_popup_component.php") ?>
 <section class="projects_section">
     <h2 class="heading">Projects Delivered</h2>
     <div class="projects_container">
@@ -36,3 +37,4 @@
         </div>
     </div>
 </section>
+<script src="../scripts/components/projects_section.js"></script>

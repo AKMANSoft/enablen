@@ -188,6 +188,7 @@ include("./includes/base_layout.php") ?>
     </section>
 
 
+    <?php include("./includes/projects_section.php") ?>
 
     <?php include("./includes/reviews_section.php") ?>
 

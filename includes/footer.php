@@ -4,7 +4,7 @@
     <div class="middle_section">
         <div class="section_left">
             <a href="/" class="logo_container">
-            <custom-svg src="./images/logo.svg" width="226"  height="90" alt="" class="logo"></custom-svg>
+                <custom-svg src="./images/logo.svg" width="226" height="90" alt="" class="logo"></custom-svg>
             </a>
             <div class="contact_info">
                 <div class="contact_item">
@@ -52,11 +52,18 @@
     <div class="bottom_section">
         <p class="xsm">Copyright © 2022 Enablen Pty Ltd. All Rights Reserved</p>
         <div class="social_icons">
-            <img src="./images/facebook.png" width="30" height="30" alt="" class="social_icon">
-            <img src="./images/linkedin.png" width="30" height="30" alt="" class="social_icon">
-            <img src="./images/instagram.png" width="30" height="30" alt="" class="social_icon">
+            <a href="#">
+                <img src="./images/facebook.png" width="30" height="30" alt="" class="social_icon">
+            </a>
+            <a href="#">
+                <img src="./images/linkedin.png" width="30" height="30" alt="" class="social_icon">
+            </a>
+            <a href="#">
+                <img src="./images/instagram.png" width="30" height="30" alt="" class="social_icon">
+            </a>
         </div>
         <div class="other_info">
+            <img src="../images/qassure_logo.svg" width="80" height="37" alt="" class="qassure_logo">
             <p class="xsm">QAssure No. 23444</p>
             <p class="xsm">ABN 72 647 388 636</p>
         </div>
