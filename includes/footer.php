@@ -34,7 +34,7 @@
                 <p class="heading strong text-black">OUR SOLUTIONS <i class="bi bi-caret-down-fill"></i></p>
                 <div class="links">
                     <a href="/grant_writing.php">Grant Writing</a>
-                    <a href="/web_developement.php">Website Development</a>
+                    <a href="/web_development.php">Website Development</a>
                     <a href="/eLearning.php">E-learning</a>
                 </div>
             </div>

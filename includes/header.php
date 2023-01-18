@@ -15,7 +15,7 @@
                     <div class="sub_menu_container">
                         <ul class="sub_menu">
                             <a href="/grant_writing.php" class="sub_menu_item">Grant Writing</a>
-                            <a href="/web_developement.php" class="sub_menu_item">Web Development</a>
+                            <a href="/web_development.php" class="sub_menu_item">Web Development</a>
                             <a href="/eLearning.php" class="sub_menu_item">E Learning Service</a>
                         </ul>
                     </div>

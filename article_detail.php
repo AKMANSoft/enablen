@@ -1,19 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Article Detail - Enablen</title>
-    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="./css/global.css" />
-    <link rel="stylesheet" href="./css/components/typography_and_layout.css" />
-    <link rel="stylesheet" href="./css/components/button.css" />
-    <link rel="stylesheet" href="./css/components/dotted_lsit.css" />
-    <link rel="stylesheet" href="./css/components/ltri_section.css" />
-    <link rel="stylesheet" href="./css/article_detail.css" />
-</head>
+<?php $page_title = "Article Detail";
+include("./includes/base_layout.php") ?>
+<link rel="stylesheet" href="./css/article_detail.css" />
+<link rel="stylesheet" href="./css/components/dotted_lsit.css" />
 
 
 <body>
@@ -98,45 +86,45 @@
     <section class="related_articles_section">
         <h2 class="heading">Related Articles</h2>
         <div class="articles">
-        <div class="article">
-                    <div class="article_img_container">
-                        <img src="./images/articles_and_news_3.png" width="380" height="250" alt="" class="article_img">
-                    </div>
-                    <div class="article_info">
-                        <p class="article_date sm text-500">27 Jan 2021</p>
-                        <h4 class="article_title text-black">Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium </h4>
-                        <div class="tags">
-                            <p class="tag_item">Grant Writing</p>
-                            <p class="tag_item">Health Industry</p>
-                        </div>
+            <div class="article">
+                <div class="article_img_container">
+                    <img src="./images/articles_and_news_3.png" width="380" height="250" alt="" class="article_img">
+                </div>
+                <div class="article_info">
+                    <p class="article_date sm text-500">27 Jan 2021</p>
+                    <h4 class="article_title text-black">Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium </h4>
+                    <div class="tags">
+                        <p class="tag_item">Grant Writing</p>
+                        <p class="tag_item">Health Industry</p>
                     </div>
                 </div>
-                <div class="article">
-                    <div class="article_img_container">
-                        <img src="./images/articles_and_news_3.png" width="380" height="250" alt="" class="article_img">
-                    </div>
-                    <div class="article_info">
-                        <p class="article_date sm text-500">27 Jan 2021</p>
-                        <h4 class="article_title text-black">Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium </h4>
-                        <div class="tags">
-                            <p class="tag_item">Grant Writing</p>
-                            <p class="tag_item">Health Industry</p>
-                        </div>
+            </div>
+            <div class="article">
+                <div class="article_img_container">
+                    <img src="./images/articles_and_news_3.png" width="380" height="250" alt="" class="article_img">
+                </div>
+                <div class="article_info">
+                    <p class="article_date sm text-500">27 Jan 2021</p>
+                    <h4 class="article_title text-black">Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium </h4>
+                    <div class="tags">
+                        <p class="tag_item">Grant Writing</p>
+                        <p class="tag_item">Health Industry</p>
                     </div>
                 </div>
-                <div class="article">
-                    <div class="article_img_container">
-                        <img src="./images/articles_and_news_3.png" width="380" height="250" alt="" class="article_img">
-                    </div>
-                    <div class="article_info">
-                        <p class="article_date sm text-500">27 Jan 2021</p>
-                        <h4 class="article_title text-black">Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium </h4>
-                        <div class="tags">
-                            <p class="tag_item">Grant Writing</p>
-                            <p class="tag_item">Health Industry</p>
-                        </div>
+            </div>
+            <div class="article">
+                <div class="article_img_container">
+                    <img src="./images/articles_and_news_3.png" width="380" height="250" alt="" class="article_img">
+                </div>
+                <div class="article_info">
+                    <p class="article_date sm text-500">27 Jan 2021</p>
+                    <h4 class="article_title text-black">Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium </h4>
+                    <div class="tags">
+                        <p class="tag_item">Grant Writing</p>
+                        <p class="tag_item">Health Industry</p>
                     </div>
                 </div>
+            </div>
         </div>
     </section>
 
