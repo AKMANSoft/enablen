@@ -138,7 +138,7 @@ include("./includes/base_layout.php") ?>
                         </div>
                     </div>
                     <div class="spacer-50"></div>
-                    <a href="#" class="btn outlined">Learn More</a>
+                    <a href="./web_development.php" class="btn outlined">Learn More</a>
                 </div>
                 <div class="image_section">
                     <img src="./images/articles_and_news_4.png" width="488" height="430" alt="">
@@ -175,7 +175,7 @@ include("./includes/base_layout.php") ?>
                         </div>
                     </div>
                     <div class="spacer-50"></div>
-                    <a href="#" class="btn outlined">Learn More</a>
+                    <a href="./elearning.php" class="btn outlined">Learn More</a>
                 </div>
                 <div class="image_section">
                     <img src="./images/solutions.png" width="488" height="430" alt="">
@@ -212,7 +212,7 @@ include("./includes/base_layout.php") ?>
                         </div>
                     </div>
                     <div class="spacer-50"></div>
-                    <a href="#" class="btn outlined">Learn More</a>
+                    <a href="./grant_writing.php" class="btn outlined">Learn More</a>
                 </div>
                 <div class="image_section">
                     <img src="./images/articles_and_news_4.png" width="488" height="430" alt="">

@@ -1,6 +1,6 @@
 <?php $page_title = "E Learning Service";
 include("./includes/base_layout.php") ?>
-<link rel="stylesheet" href="./css/eLearning.css" />
+<link rel="stylesheet" href="./css/elearning.css" />
 <link rel="stylesheet" href="./css/components/dotted_lsit.css" />
 
 

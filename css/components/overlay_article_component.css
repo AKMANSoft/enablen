@@ -5,7 +5,8 @@
     width: 100%;
     display: none;
     flex-direction: column;
-    height: 95%;
+    height: auto;
+    max-height: 95%;
     overflow-y: scroll;
     max-width: 1000px;
     background: #FFFFFF;
@@ -94,6 +95,7 @@
     .overlay_article_component {
         height: 100%;
         padding-top: 60px;
+        max-height: none;
     }
     .overlay_article_component > * {
         margin-left: 20px;
