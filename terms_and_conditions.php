@@ -31,17 +31,35 @@ include("./includes/header.php"); ?>
         Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequaturm exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur
     </p>
 
-    <p class="mainHeading2">Sensitive Information</p>
-    <p class="submainHeading6"> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</p>
-
-    <ul class="list">
-        <li class="list1">Lorem ipsum dolor sit amet, consectetur adipiscing eliLorem</li>
-        <li class="list1">ipsum dolor sit amet, consectetur adipiscing</li>
-        <li class="list1">ipsum dolor sit amet, consectetur adipiscing</li>
-        <li class="list1">Facilisi morbi sit consectetur elit</li>
-        <li class="list1">Lorem ipsum dolor sit amet, consectetur adipiscing eliLorem</li>
-        <li>ipsum dolor sit amet, consectetur adipiscing</li>
-    </ul>
+        <p class="mainHeading2">Sensitive Information</p>
+        <p class="submainHeading6"> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</p>
+        
+        <div class="dotted_list green">
+            <div class="dotted_item">
+                <i class="bi bi-circle-fill"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing eliLorem</p>
+            </div>
+            <div class="dotted_item">
+                <i class="bi bi-circle-fill"></i>
+                <p>ipsum dolor sit amet, consectetur adipiscing</p>
+            </div>
+            <div class="dotted_item">
+                <i class="bi bi-circle-fill"></i>
+                <p>ipsum dolor sit amet, consectetur adipiscing</p>
+            </div>
+            <div class="dotted_item">
+                <i class="bi bi-circle-fill"></i>
+                <p>Facilisi morbi sit consectetur elit</p>
+            </div>
+            <div class="dotted_item">
+                <i class="bi bi-circle-fill"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing eliLorem</p>
+            </div>
+            <div class="dotted_item">
+                <i class="bi bi-circle-fill"></i>
+                <p>ipsum dolor sit amet, consectetur adipiscing</p>
+            </div>
+        </div>
 
 
     <p class="mainHeading2">Sensitive information will be used by us only:</p>

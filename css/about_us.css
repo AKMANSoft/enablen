@@ -4,7 +4,6 @@
     display: flex;
     flex-direction: column;
     padding-top: 232px;
-    padding-bottom: 120px;
     width: 100%;
 
 }
@@ -140,6 +139,7 @@
     .aboutUs-subheading{
         flex-direction: column;
         gap: 10px;
+        margin-bottom: 30px;
     }
     .aboutUs-subheading p{
       
@@ -165,9 +165,11 @@
     }
     .aboutus-footer1{
         width: 100%;
-        justify-content:space-between;
+       height: auto;
         
-        
+    }
+    aboutus-footer{
+        max-width: 295px;
     }
     .aboutus-footer-h1{
         
@@ -202,11 +204,11 @@
     }
     .aboutus-footerflex2{
         margin-left: 40px;
-        align-items: center;
     }
     .aboutus-footerflex4{
         margin-right: 40px;
     }
+ 
 
 }
 
@@ -266,12 +268,15 @@
 
 
 
+
+
 /* Our Values Section Start  */
 
 .our-values{
     padding-top: 90px;
     padding-bottom: 114px;
     background: rgba(129, 194, 22, 0.1);
+    margin-bottom: 90px;
 }
 .our-values-top{
     display: flex;
@@ -332,6 +337,9 @@
 .our-value-img{
     display: block;
     margin-right: 15px;
+    width: 50px;
+    height: 50px;
+  
 }
 
 .heading1{
@@ -362,6 +370,7 @@
 .our-values{
     padding-top: 40px;
     padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 .our-values p{
     max-width: 100%;
@@ -379,6 +388,10 @@
     align-items: flex-start;
     width: 100%;
 
+}
+.our-value-img{
+    width: 40px;
+    height: 40px;
 }
 
 .our-values-bottom, .our-values-bottom1, .our-values-bottom2{

@@ -92,40 +92,7 @@ include("./includes/base_layout.php") ?>
 
 
 
-    <section class="ltri_section left_image whether_section">
-        <div class="section_left">
-            <img src="images/our_imapct.png" width="484" height="460" alt="">
-        </div>
-        <div class="section_right">
-            <h3 class="heading">Whether you need to improve your online presence or revamp things to better reach your
-                audience.</h3>
-            <div class="spacer-20"></div>
-            <p class="desc">There are clear benefits of working with us:</p>
-            <div class="spacer-30"></div>
-            <div class="dotted_list green">
-                <div class="dotted_item">
-                    <i class="bi bi-circle-fill"></i>
-                    <p>Focus on your business while we focus on your web development project.</p>
-                </div>
-                <div class="dotted_item">
-                    <i class="bi bi-circle-fill"></i>
-                    <p>Gain instant access to web development expertise.</p>
-                </div>
-                <div class="dotted_item">
-                    <i class="bi bi-circle-fill"></i>
-                    <p>We work fast. Launch your web project quicker.</p>
-                </div>
-                <div class="dotted_item">
-                    <i class="bi bi-circle-fill"></i>
-                    <p>BCross-compatibility across devices and screens.</p>
-                </div>
-                <div class="dotted_item">
-                    <i class="bi bi-circle-fill"></i>
-                    <p>Avail 15-day post-project support at no additional cost.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php include("./includes/whether_list_section.php") ?>
 
     <section class="ltri_section freebie_section">
         <div class="content_section">

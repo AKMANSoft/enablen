@@ -63,6 +63,7 @@
     text-align: left;
     color: rgba(51, 51, 51, 0.8);
     max-width: 794px;
+    margin-bottom: 20px;
 }
 .submainHeading7{
   
@@ -84,7 +85,16 @@
     color: rgba(51, 51, 51, 0.8);
     max-width: 804px;
 }
-ul{
+
+.dotted_list {
+    gap: 8px;
+}
+.dotted_list .dotted_item>i {
+    margin-top: 6px;
+    font-size: 10px;
+}
+
+/* ul{
   
     font-size: 14px;
     font-weight: 400;
@@ -98,7 +108,7 @@ ul{
 }
 ul li{
     margin-bottom: 8px;
-}
+} */
 
 
 
