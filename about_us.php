@@ -141,7 +141,7 @@
         <div class="our-values-bottom2">
             <div class="bottom-div">
                 <div>
-                <img src="images/integrity.png" width="50" height="50" alt="" class="our-value-img">
+                <img src="images/integrity.png"  alt="" class="our-value-img">
                 </div>
                 <div>
                 <p class="heading1">Integrity</p>
