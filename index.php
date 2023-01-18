@@ -14,13 +14,13 @@ include("./includes/base_layout.php") ?>
         <div id="home_sldier" class="home_sldier">
             <div class="embla__container">
                 <div class="embla__slide">
-                    <img class="embla__slide__img" src="./images/home.png" alt="Your alt text" />
+                    <img class="embla__slide__img" src="./images/index_home_slide_image.svg" alt="Your alt text" />
                 </div>
                 <div class="embla__slide">
-                    <img class="embla__slide__img" src="./images/home.png" alt="Your alt text" />
+                    <img class="embla__slide__img" src="./images/index_home_slide_image.svg" alt="Your alt text" />
                 </div>
                 <div class="embla__slide">
-                    <img class="embla__slide__img" src="./images/home.png" alt="Your alt text" />
+                    <img class="embla__slide__img" src="./images/index_home_slide_image.svg" alt="Your alt text" />
                 </div>
             </div>
         </div>
