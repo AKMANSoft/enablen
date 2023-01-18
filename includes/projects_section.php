@@ -35,5 +35,4 @@
             </div>
         </div>
     </div>
-    <a href="#" class="btn outlined">View All</a>
 </section>
