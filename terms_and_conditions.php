@@ -61,25 +61,6 @@ include("./includes/header.php"); ?>
             </div>
         </div>
 
-        <!-- <ul class="list">
-            <li class="list1">Lorem ipsum dolor sit amet, consectetur adipiscing eliLorem</li>
-            <li class="list1">ipsum dolor sit amet, consectetur adipiscing</li>
-            <li class="list1">ipsum dolor sit amet, consectetur adipiscing</li>
-            <li class="list1">Facilisi morbi sit consectetur elit</li>
-            <li class="list1">Lorem ipsum dolor sit amet, consectetur adipiscing eliLorem</li>
-            <li>ipsum dolor sit amet, consectetur adipiscing</li>
-        </ul> -->
-      
-
-    <ul class="list">
-        <li class="list1">Lorem ipsum dolor sit amet, consectetur adipiscing eliLorem</li>
-        <li class="list1">ipsum dolor sit amet, consectetur adipiscing</li>
-        <li class="list1">ipsum dolor sit amet, consectetur adipiscing</li>
-        <li class="list1">Facilisi morbi sit consectetur elit</li>
-        <li class="list1">Lorem ipsum dolor sit amet, consectetur adipiscing eliLorem</li>
-        <li>ipsum dolor sit amet, consectetur adipiscing</li>
-    </ul>
-
 
     <p class="mainHeading2">Sensitive information will be used by us only:</p>
     <p class="submainHeading7">Cras ac ex mollis, molestie libero at, mattis sapien. Maecenas varius sit amet justo at tempor. Aenean lectus lectus, ullamcorper eu massa vel, tincidunt tristique dolor. Pellentesque et nibh id lacus pretium interdum. Donec nec nibh a ex mattis cursus eu eget tortor. Curabitur tempus, orci ut euismod scelerisque, ante eros varius massa, ut pulvinar orci sem non risus. Nam lacinia sit amet sapien a consectetur. Nulla aliquam mauris id nibh tempus, eu vestibulum urna consequat.</p>
