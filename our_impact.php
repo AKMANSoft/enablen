@@ -22,7 +22,7 @@ include("./includes/base_layout.php") ?>
                     <span></span>
                     <span></span>
                 </div>
-                <img src="images/our_impact.png" width="484" height="460" alt="" class="home_image">
+                <img src="images/our_impact.webp" width="484" height="460" alt="" class="home_image">
             </div>
         </div>
     </section>
