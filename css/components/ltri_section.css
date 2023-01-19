@@ -136,17 +136,17 @@
 }
 
 .ltri_section .image_section>.image_container>.gradient_line_style>span:nth-child(2) {
-    background: #81C216;
+    background: var(--green-color);
     opacity: 0.6;
 }
 
 .ltri_section .image_section>.image_container>.gradient_line_style>span:nth-child(3) {
-    background: #81C216;
+    background: var(--green-color);
     opacity: 0.4;
 }
 
 .ltri_section .image_section>.image_container>.gradient_line_style>span:nth-child(4) {
-    background: #81C216;
+    background: var(--green-color);
     opacity: 0.2;
 }
 

@@ -482,6 +482,10 @@
     display: none;
 }
 
+.solutions_section .ltri_section {
+    padding: 0;
+}
+
 
 .solutions_section .tab_content_view.active {
     display: flex;
