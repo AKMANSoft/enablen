@@ -8,7 +8,8 @@
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/global.css" />
     <link rel="stylesheet" href="../css/components/ltri_section.css">
-    <link rel="stylesheet" href="../css/components/typography_and_layout.css" />
+    <link rel="stylesheet" href="../css/components/typography.css" />
+    <link rel="stylesheet" href="../css/components/layout.css" />
     <link rel="stylesheet" href="../css/components/button.css" />
     <script src="../scripts/embla/embla-carousel.js"></script>
 </head>

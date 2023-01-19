@@ -11,27 +11,25 @@
                     <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elitor sit ameor sit ame...
                     </p>
                     <span class="divider mt-5"></span>
-                    <p class="desc">Category : <strong>Grant Writing</strong></p>
+                    <strong>Grant Writing</strong>
                 </div>
             </div>
             <div class="project_item">
                 <img src="./images/product.png" width="346" height="280" alt="">
                 <div class="project_info">
                     <h4 class="name text-black">Lorem ipsum dolor sconsec it</h4>
-                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elitor sit ameor sit ame...
-                    </p>
+                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elitor sit ameor sit ame...</p>
                     <span class="divider mt-5"></span>
-                    <p class="desc">Category : <strong>Web Development</strong></p>
+                    <strong>Web Development</strong>
                 </div>
             </div>
             <div class="project_item">
                 <img src="./images/product.png" width="346" height="280" alt="">
                 <div class="project_info">
                     <h4 class="name text-black">Lorem ipsum dolor sconsec it</h4>
-                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elitor sit ameor sit ame...
-                    </p>
+                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elitor sit ameor sit ame...</p>
                     <span class="divider mt-5"></span>
-                    <p class="desc">Category : <strong>E Learning Service</strong></p>
+                    <strong>E Learning Service</strong>
                 </div>
             </div>
         </div>

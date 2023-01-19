@@ -1,0 +1,20 @@
+.terms_and_conditions_section {
+    padding-top: 240px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.terms_and_conditions_section .content {
+    width: 100%;
+    max-width: 800px;
+}
+
+
+.terms_and_conditions_section .content > .heading {
+    margin-bottom: 20px;
+}
+
+
+.terms_and_conditions_section .content > p {
+}
