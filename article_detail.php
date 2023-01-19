@@ -49,7 +49,7 @@ include("./includes/base_layout.php") ?>
         <div class="spacer-20"></div>
         <h4>At vero eos et accusamus et iusto odio dignissimos ducimus praesentium</h4>
         <div class="spacer-20"></div>
-        <ul>
+        <ul class="list">
             <li class="p sm text-black-80">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturiAt vero eoorrupti quos dolores et quas molestias excepturi</li>
             <li class="p sm text-black-80">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus,Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus,</li>
             <li class="p sm text-black-80">Cum soluta nobis est eligendi optio cumque nihil impedit quo mimaxime placeat facere possimus.</li>

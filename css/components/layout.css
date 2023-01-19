@@ -9,6 +9,58 @@
 }
 
 
+
+
+
+
+
+ul.list {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+ul.list.gap-10 {
+    gap: 10px;
+}
+ul.list.gap-15 {
+    gap: 15px;
+}
+ul.list.gap-5 {
+    gap: 5px;
+}
+ul.list.gap-20 {
+    gap: 20px;
+}
+
+ul.list>li {
+    list-style: none;
+    position: relative;
+}
+
+ul.list>li::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    display: block;
+    background-color: var(--green-color);
+    border-radius: 100%;
+    top: 11px;
+    transform: translateY(-50%);
+    left: -20px;
+}
+
+
+
+
+
+
+
+
+
+
 .divider {
     display: block;
     width: 100%;
