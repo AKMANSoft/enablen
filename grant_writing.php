@@ -18,7 +18,15 @@ include("./includes/base_layout.php") ?>
             <button type="button" class="btn outlined">Book A Call</button>
         </div>
         <div class="image_section">
-            <img src="./images/home_image.png" width="484" height="460" alt="">
+            <div class="image_container">
+                <div class="gradient_line_style">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <img src="./images/home_image.png" width="484" height="460" alt="">
+            </div>
         </div>
     </section>
 
@@ -112,7 +120,10 @@ include("./includes/base_layout.php") ?>
             <a href="#" class="btn outlined white mt-15">Book a call</a>
         </div>
         <div class="image_section">
-            <img src="images/benefits.png" width="490" height="515" alt="">
+            <div class="image_container">
+                <div class="backdrop_globe"></div>
+                <img src="images/benefits.png" width="490" height="515" alt="">
+            </div>
         </div>
     </section>
 

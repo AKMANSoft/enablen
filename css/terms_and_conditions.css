@@ -17,6 +17,11 @@
 
 
 
+@media screen and (max-width:980px) {
+    .terms_and_conditions_section {
+        padding-top: 130px;
+    }
+}
 
 @media screen and (max-width:760px) {
     .terms_and_conditions_section {

@@ -79,7 +79,15 @@ include("./includes/base_layout.php") ?>
     </section>
     <section class="ltri_section impact_section">
         <div class="image_section">
-            <img src="images/our_imapct.png" width="468" height="446" alt="">
+            <div class="image_container">
+                <div class="gradient_line_style">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <img src="images/our_impact.png" width="468" height="446" alt="">
+            </div>
         </div>
         <div class="content_section">
             <h2 class="heading">Our impact</h2>

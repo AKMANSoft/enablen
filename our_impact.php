@@ -15,10 +15,80 @@ include("./includes/base_layout.php") ?>
             <button type="button" class="btn outlined">Book A Call</button>
         </div>
         <div class="image_section">
-            <img src="./images/home_image.png" width="484" height="460" alt="" class=" home_image">
+            <div class="image_container">
+                <div class="gradient_line_style">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <img src="images/our_impact.png" width="484" height="460" alt="" class="home_image">
+            </div>
         </div>
     </section>
 
+
+
+
+    <section class="gridded_section">
+        <div class="ltri_section gap-web-120 gap-mobile-30 max-1000">
+            <div class="image_section">
+                <div class="image_container">
+                    <div class="gradient_line_style">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <img src="./images/mental_health.svg" width="386" height="360" alt="">
+                </div>
+            </div>
+            <div class="content_section">
+                <h2 class="heading">Mental Health</h2>
+                <p class="desc">We support charitable, community-based mental health initiatives.</p>
+                <a href="/our_impact_detail.php" class="btn outlined mt-50">Learn More</a>
+            </div>
+        </div>
+        <div class="ltri_section reverse_in_web gap-web-120 gap-mobile-30 max-1000">
+            <div class="image_section">
+                <div class="image_container">
+                    <div class="gradient_line_style">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <img src="./images/respect_in_workplace.svg" width="386" height="360" alt="">
+                </div>
+            </div>
+            <div class="content_section">
+                <h2 class="heading">Respect in the Workplace</h2>
+                <p class="desc">We support initiatives that foster respectful workplaces and zero tolerance towards workplace sexual harassment.</p>
+                <a href="/our_impact_detail.php" class="btn outlined mt-50">Learn More</a>
+            </div>
+        </div>
+        <div class="ltri_section gap-web-120 gap-mobile-30 max-1000">
+            <div class="image_section">
+                <div class="image_container">
+                    <div class="gradient_line_style">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <img src="./images/youth_engagement.svg" width="386" height="360" alt="">
+                </div>
+            </div>
+            <div class="content_section">
+                <h2 class="heading">Youth Engagement</h2>
+                <p class="desc">We support initiatives where young people are involved in responsible, challenging actions to create positive social change</p>
+                <a href="/our_impact_detail.php" class="btn outlined mt-50">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 
 
     <section class="gridded_section">
         <div class="grid_section">
@@ -54,7 +124,7 @@ include("./includes/base_layout.php") ?>
                 <button type="button" class="btn outlined">Learn More</button>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
     <?php

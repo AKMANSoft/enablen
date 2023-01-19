@@ -18,7 +18,15 @@ include("./includes/base_layout.php") ?>
             <button type="button" class="btn outlined">Book A Call</button>
         </div>
         <div class="image_section">
-            <img src="./images/home_image.png" width="484" height="460" alt="">
+            <div class="image_container">
+                <div class="gradient_line_style">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <img src="./images/home_image.png" width="484" height="460" alt="">
+            </div>
         </div>
     </section>
 
@@ -111,7 +119,9 @@ include("./includes/base_layout.php") ?>
             <button type="button" class="btn outlined">Download</button>
         </div>
         <div class="image_section">
-            <img src="images/book.png" class="contain" width="372" height="440" />
+            <div class="image_container">
+                <img src="images/book.png" class="contain" width="372" height="440" />
+            </div>
         </div>
     </section>
 

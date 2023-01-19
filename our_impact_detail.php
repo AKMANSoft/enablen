@@ -46,7 +46,15 @@ include("./includes/base_layout.php") ?>
 
     <section class="ltri_section max-1000 challenge_section">
         <div class="image_section">
-            <img src="images/our_imapct.png" width="468" height="446" alt="">
+            <div class="image_container">
+                <div class="gradient_line_style">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <img src="images/our_impact.png" width="468" height="446" alt="">
+            </div>
         </div>
         <div class="content_section">
             <h2 class="heading">The Challenge</h2>
@@ -88,7 +96,15 @@ include("./includes/base_layout.php") ?>
             </p>
         </div>
         <div class="image_section">
-            <img src="images/our_imapct.png" width="468" height="446" alt="">
+            <div class="image_container">
+                <div class="gradient_line_style">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <img src="images/our_impact.png" width="468" height="446" alt="">
+            </div>
         </div>
     </section>
 
@@ -120,7 +136,7 @@ include("./includes/base_layout.php") ?>
     <section class="articles_and_news_section">
         <h2 class="heading">Articles and News</h2>
         <div class="articles">
-        <div class="article featured">
+            <div class="article featured">
                 <img src="./images/articles_and_news_section_1.png" width="590" height="278" alt="">
                 <div class="article_info">
                     <p class="strong">27 Jan 2021</p>

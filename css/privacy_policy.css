@@ -1,0 +1,34 @@
+.privacy_policy_section {
+    padding-top: 240px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.privacy_policy_section .content {
+    width: 100%;
+    max-width: 800px;
+}
+
+
+.privacy_policy_section .content > .heading {
+    margin-bottom: 20px;
+}
+
+
+
+
+@media screen and (max-width:980px) {
+    .privacy_policy_section {
+        padding-top: 130px;
+    }
+}
+
+@media screen and (max-width:760px) {
+    .privacy_policy_section .content > .heading {
+        margin-bottom: 10px;
+    }
+    .privacy_policy_section .content > h4 {
+        font-weight: 700;
+    }
+}
