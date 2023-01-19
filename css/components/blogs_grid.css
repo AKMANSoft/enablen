@@ -1,0 +1,241 @@
+.blogs_grid {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+
+
+
+
+
+.blogs_grid .blog_item {
+    max-width: 385px;
+    width: max-content;
+    min-width: 250px;
+    height: 100%;
+    border-radius: 10px 70px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+.blogs_grid .blog_item .blog_info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+
+
+.blogs_grid .blog_item .blog_info .blog_title {
+    margin-top: 12px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+.blogs_grid .blog_item .blog_img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    -o-object-fit: cover;
+    -o-object-position: center;
+    overflow: hidden;
+    height: 250px;
+    border-radius: 10px 70px 10px 10px;
+}
+
+
+
+
+.blogs_grid .blog_item .blog_info .tags {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+}
+
+
+
+
+
+.blogs_grid .blog_item .blog_info .tags .tag_item {
+    height: min-content;
+    width: auto;
+    position: relative;
+}
+
+.blogs_grid .blog_item .blog_info .tags .tag_item::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: var(--green-color);
+    top: 50%;
+    right: -18px;
+    transform: translateY(-50%);
+    border-radius: 100%;
+}
+
+.blogs_grid .blog_item .blog_info .tags .tag_item:last-child:after {
+    display: none;
+}
+
+
+
+
+
+
+
+
+.blogs_grid .blog_item.featured {
+    max-width: none;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    background: rgba(14, 22, 28, 0.03);
+    border-radius: 10px 100px 10px 10px;
+    gap: 0;
+    overflow: hidden;
+}
+
+
+.blogs_grid .blog_item.featured .blog_img_container {
+    overflow: hidden;
+    width: 50%;
+    min-height: 100%;
+    position: relative;
+}
+
+.blogs_grid .blog_item.featured .blog_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px 0px 0px 10px;
+    object-fit: cover;
+    object-position: center;
+    -o-object-fit: cover;
+    -o-object-position: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.blogs_grid .blog_item.featured .blog_info {
+    width: 50%;
+    padding: 30px 20px 20px 20px;
+}
+
+
+.blogs_grid .blog_item.featured .blog_info .extra_info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+
+.blogs_grid .blog_item.featured .blog_info .extra_info .desc {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+@media screen and (max-width:1280px) {
+    .blogs_grid .blog_item {
+        width: 380px;
+    }
+}
+
+
+@media screen and (max-width:1024px) {
+    .blogs_grid .blog_item {
+        width: 290px;
+    }
+}
+
+
+
+@media screen and (max-width:992px) {
+    .blogs_grid .blog_item {
+        width: 280px;
+    }
+}
+
+
+
+
+@media screen and (max-width:980px) {
+    .blogs_grid .blog_item {
+        width: 350px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .blogs_grid .blog_item {
+        width: 350px;
+    }
+}
+
+
+
+@media screen and (max-width:760px) {
+
+    .blogs_grid .blog_item {
+        width: 100%;
+        max-width: 500px;
+        border-radius: 6px 50px 0px 6px;
+        gap: 20px;
+    }
+
+    .blogs_grid .blog_item .blog_info {
+        margin-bottom: 0;
+    }
+
+    .blogs_grid .blog_item .blog_info .blog_title {
+        margin-top: 7px;
+        margin-bottom: 10px;
+    }
+
+    .blogs_grid .blog_item .blog_img {
+        border-radius: 6px 50px 0px 6px;
+    }
+
+    .blogs_grid .blog_item.featured {
+        flex-direction: column;
+        border-radius: 6px 50px 0px 6px;
+        max-width: 500px;
+    }
+
+    .blogs_grid .blog_item.featured .blog_info {
+        width: 100%;
+    }
+
+    .blogs_grid .blog_item.featured .blog_img_container {
+        width: 100%;
+    }
+
+    .blogs_grid .blog_item.featured .blog_img_container .blog_img {
+        position: relative;
+        height: 100%;
+        border-radius: 6px 50px 0px 6px;
+    }
+}
