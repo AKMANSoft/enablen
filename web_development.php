@@ -157,7 +157,10 @@ include("./includes/base_layout.php") ?>
             <button type="button" class="btn outlined">Download</button>
         </div>
         <div class="image_section">
-            <img src="images/book.png" class="contain" width="372" height="440" />
+            <div class="image_container">
+                <div class="freebie_img_drop_shadow"></div>
+                <img src="images/book.png" class="contain" width="372" height="440" />
+            </div>
         </div>
     </section>
 

@@ -16,7 +16,7 @@
 
 
 
-@media screen and (max-width:980px) {
+@media screen and (max-width:767px) {
     .home_section {
         padding-top: 130px;
         padding-bottom: 50px;
@@ -58,7 +58,7 @@
 
 
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 767px) {
     .process_section {
         gap: 30px;
         padding-top: 0;
@@ -128,7 +128,7 @@
 
 
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 767px) {
     .benifits_section {
         gap: 30px;
         padding: 50px var(--max-hor-padding);
@@ -204,7 +204,7 @@
 
 
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 767px) {
     .freebie_section {
         gap: 50px;
         padding: 50px var(--max-hor-padding);
@@ -249,40 +249,3 @@
 
 
 
-
-
-/* Media Queries  */
-
-
-@media screen and (max-width: 1024px) {
-    section {
-        padding: 90px var(--section_hor_med_padding);
-    }
-}
-
-
-
-@media screen and (max-width: 900px) {
-    section {
-        padding: 90px var(--section_hor_small_padding);
-    }
-
-
-}
-
-
-
-@media screen and (max-width: 767px) {
-    section {
-        flex-direction: column;
-        padding: 60px var(--section_hor_small_padding);
-    }
-
-    /* footer, header {
-        padding: 0 var(--section_hor_small_padding);
-    } */
-    .section_left,
-    .section_right {
-        width: 100%;
-    }
-}

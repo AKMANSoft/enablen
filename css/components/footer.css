@@ -125,6 +125,14 @@ footer .bottom_section .social_icons .social_icon {
     object-fit: contain;
     object-position: center;
     border-radius: 100%;
+    outline: none;
+    user-select: none;
+    border: 1px solid transparent;
+    transition: all .5s ease;
+}
+
+footer .bottom_section .social_icons .social_icon:hover{
+    border-color: var(--black-80);
 }
 
 
@@ -176,6 +184,11 @@ footer .bottom_section .other_info {
     footer .middle_section .section_right .links_section .heading>i {
         display: block;
         float: right;
+        transition: all .3s ease;
+    }
+
+    footer .middle_section .section_right .links_section.links_expanded .heading > i {
+        transform: rotateX(180deg);
     }
 
 
@@ -188,13 +201,15 @@ footer .bottom_section .other_info {
         display: none;
         padding-left: 20px;
         flex-direction: row;
+        justify-content: flex-end;
+        padding-right: 30px;
         column-gap: 30px;
         row-gap: 10px;
         flex-wrap: wrap;
     }
 
 
-    footer .middle_section .section_right .links_section:is(:hover, :focus, :active) .links {
+    footer .middle_section .section_right .links_section.links_expanded .links {
         display: flex;
     }
 

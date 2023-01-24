@@ -18,7 +18,7 @@
 
 
 
-@media screen and (max-width:980px) {
+@media screen and (max-width:767px) {
     .home_section {
         padding-top: 130px;
         padding-bottom: 50px;
@@ -55,7 +55,7 @@
 
 .process_section {
     background: url(../images/boxes.png) no-repeat;
-    background-position-x: 80px;
+    background-position-x: calc(var(--max-hor-padding) - 80px);
     background-position-y: calc(100% - 90px);
 }
 
@@ -67,7 +67,7 @@
 
 
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 767px) {
     .process_section {
         gap: 30px;
         padding-top: 0;
@@ -125,7 +125,7 @@
 
 
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 767px) {
     .tech_stack_section {
         gap: 30px;
         padding: 50px var(--max-hor-padding);
@@ -189,7 +189,7 @@
 
 
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 767px) {
     .freebie_section {
         gap: 50px;
         padding: 50px var(--max-hor-padding);
@@ -224,7 +224,7 @@
 
 
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 767px) {
     .whether_section {
         gap: 30px;
         padding-top: 50px;
@@ -251,7 +251,7 @@
 
 
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 767px) {
     .reviews_section {
         padding-top: 0px;
     }

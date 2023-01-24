@@ -25,7 +25,7 @@ include("./includes/base_layout.php") ?>
                         <button type="button" class="category_item">Category D</button>
                     </div>
                 </div>
-                <button id="categories_next_scroll_btn" type="button" class="scroll_next_btn bi bi-chevron-right"></button>
+                <button id="categories_next_scroll_btn" type="button" class="scroll_next_btn active bi bi-chevron-right"></button>
             </div>
             <div class="search_bar_section">
                 <input class="search_bar" type="text" name="blogs_search_text" id="blogs_search_input" placeholder="Search">
@@ -51,123 +51,126 @@ include("./includes/base_layout.php") ?>
                     </div>
                 </div>
             </div>
-            <div href="./article_detail.php" class="blog_item">
+            <a href="./article_detail.php" class="blog_item">
                 <div class="blog_img_container">
                     <img src="./images/articles_and_news_3.png" width="380" height="250" alt="" class="blog_img">
                 </div>
                 <div class="blog_info">
                     <p class="blog_date sm text-500">27 Jan 2021</p>
-                    <a href="./article_detail.php" class="h4 blog_title">Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium </a>
+                    <h4 class="blog_title">Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium </h4>
                     <div class="tags">
                         <p class="tag_item">Grant Writing</p>
                         <p class="tag_item">Health Industry</p>
                     </div>
                 </div>
-            </div>
-            <div href="./article_detail.php" class="blog_item">
+            </a>
+            <a href="./article_detail.php" class="blog_item">
                 <div class="blog_img_container">
                     <img src="./images/articles_and_news_3.png" width="380" height="250" alt="" class="blog_img">
                 </div>
                 <div class="blog_info">
                     <p class="blog_date sm text-500">27 Jan 2021</p>
-                    <a href="./article_detail.php" class="h4 blog_title">Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium </a>
+                    <h4 class="blog_title">Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium </h4>
                     <div class="tags">
                         <p class="tag_item">Grant Writing</p>
                         <p class="tag_item">Health Industry</p>
                     </div>
                 </div>
-            </div>
-            <div href="./article_detail.php" class="blog_item">
+            </a>
+            <a href="./article_detail.php" class="blog_item">
                 <div class="blog_img_container">
                     <img src="./images/articles_and_news_3.png" width="380" height="250" alt="" class="blog_img">
                 </div>
                 <div class="blog_info">
                     <p class="blog_date sm text-500">27 Jan 2021</p>
-                    <a href="./article_detail.php" class="h4 blog_title">Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium </a>
+                    <h4 class="blog_title">Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium </h4>
                     <div class="tags">
                         <p class="tag_item">Grant Writing</p>
                         <p class="tag_item">Health Industry</p>
                     </div>
                 </div>
-            </div>
-            <div href="./article_detail.php" class="blog_item">
+            </a>
+
+            <a href="./article_detail.php" class="blog_item">
                 <div class="blog_img_container">
                     <img src="./images/articles_and_news_3.png" width="380" height="250" alt="" class="blog_img">
                 </div>
                 <div class="blog_info">
                     <p class="blog_date sm text-500">27 Jan 2021</p>
-                    <a href="./article_detail.php" class="h4 blog_title">Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium </a>
+                    <h4 class="blog_title">Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium </h4>
                     <div class="tags">
                         <p class="tag_item">Grant Writing</p>
                         <p class="tag_item">Health Industry</p>
                     </div>
                 </div>
-            </div>
-            <div href="./article_detail.php" class="blog_item">
+            </a>
+            <a href="./article_detail.php" class="blog_item">
                 <div class="blog_img_container">
                     <img src="./images/articles_and_news_3.png" width="380" height="250" alt="" class="blog_img">
                 </div>
                 <div class="blog_info">
                     <p class="blog_date sm text-500">27 Jan 2021</p>
-                    <a href="./article_detail.php" class="h4 blog_title">Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium </a>
+                    <h4 class="blog_title">Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium </h4>
                     <div class="tags">
                         <p class="tag_item">Grant Writing</p>
                         <p class="tag_item">Health Industry</p>
                     </div>
                 </div>
-            </div>
-            <div href="./article_detail.php" class="blog_item">
+            </a>
+            <a href="./article_detail.php" class="blog_item">
                 <div class="blog_img_container">
                     <img src="./images/articles_and_news_3.png" width="380" height="250" alt="" class="blog_img">
                 </div>
                 <div class="blog_info">
                     <p class="blog_date sm text-500">27 Jan 2021</p>
-                    <a href="./article_detail.php" class="h4 blog_title">Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium </a>
+                    <h4 class="blog_title">Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium </h4>
                     <div class="tags">
                         <p class="tag_item">Grant Writing</p>
                         <p class="tag_item">Health Industry</p>
                     </div>
                 </div>
-            </div>
-            <div href="./article_detail.php" class="blog_item">
+            </a>
+
+            <a href="./article_detail.php" class="blog_item">
                 <div class="blog_img_container">
                     <img src="./images/articles_and_news_3.png" width="380" height="250" alt="" class="blog_img">
                 </div>
                 <div class="blog_info">
                     <p class="blog_date sm text-500">27 Jan 2021</p>
-                    <a href="./article_detail.php" class="h4 blog_title">Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium </a>
+                    <h4 class="blog_title">Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium </h4>
                     <div class="tags">
                         <p class="tag_item">Grant Writing</p>
                         <p class="tag_item">Health Industry</p>
                     </div>
                 </div>
-            </div>
-            <div href="./article_detail.php" class="blog_item">
+            </a>
+            <a href="./article_detail.php" class="blog_item">
                 <div class="blog_img_container">
                     <img src="./images/articles_and_news_3.png" width="380" height="250" alt="" class="blog_img">
                 </div>
                 <div class="blog_info">
                     <p class="blog_date sm text-500">27 Jan 2021</p>
-                    <a href="./article_detail.php" class="h4 blog_title">Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium </a>
+                    <h4 class="blog_title">Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium </h4>
                     <div class="tags">
                         <p class="tag_item">Grant Writing</p>
                         <p class="tag_item">Health Industry</p>
                     </div>
                 </div>
-            </div>
-            <div class="blog_item">
+            </a>
+            <a href="./article_detail.php" class="blog_item">
                 <div class="blog_img_container">
                     <img src="./images/articles_and_news_3.png" width="380" height="250" alt="" class="blog_img">
                 </div>
                 <div class="blog_info">
                     <p class="blog_date sm text-500">27 Jan 2021</p>
-                    <a href="./article_detail.php" class="h4 blog_title">Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium </a>
+                    <h4 class="blog_title">Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium </h4>
                     <div class="tags">
                         <p class="tag_item">Grant Writing</p>
                         <p class="tag_item">Health Industry</p>
                     </div>
                 </div>
-            </div>
+            </a>
+
         </div>
     </section>
 

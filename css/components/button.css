@@ -1,21 +1,24 @@
 
 /* Global Button Design Start  */
 .btn {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration-line: none;
     -moz-text-decoration-line: none;
     border: none;
-    padding: 14px 28px;
     color: #fff;
     border-radius: 6px 30px 6px 6px;
     text-align: center;
     font-size: 16px;
+    line-height: 1;
     font-weight: 700;
-    line-height: 24px;
     letter-spacing: 0em;
-    width: 201px;
-    height: 56px;
+    width: 200px;
+    height: 55px;
+    padding: 14px 0;
 }
+
 
 
 .btn.filled {
@@ -26,7 +29,6 @@
 .btn.filled:active,
 .btn.filled:hover {
     background: var(--green-dark);
-    border-radius: 6px;
 }
 
 
@@ -61,19 +63,16 @@
 
 .btn.filled:disabled {
     background-color: var(--green-50);
-    border: 6px;
 }
 
 .btn.outlined:disabled {
     border-color: #ffffff1a;
-    border: 6px;
 }
 
 
 
 @media screen and (max-width: 980px) {
     .btn {
-        line-height: 26px;
         font-size: 14px;
         padding: 15px 0;
         border-radius: 6px 30px 6px 6px;

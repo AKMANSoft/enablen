@@ -10,7 +10,7 @@
                 <i id="header_menu_close_btn" class="close_menu_btn bi bi-x"></i>
             </div>
             <ul class="menu_items">
-                <li class="menu_item">
+                <li id="header_menu_item" class="menu_item">
                     <a href="#">Solutions <i class="bi bi-caret-down-fill"></i></a>
                     <div class="sub_menu_container">
                         <ul class="sub_menu">
@@ -20,19 +20,13 @@
                         </ul>
                     </div>
                 </li>
-                <li class="menu_item">
-                    <a href="#">Our Impact <i class="bi bi-caret-down-fill"></i></a>
-                    <div class="sub_menu_container">
-                        <ul class="sub_menu">
-                            <a href="/our_impact.php" class="sub_menu_item">Our Impact</a>
-                            <a href="/our_impact_detail.php" class="sub_menu_item">Our Impact Detail</a>
-                        </ul>
-                    </div>
+                <li id="header_menu_item" class="menu_item">
+                    <a href="/our_impact.php">Our Impact</a>
                 </li>
-                <li class="menu_item">
+                <li id="header_menu_item" class="menu_item">
                     <a href="/about_us.php">About us</a>
                 </li>
-                <li class="menu_item">
+                <li id="header_menu_item" class="menu_item">
                     <a href="/blogs.php">Articles</a>
                 </li>
                 <a href="#" class="btn filled">Book a call</a>

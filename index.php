@@ -148,7 +148,9 @@ include("./includes/base_layout.php") ?>
                     <a href="./web_development.php" class="btn outlined">Learn More</a>
                 </div>
                 <div class="image_section">
-                    <img src="./images/articles_and_news_4.png" width="488" height="430" alt="">
+                    <div class="image_container">
+                        <img src="./images/our_impact.webp" width="488" height="430" alt="">
+                    </div>
                 </div>
             </div>
             <div id="elearning" class="ltri_section tab_content_view">
@@ -185,7 +187,9 @@ include("./includes/base_layout.php") ?>
                     <a href="./elearning.php" class="btn outlined">Learn More</a>
                 </div>
                 <div class="image_section">
-                    <img src="./images/solutions.png" width="488" height="430" alt="">
+                    <div class="image_container">
+                        <img src="./images/articles_and_news_4.png" width="488" height="430" alt="">
+                    </div>
                 </div>
             </div>
             <div id="grant_writing" class="ltri_section tab_content_view">
@@ -222,7 +226,9 @@ include("./includes/base_layout.php") ?>
                     <a href="./grant_writing.php" class="btn outlined">Learn More</a>
                 </div>
                 <div class="image_section">
-                    <img src="./images/articles_and_news_4.png" width="488" height="430" alt="">
+                    <div class="image_container">
+                        <img src="./images/our_impact.webp" width="488" height="430" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -237,7 +243,7 @@ include("./includes/base_layout.php") ?>
             <div class="article featured">
                 <img src="./images/articles_and_news_section_1.png" width="590" height="278" alt="">
                 <div class="article_info">
-                    <p class="strong">27 Jan 2021</p>
+                    <p class="strong xsm">27 Jan 2021</p>
                     <a href="./article_detail.php" class="h4 mt-10">Sed ut perspiciatis unde omnis iste tis unde om nis iste errorsit
                         voluptatem accus...</a>
                     <div class="tags mt-15">
@@ -249,7 +255,7 @@ include("./includes/base_layout.php") ?>
             <div class="article ">
                 <img src="./images/articles_and_news_2.png" width="590" height="278" alt="">
                 <div class="article_info">
-                    <p class="strong">27 Jan 2021</p>
+                    <p class="strong xsm">27 Jan 2021</p>
                     <a href="./article_detail.php" class="h4 mt-10">Sed ut perspiciatis </a>
                     <div class="tags mt-15">
                         <p class="tag_item">Grant Writing</p>
@@ -260,7 +266,7 @@ include("./includes/base_layout.php") ?>
             <div class="article ">
                 <img src="./images/articles_and_news_3.png" width="590" height="278" alt="">
                 <div class="article_info">
-                    <p class="strong">27 Jan 2021</p>
+                    <p class="strong xsm">27 Jan 2021</p>
                     <a href="./article_detail.php" class="h4 mt-10">Sed ut perspiciatis unde</a>
                     <div class="tags mt-15">
                         <p class="tag_item">Grant Writing</p>
@@ -271,7 +277,7 @@ include("./includes/base_layout.php") ?>
             <div class="article ">
                 <img src="./images/articles_and_news_4.png" width="590" height="278" alt="">
                 <div class="article_info">
-                    <p class="strong">27 Jan 2021</p>
+                    <p class="strong xsm">27 Jan 2021</p>
                     <a href="./article_detail.php" class="h4 mt-10">Sed ut perspiciatis unde</a>
                     <div class="tags mt-15">
                         <p class="tag_item">Grant Writing</p>

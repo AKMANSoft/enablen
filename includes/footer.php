@@ -22,24 +22,24 @@
             </div>
         </div>
         <div class="section_right">
-            <div class="links_section">
-                <p class="heading strong text-black">LINKS <i class="bi bi-caret-down-fill"></i></p>
+            <div id="footer_links_container" class="links_section">
+                <p id="footer_links_container_heading" class="heading strong text-black">LINKS <i class="bi bi-caret-down-fill"></i></p>
                 <div class="links">
-                    <a href="/">Home</a>
+                    <a  href="/">Home</a>
                     <a href="/blogs.php">Articles</a>
                     <a href="/about_us.php">About us</a>
                 </div>
             </div>
-            <div class="links_section">
-                <p class="heading strong text-black">OUR SOLUTIONS <i class="bi bi-caret-down-fill"></i></p>
+            <div id="footer_links_container" class="links_section">
+                <p id="footer_links_container_heading" class="heading strong text-black">OUR SOLUTIONS <i class="bi bi-caret-down-fill"></i></p>
                 <div class="links">
                     <a href="/grant_writing.php">Grant Writing</a>
                     <a href="/web_development.php">Website Development</a>
                     <a href="/eLearning.php">E-learning</a>
                 </div>
             </div>
-            <div class="links_section">
-                <p class="heading strong text-black">RESOURCES <i class="bi bi-caret-down-fill"></i></p>
+            <div id="footer_links_container" class="links_section">
+                <p id="footer_links_container_heading" class="heading strong text-black">RESOURCES <i class="bi bi-caret-down-fill"></i></p>
                 <div class="links">
                     <a href="/our_impact.php">Our Impact</a>
                     <a href="/privacy_policy.php">Privacy Policy</a>
@@ -53,13 +53,13 @@
         <p class="xsm">Copyright © 2022 Enablen Pty Ltd. All Rights Reserved</p>
         <div class="social_icons">
             <a href="#">
-                <img src="./images/facebook.png" width="30" height="30" alt="" class="social_icon">
+                <img src="./images/facebook.svg" width="30" height="30" alt="" class="social_icon">
             </a>
             <a href="#">
-                <img src="./images/linkedin.png" width="30" height="30" alt="" class="social_icon">
+                <img src="./images/linkedin.svg" width="30" height="30" alt="" class="social_icon">
             </a>
             <a href="#">
-                <img src="./images/instagram.png" width="30" height="30" alt="" class="social_icon">
+                <img src="./images/instagram.svg" width="30" height="30" alt="" class="social_icon">
             </a>
         </div>
         <div class="other_info">
@@ -69,3 +69,4 @@
         </div>
     </div>
 </footer>
+<script src="/scripts/components/footer.js"></script>

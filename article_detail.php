@@ -85,46 +85,46 @@ include("./includes/base_layout.php") ?>
 
     <section class="related_articles_section">
         <h2 class="heading">Related Articles</h2>
-        <div class="articles">
-            <div class="article">
-                <div class="article_img_container">
-                    <img src="./images/articles_and_news_3.png" width="380" height="250" alt="" class="article_img">
+        <div class="blogs_grid">
+        <a href="./article_detail.php" class="blog_item">
+                <div class="blog_img_container">
+                    <img src="./images/articles_and_news_3.png" width="380" height="250" alt="" class="blog_img">
                 </div>
-                <div class="article_info">
-                    <p class="article_date sm text-500">27 Jan 2021</p>
-                    <h4 class="article_title text-black">Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium </h4>
+                <div class="blog_info">
+                    <p class="blog_date sm text-500">27 Jan 2021</p>
+                    <h4 class="blog_title">Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium </h4>
                     <div class="tags">
                         <p class="tag_item">Grant Writing</p>
                         <p class="tag_item">Health Industry</p>
                     </div>
                 </div>
-            </div>
-            <div class="article">
-                <div class="article_img_container">
-                    <img src="./images/articles_and_news_3.png" width="380" height="250" alt="" class="article_img">
+            </a>
+            <a href="./article_detail.php" class="blog_item">
+                <div class="blog_img_container">
+                    <img src="./images/articles_and_news_3.png" width="380" height="250" alt="" class="blog_img">
                 </div>
-                <div class="article_info">
-                    <p class="article_date sm text-500">27 Jan 2021</p>
-                    <h4 class="article_title text-black">Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium </h4>
+                <div class="blog_info">
+                    <p class="blog_date sm text-500">27 Jan 2021</p>
+                    <h4 class="blog_title">Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium </h4>
                     <div class="tags">
                         <p class="tag_item">Grant Writing</p>
                         <p class="tag_item">Health Industry</p>
                     </div>
                 </div>
-            </div>
-            <div class="article">
-                <div class="article_img_container">
-                    <img src="./images/articles_and_news_3.png" width="380" height="250" alt="" class="article_img">
+            </a>
+            <a href="./article_detail.php" class="blog_item">
+                <div class="blog_img_container">
+                    <img src="./images/articles_and_news_3.png" width="380" height="250" alt="" class="blog_img">
                 </div>
-                <div class="article_info">
-                    <p class="article_date sm text-500">27 Jan 2021</p>
-                    <h4 class="article_title text-black">Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium </h4>
+                <div class="blog_info">
+                    <p class="blog_date sm text-500">27 Jan 2021</p>
+                    <h4 class="blog_title">Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium </h4>
                     <div class="tags">
                         <p class="tag_item">Grant Writing</p>
                         <p class="tag_item">Health Industry</p>
                     </div>
                 </div>
-            </div>
+            </a>
         </div>
     </section>
 

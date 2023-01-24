@@ -8,7 +8,9 @@ const filterCategoriesScrollPrevBtn = document.getElementById("categories_prev_s
 
 
 
-filterCategoriesScrollNextBtn.addEventListener("click", ()=> {
+filterCategoriesScrollNextBtn.addEventListener("click", () => {
+    filterCategoriesScrollPrevBtn.classList.remove("active");
+    filterCategoriesScrollNextBtn.classList.add("active");
     blogsFilterCategoriesScollContainer.scrollBy({
         left: 200,
         top: 0,
@@ -16,7 +18,9 @@ filterCategoriesScrollNextBtn.addEventListener("click", ()=> {
     })
 })
 
-filterCategoriesScrollPrevBtn.addEventListener("click", ()=> {
+filterCategoriesScrollPrevBtn.addEventListener("click", () => {
+    filterCategoriesScrollNextBtn.classList.remove("active");
+    filterCategoriesScrollPrevBtn.classList.add("active");
     blogsFilterCategoriesScollContainer.scrollBy({
         left: -200,
         top: 0,

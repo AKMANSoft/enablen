@@ -9,7 +9,7 @@ include("./includes/base_layout.php") ?>
     include("./includes/header.php"); ?>
 
     <section class="aboutUs-section">
-        <h1 class="heading">About US</h1>
+        <h1 class="heading">About Us</h1>
         <div class="aboutUs-subheading">
             <p class="aboutUs-subheading1">Enablen exists to support Australian not-for-profits, SMEs, and start-ups that are committed to a better future for our communities and the world in general. We specialise in enabling our clients with technological and creative solutions to help reduce costs, enhance operational efficiencies, and gain meaningful exposure</p>
             <p class="aboutUs-subheading2">From experience, we understand a one-sized solution does not fit every client. We take pride in understanding your unique purpose, mission, values and needs to develop highly customised technology and creative solutions that deliver strong results.</p>
@@ -30,7 +30,6 @@ include("./includes/base_layout.php") ?>
             </div>
         </div>
         <div class="content_section">
-            <h3>Our Support</h3>
             <p class="desc">Our communities and environment need every support to overcome the social, economic,
                 and environmental challenges that are causing detrimental impacts on a global scale. It is, therefore,
                 imperative that our charities, not-for-profits, and small businesses are supported to continue the delivery of essential initiatives to grow and sustain operations..</p>
@@ -43,7 +42,7 @@ include("./includes/base_layout.php") ?>
 
     <section class="our-values">
         <div class="our-values-top">
-            <h1 class="mb-10">Our Values</h1>
+            <h2 class="mb-10 heading">Our Values</h2>
             <p class="our-values-subheading">
                 Our values matter. At Enablen, they not only guide us to achieve our organisational goals,
                 but also our individual goals. From making recruitment decisions to brainstorming our next

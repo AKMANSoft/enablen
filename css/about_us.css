@@ -279,28 +279,13 @@
     width: 100%;
     align-items: center;
     margin-bottom: 50px;
+    justify-content: space-between;
 }
-.our-values-heading{
- 
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 60px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #333333;
-    flex: 1;
-
+.our-values-top .heading{
+    width: 50%;
 }
 .our-values-subheading{
-  
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: rgba(51, 51, 51, 0.8);
-    flex: 1;
-    margin-left: 47px;
+  width: 50%;
 
 }
 .our-values-bottom,.our-values-bottom1{

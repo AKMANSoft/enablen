@@ -68,8 +68,8 @@
 }
 
 
-.home_section .filter_and_search .filters_section .scroll_next_btn:is(:hover, :active, :focus),
-.home_section .filter_and_search .filters_section .scroll_prev_btn:is(:hover, :active, :focus) {
+.home_section .filter_and_search .filters_section .scroll_next_btn.active,
+.home_section .filter_and_search .filters_section .scroll_prev_btn.active {
     color: var(--green-color);
     font-size: 18px;
 }

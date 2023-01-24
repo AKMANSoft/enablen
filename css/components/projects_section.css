@@ -35,21 +35,28 @@
 
 
 .projects_section .project_item {
+    flex: 0 0 386px;
     width: 386px;
-    min-width: 380px;
     padding: 20px;
     background: var(--black-5);
     border-radius: 10px 50px 10px 10px;
     padding-bottom: 15px;
-    max-width: 100vw;
+    cursor: pointer;
+    transition: all .3s ease;
+    border: 2px solid transparent;
+}
+
+.projects_section .project_item:hover {
+    border-color: var(--black-5);
 }
 
 
 .projects_section .project_item img {
-    max-width: 100%;
+    width: 100%;
     object-fit: cover;
     object-position: center;
     border-radius: 10px 50px 10px 10px;
+    overflow: hidden;
 }
 
 
@@ -71,6 +78,15 @@
 @media screen and (max-width:980px) {
     .projects_section {
         padding: 50px var(--max-hor-padding);
+    }
+}
+
+
+@media (max-width:767px) {
+    .projects_section .project_item {
+        flex: 0 0 100%;
+        max-width: 386px;
+        padding: 15px;
     }
 }
 

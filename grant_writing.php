@@ -35,8 +35,7 @@ include("./includes/base_layout.php") ?>
         <div class="content_section">
             <h2 class="heading">Seamless Process and Plan</h2>
             <div class="spacer-30"></div>
-            <p class="desc">Our proven end-to-end grant writing service has delivered successful funding outcomes to our clients and helped bring many good ideas to life.</p>
-            <!-- <img src="./images/boxes.png" class="boxes_image" style="margin-left: -40px" width="280" height="297" alt=""> -->
+            <p class="desc">Our proven six-step process makes complicated grant writing projects easier to manage.</p>
         </div>
         <div class="content_section">
             <div class="stepped_lsit">
@@ -146,7 +145,10 @@ include("./includes/base_layout.php") ?>
             <button type="button" class="btn outlined">Download</button>
         </div>
         <div class="image_section">
-            <img src="images/book.png" class="contain" width="372" height="440" />
+            <div class="image_container">
+                <div class="freebie_img_drop_shadow"></div>
+                <img src="images/book.png" class="contain" width="372" height="440" />
+            </div>
         </div>
     </section>
 

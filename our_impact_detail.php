@@ -24,19 +24,19 @@ include("./includes/base_layout.php") ?>
         <img src="./images/mental_health_home.png" width="996" height="613" alt="" class="home_image">
         <div class="spacer-40"></div>
         <div class="stats_info">
-            <h3>1,000+ Students Enrolled</h3>
+            <h4>1,000+ Students Enrolled</h4>
             <div class="stats_list">
                 <div class="stat_item">
-                    <h3 class="text-black">~ 80%</h3>
-                    <p>Operational Efficiency</p>
+                    <h4 class="text-black text-center">~ 80%</h4>
+                    <p class="text-center">Operational Efficiency</p>
                 </div>
                 <div class="stat_item">
-                    <h3 class="text-black">400</h3>
-                    <p>Trained Workforce</p>
+                    <h4 class="text-black text-center">400</h4>
+                    <p class="text-center">Trained Workforce</p>
                 </div>
                 <div class="stat_item">
-                    <h3 class="text-black">1</h3>
-                    <p>State Awards</p>
+                    <h4 class="text-black text-center">1</h4>
+                    <p class="text-center">State Awards</p>
                 </div>
             </div>
         </div>
