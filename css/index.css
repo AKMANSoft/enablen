@@ -545,12 +545,12 @@
 
 
     .solutions_section .tabs {
-        gap: 50px;
+        gap: 40px;
         padding: 0 10px;
     }
 
     .solutions_section .tabs .tab_item {
-        padding: 16px 10px;
+        padding: 16px 5px;
         font-size: 16px;
         line-height: 20px;
     }
