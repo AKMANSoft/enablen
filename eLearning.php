@@ -1,6 +1,6 @@
 <?php $page_title = "E Learning Service";
 include("./includes/base_layout.php") ?>
-<link rel="stylesheet" href="/css/eLearning.css" />
+<link rel="stylesheet" href="/css/elearning.css" />
 <link rel="stylesheet" href="/css/components/dotted_lsit.css" />
 
 
@@ -33,7 +33,7 @@ include("./includes/base_layout.php") ?>
     <section class="Service-range">
         <p class="mainHeading"> Service range</p>
         <div>
-            <P class="mainSubHeading">Access a full range of high-quality eLearning services and dedicated support to<br> ensure your training is made available online to your audience 24/7.</P>
+            <P class="mainSubHeading">Access a full range of high-quality eLearning services and dedicated support to ensure your training is made available online to your audience 24/7.</P>
         </div>
         <div class="grid-container">
             <div class="grid-item">
