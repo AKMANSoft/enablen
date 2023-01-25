@@ -86,7 +86,8 @@
     max-width: 631px;
     text-align: center;
     color: #ffffffcc;
-    font-size: 150%;
+    font-size: 20px;
+    line-height: 28px;
 }
 
 
@@ -160,7 +161,8 @@
 
 @media (max-width:900px) {
     .home_section .content>.desc {
-        font-size: 110%;
+        font-size: 18px;
+        line-height: 24px;
     }
 }
 
@@ -451,12 +453,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0 20px;
     background: #fff;
     border: 2px solid var(--black-5);
     border-radius: 6px 30px 6px 6px;
-    gap: 80px;
+    gap: 100px;
 }
 
 
@@ -477,9 +479,7 @@
 }
 
 .solutions_section .tabs .tab_item.active {
-    font-size: 20px;
     font-weight: 500;
-    line-height: 28px;
     letter-spacing: 0em;
     color: var(--black);
     border-color: var(--green-color);
@@ -542,7 +542,7 @@
         width: 100%;
     }
 
-    
+
 
     .solutions_section .tabs {
         gap: 50px;
@@ -551,6 +551,8 @@
 
     .solutions_section .tabs .tab_item {
         padding: 16px 10px;
+        font-size: 16px;
+        line-height: 20px;
     }
 
     .solutions_section .tab_content_view {

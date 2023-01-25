@@ -163,8 +163,8 @@ header .inner .header_menu .menu_items .menu_item>a {
 
 
 @media (min-width: 768px) {
-    header .inner .header_menu .menu_items .menu_item:is(:hover, .active)>a>i {
-        transform: rotateZ(-180deg);
+    header .inner .header_menu .menu_items .menu_item:is(:hover)>a>i {
+        transform: rotateX(-180deg);
     }
 }
 
@@ -172,7 +172,7 @@ header .inner .header_menu .menu_items .menu_item>a {
 header .inner .header_menu .menu_items .menu_item>a>i {
     font-size: 12px;
     margin-left: 5px;
-    transition: all 0s ease;
+    transition: all .2s ease;
     display: inline-block;
 }
 
@@ -258,7 +258,7 @@ header.light .inner .menu_btn>i {
         display: none;
         flex-direction: column;
         position: absolute;
-        top: calc(100% + 20px);
+        top: 0;
         left: 50%;
         transform: translateX(-50%);
         background: #FFFFFF;

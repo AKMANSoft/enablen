@@ -1,7 +1,7 @@
 <?php $page_title = "E Learning Service";
 include("./includes/base_layout.php") ?>
-<link rel="stylesheet" href="./css/elearning.css" />
-<link rel="stylesheet" href="./css/components/dotted_lsit.css" />
+<link rel="stylesheet" href="/css/eLearning.css" />
+<link rel="stylesheet" href="/css/components/dotted_lsit.css" />
 
 
 
@@ -12,8 +12,7 @@ include("./includes/base_layout.php") ?>
 
     <section class="ltri_section home_section">
         <div class="content_section">
-            <h1>E-Learning Service</h1>
-            <div class="spacer-10"></div>
+            <h1 class="heading">E-Learning Service</h1>
             <p class="lg desc">Everything you need to get your online training up and running! We offer end-to-end eLearning services including courseware development, Moodle LMS customisation, and more.</p>
             <button type="button" class="btn outlined">Book A Call</button>
         </div>

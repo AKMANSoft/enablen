@@ -83,8 +83,12 @@
 
 
 @media (max-width:767px) {
+    .projects_section {
+        padding: 50px 0;
+    }
+
     .projects_section .project_item {
-        flex: 0 0 100%;
+        flex: 0 0 90%;
         max-width: 386px;
         padding: 15px;
     }
