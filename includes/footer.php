@@ -35,7 +35,7 @@
                 <div class="links">
                     <a href="/grant_writing.php">Grant Writing</a>
                     <a href="/web_development.php">Website Development</a>
-                    <a href="/eLearning.php">E-learning</a>
+                    <a href="/elearning.php">E-learning</a>
                 </div>
             </div>
             <div id="footer_links_container" class="links_section">
