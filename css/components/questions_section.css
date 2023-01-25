@@ -40,6 +40,7 @@
     border: 1px solid #E0E0E0;
     border-radius: 10px;
     max-width: 1030px;
+    height: max-content;
 }
 
 
@@ -62,6 +63,7 @@
 
 .questions_section .questions .question_item.expanded .question_answer {
     height: max-content;
+    max-height: none;
     opacity: 1;
     padding-bottom: 10px;
     margin-top: 25px;
