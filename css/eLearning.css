@@ -1,20 +1,20 @@
 
-.home_section {
+.elearning_page .home_section {
     padding-top: 175px;
     padding-bottom: 70px;
 }
 
-.home_section .content_section > .heading {
+.elearning_page .home_section .content_section > .heading {
     margin-bottom: 10px;
 }
 
-.home_section .content_section > .btn {
+.elearning_page .home_section .content_section > .btn {
     margin-top: 60px;
 }
 
 
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:767px) {.elearning_page 
     .home_section {
         padding-top: 130px;
         padding-bottom: 50px;
@@ -28,19 +28,19 @@
 /* sevice-range Section Style  */
 
 
-.Service-range{
+.elearning_page .Service-range{
     background: rgba(129, 194, 22, 0.1);
     padding: 90px var(--max-hor-padding);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.Service-range .heading{
+.elearning_page .Service-range .heading{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.mainHeading{
+.elearning_page .mainHeading{
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -49,7 +49,7 @@
     text-align: center;
     margin-bottom: 10px;
 }
-.Service-range .mainSubHeading{
+.elearning_page .Service-range .mainSubHeading{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -57,14 +57,14 @@
     max-width: 585px;
     color: rgba(51, 51, 51, 0.8);
 }
-.Service-range .grid-container{
+.elearning_page .Service-range .grid-container{
     margin-top: 46px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 20px;
 }
 
-.grid-item{
+.elearning_page .grid-item{
     background: #FFFFFF;
     border-radius: 10px 50px 10px 10px;
     height: 210px;
@@ -74,19 +74,19 @@
     padding-bottom: 33px;
    
 }
-.firstHeading{
+.elearning_page .firstHeading{
     display:flex;
     flex-direction: row;
     align-items: center;
     padding-bottom: 9px;
 }
-.grid-container1{
+.elearning_page .grid-container1{
     margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 20px;
 }
-.heading1{
+.elearning_page .heading1{
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -95,7 +95,7 @@
     margin-left: 21px;
 }
 
-.subHeading1{
+.elearning_page .subHeading1{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -109,14 +109,14 @@
 
 @media screen and (max-width: 980px) {
 
-    .Service-range{
+    .elearning_page .Service-range{
         padding-top: 50px;
         padding-left: 16px;
         padding-bottom: 50px;
         padding-right: 16px;
     }
 
-    .mainHeading{
+    .elearning_page .mainHeading{
        
         font-size: 30px;
         font-weight: 700;
@@ -126,7 +126,7 @@
         color: #333333;
 
     }
-    .mainSubHeading{
+    .elearning_page .mainSubHeading{
       
         font-size: 16px;
         font-weight: 400;
@@ -136,7 +136,7 @@
         
     }
 
-    .Service-range .grid-container{
+    .elearning_page .Service-range .grid-container{
         display: grid;
         grid-template-columns: 1fr;
         row-gap: 13px;
@@ -144,7 +144,7 @@
     }
 
 
-    .grid-container1{
+    .elearning_page .grid-container1{
 
         display: grid;
         grid-template-columns: minmax(0, 1fr);
@@ -152,7 +152,7 @@
         row-gap: 13px;
     }
 
-    .grid-item{
+    .elearning_page .grid-item{
 
         overflow: hidden;
         height:auto;
@@ -161,11 +161,11 @@
         padding-top:20px;
     }
     
-    .firstHeading{
+    .elearning_page .firstHeading{
         padding-bottom: 0;
     }
 
-    .heading1{
+    .elearning_page .heading1{
        
         font-size: 18px;
         font-weight: 700;
@@ -175,7 +175,7 @@
         margin-left: 10px;
 
     }
-    .subHeading1{
+    .elearning_page .subHeading1{
 
         font-size: 12px;
         font-weight: 400;
@@ -198,7 +198,7 @@
 
 
 
-.whether_section {
+.elearning_page .whether_section {
     padding: 0 var(--max-hor-padding);
     padding: 90px var(--max-hor-padding);
     align-items: center;
@@ -210,14 +210,14 @@
 
 
 @media screen and (max-width: 900px) {
-    .whether_section {
+    .elearning_page .whether_section {
         gap: 30px;
     }
 }
 
 
 @media screen and (max-width: 767px) {
-    .whether_section {
+    .elearning_page .whether_section {
         gap: 30px;
         padding: 50px var(--max-hor-padding);
     }
@@ -234,7 +234,7 @@
 
 
 
-.freebie_section {
+.elearning_page .freebie_section {
     background: #3333330d;
     padding-top: 135px;
     padding-bottom: 110px;
@@ -242,18 +242,18 @@
 
 
 
-.freebie_section .content_section>.heading {
+.elearning_page .freebie_section .content_section>.heading {
     max-width: 359px;
 }
 
 
-.freebie_section .content_section>p {
+.elearning_page .freebie_section .content_section>p {
     max-width: 590px;
     line-height: 26px;
 }
 
 
-.freebie_section .image_section {
+.elearning_page .freebie_section .image_section {
     padding-right: 30px;
 }
 
@@ -262,11 +262,9 @@
 
 
 @media screen and (max-width: 767px) {
-    .freebie_section {
+    .elearning_page .freebie_section {
         gap: 50px;
         padding: 50px var(--max-hor-padding);
     }
-
-
 }
 

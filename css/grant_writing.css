@@ -1,6 +1,6 @@
 
 
-.home_section {
+.grant_writing_page .home_section {
     padding: 0 var(--max-hor-padding);
     padding-top: 175px;
     padding-bottom: 70px;
@@ -8,7 +8,7 @@
 
 
 
-.home_section .content_section > .btn {
+.grant_writing_page .home_section .content_section > .btn {
     margin-top: 60px;
 }
 
@@ -16,7 +16,7 @@
 
 
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:767px) {.grant_writing_page 
     .home_section {
         padding-top: 130px;
         padding-bottom: 50px;
@@ -30,21 +30,21 @@
 
 /* Process Section Style  */
 
-.process_section {
+.grant_writing_page .process_section {
     padding: 90px var(--max-hor-padding);
 }
 
-.process_section .content_section:first-child>.heading {
+.grant_writing_page .process_section .content_section:first-child>.heading {
     max-width: 400px;
 }
 
 
-.process_section .content_section:first-child>p.desc {
+.grant_writing_page .process_section .content_section:first-child>p.desc {
     max-width: 422px;
 }
 
 
-.process_section {
+.grant_writing_page .process_section {
     background: url(../images/boxes.png) no-repeat;
     background-position-x: calc(var(--max-hor-padding) - 80px);
     background-position-y: calc(100% - 90px);
@@ -58,7 +58,7 @@
 
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {.grant_writing_page 
     .process_section {
         gap: 30px;
         padding-top: 0;
@@ -99,25 +99,25 @@
 
 /* Benefits Section Style  */
 
-.benifits_section {
+.grant_writing_page .benifits_section {
     background: #81C216;
     padding: 90px var(--max-hor-padding);
 }
 
 
-.benifits_section .content_section>.heading {
+.grant_writing_page .benifits_section .content_section>.heading {
     /* margin-bottom: 20px; */
     max-width: 570px;
 }
 
 
-.benifits_section .content_section>p.desc {
+.grant_writing_page .benifits_section .content_section>p.desc {
     width: 100%;
     max-width: 610px;
 }
 
 
-.benifits_section .content_section > .btn {
+.grant_writing_page .benifits_section .content_section > .btn {
     margin-top: 60px;
 }
 
@@ -128,7 +128,7 @@
 
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {.grant_writing_page 
     .benifits_section {
         gap: 30px;
         padding: 50px var(--max-hor-padding);
@@ -169,7 +169,7 @@
 
 
 
-.freebie_section {
+.grant_writing_page .freebie_section {
     background: #3333330d;
     padding-top: 135px;
     padding-bottom: 110px;
@@ -177,18 +177,18 @@
 
 
 
-.freebie_section .content_section>.heading {
+.grant_writing_page .freebie_section .content_section>.heading {
     max-width: 359px;
 }
 
 
-.freebie_section .content_section>p {
+.grant_writing_page .freebie_section .content_section>p {
     max-width: 590px;
     line-height: 26px;
 }
 
 
-.freebie_section .image_section {
+.grant_writing_page .freebie_section .image_section {
     padding-right: 30px;
 }
 
@@ -205,7 +205,7 @@
 
 
 @media screen and (max-width: 767px) {
-    .freebie_section {
+    .grant_writing_page .freebie_section {
         gap: 50px;
         padding: 50px var(--max-hor-padding);
     }

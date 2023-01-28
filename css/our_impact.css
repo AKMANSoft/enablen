@@ -1,11 +1,11 @@
-.home_section {
+.our_impact_page .home_section {
     padding-top: 175px;
     padding-bottom: 70px;
 }
 
 
 
-.home_section .content_section>.btn {
+.our_impact_page .home_section .content_section>.btn {
     margin-top: 60px;
 }
 
@@ -14,12 +14,12 @@
 
 
 @media screen and (max-width:767px) {
-    .home_section {
+    .our_impact_page .home_section {
         padding-top: 130px;
         padding-bottom: 50px;
     }
 
-    .home_section .content_section>.btn {
+    .our_impact_page .home_section .content_section>.btn {
         margin-top: 30px;
     }
 }
@@ -31,7 +31,7 @@
 
 
 
-.gridded_section {
+.our_impact_page .gridded_section {
     display: flex;
     flex-direction: column;
     background-color: var(--green-10);
@@ -43,7 +43,7 @@
 
 
 
-.gridded_section .grid_section {
+.our_impact_page .gridded_section .grid_section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -53,19 +53,19 @@
 
 
 
-.gridded_section .grid_section:nth-child(even) {
+.our_impact_page .gridded_section .grid_section:nth-child(even) {
     flex-direction: row-reverse;
 }
 
 
 
-.gridded_section .ltri_section .heading {
+.our_impact_page .gridded_section .ltri_section .heading {
     margin-bottom: 20px;
 }
 
 
 
-.gridded_section .grid_section .image_section>img {
+.our_impact_page .gridded_section .grid_section .image_section>img {
     max-width: 100%;
     object-fit: cover;
     object-position: center;
@@ -77,30 +77,30 @@
 
 
 @media screen and (max-width:767px) {
-    .gridded_section {
+    .our_impact_page .gridded_section {
         gap: 60px;
         padding: 50px var(--max-hor-padding);
     }
-    .gridded_section .grid_section {
+    .our_impact_page .gridded_section .grid_section {
         flex-direction: column;
         gap: 30px;
         align-items: flex-start;
     }
-    .gridded_section .grid_section:nth-child(even){
+    .our_impact_page .gridded_section .grid_section:nth-child(even){
         flex-direction: column;
     }
 
-    .gridded_section .grid_section .content_section,
-    .gridded_section .grid_section .image_section {
+    .our_impact_page .gridded_section .grid_section .content_section,
+    .our_impact_page .gridded_section .grid_section .image_section {
         width: 100%;
 
     }
 
-    .gridded_section .grid_section .heading {
+    .our_impact_page .gridded_section .grid_section .heading {
         margin-bottom: 10px;
     }
 
-    .gridded_section .grid_section .image_section>img {
+    .our_impact_page .gridded_section .grid_section .image_section>img {
         width: 100%;
         object-fit: cover;
         max-height: 500px;

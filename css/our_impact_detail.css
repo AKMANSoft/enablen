@@ -1,7 +1,7 @@
 /* Home Section Start  */
 
 
-.home_section {
+.our_impact_detail_page .home_section {
     padding-top: 200px;
     display: flex;
     flex-direction: column;
@@ -13,7 +13,7 @@
 
 
 
-.home_section::after {
+.our_impact_detail_page .home_section::after {
     content: '';
     width: 100%;
     position: absolute;
@@ -27,7 +27,7 @@
 
 
 
-@media (min-width: 768px) {
+@media (min-width: 768px) {.our_impact_detail_page 
     .home_section::after {
         width: calc(100% - var(--max-hor-padding) * 2);
 
@@ -35,14 +35,14 @@
 }
 
 
-.home_section>.links {
+.our_impact_detail_page .home_section>.links {
     display: inline-flex;
     gap: 5px;
 }
 
 
-.home_section>.links>i,
-.home_section>.links>a {
+.our_impact_detail_page .home_section>.links>i,
+.our_impact_detail_page .home_section>.links>a {
     font-size: 14px;
     line-height: 22px;
     text-decoration-line: none;
@@ -51,19 +51,19 @@
 }
 
 
-.home_section>.heading {
+.our_impact_detail_page .home_section>.heading {
     text-align: center;
 }
 
 
-.home_section>.desc {
+.our_impact_detail_page .home_section>.desc {
     text-align: center;
     max-width: 600px;
 }
 
 
 
-.home_section .home_image {
+.our_impact_detail_page .home_section .home_image {
     max-width: 1000px;
     height: auto;
     width: 100%;
@@ -74,7 +74,7 @@
 }
 
 
-.home_section .stats_info {
+.our_impact_detail_page .home_section .stats_info {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -85,19 +85,19 @@
 
 
 
-.home_section .stats_info>h3 {
+.our_impact_detail_page .home_section .stats_info>h3 {
     color: #4F4F4F;
 }
 
 
 
-.home_section .stats_info .stats_list {
+.our_impact_detail_page .home_section .stats_info .stats_list {
     display: inline-flex;
     gap: 60px;
 }
 
 
-.home_section .stats_info .stats_list .stat_item {
+.our_impact_detail_page .home_section .stats_info .stats_list .stat_item {
     display: flex;
     flex-direction: column;
     gap: 7px;
@@ -108,21 +108,21 @@
 
 
 @media screen and (max-width:767px) {
-    .home_section {
+    .our_impact_detail_page .home_section {
         padding-top: 150px;
         padding-bottom: 50px;
     }
 
-    .home_section .home_image {
+    .our_impact_detail_page .home_section .home_image {
         border-radius: 10px 60px 10px 10px;
     }
 
-    .home_section>.links>i,
-    .home_section>.links>a {
+    .our_impact_detail_page .home_section>.links>i,
+    .our_impact_detail_page .home_section>.links>a {
         font-size: 12px;
     }
 
-    .home_section .stats_info {
+    .our_impact_detail_page .home_section .stats_info {
         flex-direction: column;
     }
 }
@@ -147,7 +147,7 @@
 
 /* Challenge Section Start  */
 
-.challenge_section {
+.our_impact_detail_page .challenge_section {
     padding: 120px var(--max-hor-padding);
     align-items: center;
 }
@@ -156,12 +156,12 @@
 
 
 @media screen and (max-width:767px) {
-    .challenge_section {
+    .our_impact_detail_page .challenge_section {
         padding: 50px var(--max-hor-padding);
         gap: 30px;
     }
 
-    .challenge_section .content_section>p {
+    .our_impact_detail_page .challenge_section .content_section>p {
         max-width: 100%;
     }
 }
@@ -193,20 +193,20 @@
 
 
 
-.support_section {
+.our_impact_detail_page .support_section {
     background-color: var(--black-5);
     padding: 120px var(--max-hor-padding);
 }
 
 
 @media screen and (max-width:767px) {
-    .support_section {
+    .our_impact_detail_page .support_section {
         padding: 50px var(--max-hor-padding);
         gap: 30px;
         flex-direction: column-reverse;
     }
 
-    .support_section .content_section>p {
+    .our_impact_detail_page .support_section .content_section>p {
         max-width: 100%;
     }
 }
@@ -234,25 +234,25 @@
 
 
 
-.freebie_section {
+.our_impact_detail_page .freebie_section {
     padding-top: 135px;
     padding-bottom: 110px;
 }
 
 
 
-.freebie_section .section_left>.heading {
+.our_impact_detail_page .freebie_section .section_left>.heading {
     max-width: 359px;
 }
 
 
-.freebie_section .section_left>p {
+.our_impact_detail_page .freebie_section .section_left>p {
     max-width: 590px;
     line-height: 26px;
 }
 
 
-.freebie_section .section_right {
+.our_impact_detail_page .freebie_section .section_right {
     padding-right: 30px;
 }
 
@@ -269,28 +269,28 @@
 
 
 @media screen and (max-width: 767px) {
-    .freebie_section {
+    .our_impact_detail_page .freebie_section {
         gap: 50px;
         padding-top: 50px;
     }
 
-    .freebie_section .section_right,
-    .freebie_section .section_left {
+    .our_impact_detail_page .freebie_section .section_right,
+    .our_impact_detail_page .freebie_section .section_left {
         width: 100%;
     }
 
-    .freebie_section .section_left h1 {
+    .our_impact_detail_page .freebie_section .section_left h1 {
         font-size: 24px;
         line-height: 32px;
     }
 
-    .freebie_section .section_left p {
+    .our_impact_detail_page .freebie_section .section_left p {
         font-size: 14px;
         line-height: 22px;
     }
 
-    .freebie_section .section_left h1,
-    .freebie_section .section_left p {
+    .our_impact_detail_page .freebie_section .section_left h1,
+    .our_impact_detail_page .freebie_section .section_left p {
         display: block;
         width: 100%;
         max-width: none;
@@ -330,7 +330,7 @@
 /* Products Section Start  */
 
 
-.products_section {
+.our_impact_detail_page .products_section {
     padding-top: 90px;
     padding-bottom: 60px;
 }
@@ -338,7 +338,7 @@
 
 
 @media screen and (max-width:767px) {
-    .products_section {
+    .our_impact_detail_page .products_section {
         padding-top: 50px;
         padding-bottom: 30px;
     }

@@ -8,8 +8,7 @@
                 <img src="./images/product.png" width="346" height="280" alt="">
                 <div class="project_info">
                     <h4 class="name text-black">Lorem ipsum dolor sconsec it</h4>
-                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elitor sit ameor sit ame...
-                    </p>
+                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elitor sit ameor sit ame...</p>
                     <span class="divider mt-5"></span>
                     <strong>Grant Writing</strong>
                 </div>

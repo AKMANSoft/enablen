@@ -1,6 +1,6 @@
 /* About Us Section Start  */
 
-.aboutUs-section {
+.about_us_page .aboutUs-section {
     display: flex;
     flex-direction: column;
     padding-top: 232px;
@@ -9,19 +9,19 @@
 }
 
 
-.aboutUs-section>.heading {
+.about_us_page .aboutUs-section>.heading {
     margin-bottom: 24px;
 }
 
 
-.aboutUs-subheading {
+.about_us_page .aboutUs-subheading {
     display: flex;
     flex-direction: row;
     margin-bottom: 40px;
     gap: 21px;
 }
 
-.aboutUs-subheading p {
+.about_us_page .aboutUs-subheading p {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -29,19 +29,19 @@
     text-align: left;
 }
 
-.aboutUs-subheading1 {
+.about_us_page .aboutUs-subheading1 {
     max-width: 591px;
 }
 
 
-.aboutus-img {
+.about_us_page .aboutus-img {
     height: auto;
     width: 100%;
     border-radius: 0px 100px 0px 0px;
     overflow: hidden;
 }
 
-.aboutus-footer {
+.about_us_page .aboutus-footer {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -50,13 +50,13 @@
     background: rgba(129, 194, 22, 0.1);
 }
 
-.footer-right {
+.about_us_page .footer-right {
     display: flex;
     flex-direction: row;
     justify-content: right;
 }
 
-.aboutus-footer-h1 {
+.about_us_page .aboutus-footer-h1 {
 
     font-size: 24px;
     font-weight: 700;
@@ -68,14 +68,14 @@
 
 }
 
-.aboutus-footerflex1 {
+.about_us_page .aboutus-footerflex1 {
     display: flex;
     flex-direction: column;
     flex: 1;
 
 }
 
-.aboutus-footerflex2 {
+.about_us_page .aboutus-footerflex2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -84,12 +84,12 @@
 
 }
 
-.aboutus-footer1 {
+.about_us_page .aboutus-footer1 {
     display: flex;
     flex-direction: row;
 }
 
-.aboutus-footerflex3 {
+.about_us_page .aboutus-footerflex3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -98,7 +98,7 @@
 
 }
 
-.aboutus-footerflex4 {
+.about_us_page .aboutus-footerflex4 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,7 +107,7 @@
 
 }
 
-.aboutus-footer-h2 {
+.about_us_page .aboutus-footer-h2 {
 
     font-size: 24px;
     font-weight: 700;
@@ -118,7 +118,7 @@
 
 }
 
-.aboutus-footer-h3 {
+.about_us_page .aboutus-footer-h3 {
 
     font-size: 16px;
     font-weight: 400;
@@ -131,21 +131,21 @@
 
 @media screen and (max-width:980px) {
 
-    .aboutUs-section {
+    .about_us_page .aboutUs-section {
         padding-top: 140px;
     }
 
-    .aboutUs-section>.heading {
+    .about_us_page .aboutUs-section>.heading {
         margin-bottom: 10px;
     }
 
-    .aboutUs-subheading {
+    .about_us_page .aboutUs-subheading {
         flex-direction: column;
         gap: 10px;
         margin-bottom: 30px;
     }
 
-    .aboutUs-subheading p {
+    .about_us_page .aboutUs-subheading p {
 
         font-size: 14px;
         font-weight: 400;
@@ -155,13 +155,13 @@
 
     }
 
-    .aboutus-img {
+    .about_us_page .aboutus-img {
         height: auto;
         width: 100%;
         border-radius: 0px 60px 0px 0px;
     }
 
-    .aboutus-footer {
+    .about_us_page .aboutus-footer {
         flex-direction: column;
         overflow: hidden;
         height: auto;
@@ -170,17 +170,17 @@
 
     }
 
-    .aboutus-footer1 {
+    .about_us_page .aboutus-footer1 {
         width: 100%;
         height: auto;
 
     }
 
-    aboutus-footer {
+    .about_us_page .aboutus-footer {
         max-width: 295px;
     }
 
-    .aboutus-footer-h1 {
+    .about_us_page .aboutus-footer-h1 {
 
         font-size: 18px;
         font-weight: 700;
@@ -191,7 +191,7 @@
         margin-bottom: 20px;
     }
 
-    .aboutus-footer-h2 {
+    .about_us_page .aboutus-footer-h2 {
 
         font-size: 18px;
         font-weight: 700;
@@ -202,7 +202,7 @@
 
     }
 
-    .aboutus-footer-h3 {
+    .about_us_page .aboutus-footer-h3 {
 
         font-size: 16px;
         font-weight: 400;
@@ -213,11 +213,11 @@
 
     }
 
-    .aboutus-footerflex2 {
+    .about_us_page .aboutus-footerflex2 {
         margin-left: 40px;
     }
 
-    .aboutus-footerflex4 {
+    .about_us_page .aboutus-footerflex4 {
         margin-right: 40px;
     }
 
@@ -232,7 +232,7 @@
 
 /* Our Impact Section Start  */
 
-.impact_section {
+.about_us_page .impact_section {
     padding: 120px var(--max-hor-padding);
     align-items: center;
 }
@@ -240,7 +240,7 @@
 
 
 
-.impact_section .content_section {
+.about_us_page .impact_section .content_section {
     gap: 20px;
 }
 
@@ -248,13 +248,13 @@
 
 
 
-.impact_section .content_section>p {
+.about_us_page .impact_section .content_section>p {
     max-width: 586px;
 }
 
 
 
-.impact_section .content_section>.btn {
+.about_us_page .impact_section .content_section>.btn {
     margin-top: 40px;
 }
 
@@ -263,12 +263,12 @@
 
 
 @media screen and (max-width:980px) {
-    .impact_section {
+    .about_us_page .impact_section {
         padding: 50px var(--max-hor-padding);
         gap: 30px;
     }
 
-    .impact_section .content_section>p {
+    .about_us_page .impact_section .content_section>p {
         max-width: 100%;
     }
 }
@@ -284,14 +284,14 @@
 
 /* Our Values Section Start  */
 
-.our-values {
+.about_us_page .our-values {
     padding-top: 90px;
     padding-bottom: 114px;
     background: rgba(129, 194, 22, 0.1);
     margin-bottom: 90px;
 }
 
-.our-values-top {
+.about_us_page .our-values-top {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -300,16 +300,16 @@
     justify-content: space-between;
 }
 
-.our-values-top .heading {
+.about_us_page .our-values-top .heading {
     width: 50%;
 }
 
-.our-values-subheading {
+.about_us_page .our-values-subheading {
     width: 50%;
 }
 
-.our-values-bottom,
-.our-values-bottom1 {
+.about_us_page .our-values-bottom,
+.about_us_page .our-values-bottom1 {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -317,25 +317,25 @@
     margin-bottom: 30px;
 }
 
-.our-values-bottom2 {
+.about_us_page .our-values-bottom2 {
     display: flex;
     flex-direction: row;
     width: 100%;
     align-items: center;
 }
 
-.bottom-div {
+.about_us_page .bottom-div {
     display: flex;
     margin-right: 47px;
     flex: 1;
 }
 
-.bottom-div1 {
+.about_us_page .bottom-div1 {
     display: flex;
     flex: 1;
 }
 
-.our-value-img {
+.about_us_page .our-value-img {
     display: block;
     margin-right: 15px;
     width: 50px;
@@ -343,7 +343,7 @@
 
 }
 
-.heading1 {
+.about_us_page .heading1 {
 
     font-size: 20px;
     font-weight: 500;
@@ -355,7 +355,7 @@
 
 }
 
-.subheading1 {
+.about_us_page .subheading1 {
 
     font-size: 14px;
     font-weight: 400;
@@ -369,22 +369,22 @@
 
 @media screen and (max-width:767px) {
 
-    .our-values {
+    .about_us_page .our-values {
         padding-top: 40px;
         padding-bottom: 50px;
         margin-bottom: 50px;
     }
 
-    .our-values p {
+    .about_us_page .our-values p {
         max-width: 100%;
         text-align: left;
     }
 
-    .our-values-subheading {
+    .about_us_page .our-values-subheading {
         width: 100%;
     }
 
-    .our-values-top {
+    .about_us_page .our-values-top {
         flex-direction: column;
         margin-bottom: 30px;
         justify-content: flex-start;
@@ -393,14 +393,14 @@
 
     }
 
-    .our-value-img {
+    .about_us_page .our-value-img {
         width: 40px;
         height: 40px;
     }
 
-    .our-values-bottom,
-    .our-values-bottom1,
-    .our-values-bottom2 {
+    .about_us_page .our-values-bottom,
+    .about_us_page .our-values-bottom1,
+    .about_us_page .our-values-bottom2 {
         flex-direction: column;
         width: 100%;
         align-items: flex-start;

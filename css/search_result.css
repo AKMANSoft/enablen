@@ -1,7 +1,7 @@
 @import url(./components/blogs_grid.css);
 
 
-.home_section {
+.blogs_search_result_page .home_section {
     padding-top: 200px;
     padding-bottom: 0;
     display: flex;
@@ -13,7 +13,7 @@
 }
 
 
-.home_section .head {
+.blogs_search_result_page .home_section .head {
     display: flex;
     gap: 20px;
     align-items: flex-end;
@@ -23,7 +23,7 @@
 
 
 
-.home_section .head .section_left .back_link {
+.blogs_search_result_page .home_section .head .section_left .back_link {
     text-decoration: none;
     outline: none;
     display: inline-flex;
@@ -33,13 +33,13 @@
 }
 
 
-.home_section .head .section_left .back_link .back_icon {
+.blogs_search_result_page .home_section .head .section_left .back_link .back_icon {
     font-size: 28px;
     color: var(--green-color);
 }
 
 
-.home_section .head .section_left .info_text {
+.blogs_search_result_page .home_section .head .section_left .info_text {
     margin-top: 22px;
     margin-bottom: 40px;
     max-width: 600px;
@@ -47,13 +47,13 @@
 
 
 
-.home_section .head .search_bar_section {
+.blogs_search_result_page .home_section .head .search_bar_section {
     width: 370px;
     position: relative;
 }
 
 
-.home_section .head .search_bar_section .search_bar {
+.blogs_search_result_page .home_section .head .search_bar_section .search_bar {
     min-width: 100%;
     height: 45px;
     padding: 12px 16px;
@@ -71,7 +71,7 @@
 }
 
 
-.home_section .head .search_bar_section .search_icon {
+.blogs_search_result_page .home_section .head .search_bar_section .search_icon {
     width: 16px;
     height: 16px;
     display: block;
@@ -85,7 +85,7 @@
 }
 
 
-.home_section .head .search_icon:is(:hover, :active, :focus) {
+.blogs_search_result_page .home_section .head .search_icon:is(:hover, :active, :focus) {
     color: var(--black);
 }
 
@@ -99,23 +99,23 @@
 
 
 @media screen and (max-width:980px) {
-    .home_section {
+    .blogs_search_result_page .home_section {
         padding-top: 130px;
     }
 
 
-    .home_section .head .section_left .info_text {
+    .blogs_search_result_page .home_section .head .section_left .info_text {
         margin-bottom: 0;
         margin-top: 10px;
     }
 
-    .home_section .head .section_left .back_link .back_icon {
+    .blogs_search_result_page .home_section .head .section_left .back_link .back_icon {
         font-size: 24px;
         color: var(--green-color);
     }
 
 
-    .home_section .head .search_bar_section .search_bar {
+    .blogs_search_result_page .home_section .head .search_bar_section .search_bar {
         font-size: 14px;
     }
 }
@@ -123,7 +123,7 @@
 
 
 @media screen and (max-width:760px) {
-    .home_section .head {
+    .blogs_search_result_page .home_section .head {
         flex-direction: column;
         width: 100%;
         align-items: flex-start;
@@ -131,7 +131,7 @@
 
     
 
-    .home_section .head .search_bar_section {
+    .blogs_search_result_page .home_section .head .search_bar_section {
         width: 100%;
         max-width: 700px;
     }
