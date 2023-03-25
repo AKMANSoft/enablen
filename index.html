@@ -11,6 +11,53 @@
 </head>
 
 <body class="index_page">
+    <header id="top-header-menu" class="">
+        <nav class="inner">
+            <a href="/" class="logo_container">
+                <custom-svg src="./images/logo.svg" width="150" height="60" alt="" class="logo"></custom-svg>
+            </a>
+            <div id="header_menu" class="header_menu">
+                <ul class="menu_items">
+                    <li id="header_menu_item" class="menu_item">
+                        <a>Solutions <i class="bi bi-caret-down-fill"></i></a>
+                        <div class="sub_menu_container">
+                            <ul class="sub_menu">
+                                <a href="/grant_writing.php" class="sub_menu_item">Grant Writing</a>
+                                <a href="/web_development.php" class="sub_menu_item">Web Development</a>
+                                <a href="/elearning.php" class="sub_menu_item">E Learning Service</a>
+                            </ul>
+                        </div>
+                    </li>
+                    <li id="header_menu_item" class="menu_item">
+                        <a>Our Impact <i class="bi bi-caret-down-fill"></i></a>
+                        <div class="sub_menu_container">
+                            <ul class="sub_menu">
+                                <a href="/grant_writing.php" class="sub_menu_item">Mental Health</a>
+                                <a href="/web_development.php" class="sub_menu_item">Respect in the workplace</a>
+                                <a href="/elearning.php" class="sub_menu_item">Youth Engagement</a>
+                            </ul>
+                        </div>
+                    </li>
+                    <li id="header_menu_item" class="menu_item">
+                        <a href="/about_us.php">About us</a>
+                    </li>
+                    <li id="header_menu_item" class="menu_item">
+                        <a href="/blogs.php">Articles</a>
+                    </li>
+                    <li id="header_menu_item" class="menu_item">
+                        <a href="/contact-us">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header_btns">
+                <a href="#" class="btn filled">Book a call</a>
+                <a id="header_menu_toggle_btn" class="menu_btn">
+                    <i class="bi menu_icon bi-list"></i>
+                    <i class="bi close_icon bi-x-lg"></i>
+                </a>
+            </div>
+        </nav>
+    </header>
     <!-- Home/Hero Section Start  -->
     <section class="home_section">
         <div id="home_sldier" class="home_sldier">
@@ -431,6 +478,42 @@
         </div>
     </div>
     <!-- CTA Section End  -->
+
+
+
+    <script>
+        const topHeader = document.getElementById("top-header-menu");
+        const headerToggleBtn = topHeader.querySelector("#header_menu_toggle_btn");
+
+        const menuItems = topHeader.querySelectorAll("#header_menu_item");
+
+        for (let i = 0; i < menuItems.length; i++) {
+            const menuItemDropI = menuItems[i].querySelector("i");
+            if (menuItemDropI != null) {
+                menuItemDropI.addEventListener("click", (e) => {
+                    menuItems[i].classList.toggle("active");
+                    for (let j = 0; j < menuItems.length; j++) {
+                        if (i != j) {
+                            menuItems[j].classList.remove("active");
+                        }
+                    }
+                })
+            }
+
+        }
+        headerToggleBtn.addEventListener("click", () => {
+            topHeader.classList.toggle("menu_active");
+        })
+        window.addEventListener("scroll", () => {
+            if (window.scrollY >= 200) {
+                if (!topHeader.classList.contains("sticky")) {
+                    topHeader.classList.add("sticky")
+                }
+            } else if (topHeader.classList.contains("sticky")) {
+                topHeader.classList.remove("sticky")
+            }
+        })
+    </script>
 
 
     <!-- HTML Custom SVG Loader Scripts -->

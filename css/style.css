@@ -942,12 +942,14 @@ h4 {
 header {
     width: 100%;
     height: 80px;
-    position: absolute;
+    position: fixed;
     top: 20px;
     left: 0;
     padding: 0 var(--max-hor-padding);
     z-index: 10;
 }
+
+
 
 header .inner {
     width: 100%;
@@ -962,10 +964,19 @@ header .inner {
     border-radius: 10px 40px 10px 10px;
 }
 
-
-header.light .inner {
-    background: transparent;
+header.sticky .inner {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
 }
+
+
+
+
+
+header.light .inner,
+header.sticky .inner {
+    background: #fff;
+}
+
 
 
 
@@ -982,7 +993,7 @@ header .inner .logo_container .logo svg path.logo_text_path {
 }
 
 
-
+header.sticky .inner .logo_container .logo svg path.logo_text_path,
 header.light .inner .logo_container .logo svg path.logo_text_path {
     fill: #58595B;
 }
@@ -994,7 +1005,7 @@ header.light .inner .logo_container .logo svg path.logo_text_path {
 header .inner .header_menu .menu_items {
     display: flex;
     align-items: center;
-    gap: 60px;
+    gap: 40px;
 }
 
 
@@ -1093,7 +1104,7 @@ header .inner .header_menu .menu_items .menu_item>a {
     text-decoration-line: none;
     -moz-text-decoration-line: none;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
@@ -1101,7 +1112,7 @@ header .inner .header_menu .menu_items .menu_item>a {
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     header .inner .header_menu .menu_items .menu_item:is(:hover)>a>i {
         transform: rotateX(-180deg);
     }
@@ -1116,9 +1127,13 @@ header .inner .header_menu .menu_items .menu_item>a>i {
 }
 
 
+header.sticky .inner .header_menu .menu_items .menu_item>a,
 header.light .inner .header_menu .menu_items .menu_item>a {
-    color: var(--black-80);
+    color: #333333;
+    fill: #333333;
 }
+
+
 
 
 header .inner .header_btns>.btn {
@@ -1136,32 +1151,58 @@ header .inner .menu_btn {
     -moz-text-decoration-line: none;
     display: none;
     padding: 0 7px;
-    width: 42px;
-    height: 37px;
+    width: 40px;
+    height: 40px;
     border: 0.5px solid #FFFFFF;
     border-radius: 4px 20px 4px 4px;
     background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
+
+
+
+
 
 header .inner .menu_btn>i {
     font-size: 24px;
-    line-height: 1;
     color: #fff;
-    height: 100%;
+    transition: max-height .8s ease;
+}
+
+header .inner .menu_btn>i.close_icon {
+    font-size: 20px;
+    color: #fff;
+}
+
+header .inner .menu_btn>i.menu_icon,
+header.menu_active .inner .menu_btn>i.close_icon {
+    max-height: 40px;
+    max-width: 40px;
+}
+
+header .inner .menu_btn>i.close_icon,
+header.menu_active .inner .menu_btn>i.menu_icon {
+    max-height: 0;
+    max-width: 0;
+    overflow: hidden;
 }
 
 
 header .inner .header_btns {
     display: inline-flex;
-    gap: 10px;
+    gap: 20px;
     align-items: center;
 }
 
+header.sticky .inner .menu_btn,
 header.light .inner .menu_btn {
     border-color: var(--black-80);
 }
 
 
+header.sticky .inner .menu_btn>i,
 header.light .inner .menu_btn>i {
     color: var(--black-80);
 }
@@ -1172,42 +1213,48 @@ header.light .inner .menu_btn>i {
 
 
 
-@media (max-width: 900px) {
-    header .inner .header_menu .menu_items {
-        gap: 20px;
-    }
-}
 
 
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1024px) {
     header {
-        height: 70px;
+        height: 80px;
         padding: 0;
         top: 0;
     }
 
+    header.sticky {
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    header.sticky.menu_active {
+        box-shadow: none;
+    }
+
     header .inner {
         width: 100%;
-        border-radius: 0px 0px 10px 10px;
+        border-radius: 0;
         position: relative;
+        border-radius: 0;
     }
 
     header .inner .header_menu {
-        display: none;
+        display: flex;
         flex-direction: column;
         position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
+        top: calc(100% - 1px);
+        left: 0;
         background: #FFFFFF;
         box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
         width: 100%;
+        max-height: 0;
+        transition: max-height .5s ease;
+        z-index: -1;
     }
 
 
-    header .inner .header_menu.active {
-        display: flex;
+    header.menu_active .inner .header_menu {
+        max-height: 100vh;
+        border-top: 1px solid var(--black-20);
     }
 
     header .inner .header_menu .menu_close_btn_container {
@@ -1219,8 +1266,10 @@ header.light .inner .menu_btn>i {
         flex-direction: column;
         align-items: flex-start;
         width: 100%;
-        gap: 30px;
-        padding: 20px 0 50px 0;
+        gap: 0;
+        padding: 20px 0 20px 0;
+        overflow-y: scroll;
+        max-height: calc(100vh - 80px) !important;
     }
 
     header .inner .header_menu .menu_items>.btn {
@@ -1235,6 +1284,7 @@ header.light .inner .menu_btn>i {
         flex-direction: column;
         justify-content: flex-start;
         flex-wrap: wrap;
+        gap: 0;
     }
 
     header .inner .header_menu .menu_items .menu_item>a {
@@ -1246,48 +1296,42 @@ header.light .inner .menu_btn>i {
         letter-spacing: 0em;
         text-align: left;
         color: var(--black-80);
-        padding: 0 20px;
+        padding: 15px 20px;
     }
 
     header .inner .header_menu .menu_items .menu_item>a>i {
         font-size: 16px;
         float: right;
-        color: var(--black);
+        color: var(--black-80);
     }
 
     header .inner .header_menu .menu_items .menu_item.active>a>i {
-        transform: rotateZ(-180deg);
+        transform: rotateX(-180deg);
     }
 
 
-    header .inner .header_btns>.btn {
-        border-radius: 6px 20px 6px 6px;
+ 
+    header .inner .header_btns {
+
     }
-
-
-
 
     header .inner .logo>svg {
-        height: 48px;
+        height: 50px;
         width: auto;
     }
 
     header .inner .header_btns>.btn {
-        height: 39px;
+        height: 40px;
         width: 110px;
         padding: 0 0;
         line-height: 39px;
+        font-weight: 700;
+        border-radius: 6px 20px 6px 6px;
     }
 
     header .inner .header_btns .menu_btn {
-        display: block;
+        display: flex;
     }
-
-
-
-
-
-
 
 
 
@@ -1308,7 +1352,7 @@ header.light .inner .menu_btn>i {
         background-color: transparent;
         border-radius: 0px;
         overflow: hidden;
-        padding: 10px 0;
+        padding: 0 0;
         box-shadow: none;
     }
 
